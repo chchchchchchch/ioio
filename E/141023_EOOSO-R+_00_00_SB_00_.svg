@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.46815167"
-     inkscape:cx="-179.41312"
-     inkscape:cy="87.456413"
+     inkscape:zoom="0.46452259"
+     inkscape:cx="200"
+     inkscape:cy="85.320353"
      inkscape:document-units="px"
-     inkscape:current-layer="g3019"
+     inkscape:current-layer="element"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -226,19 +226,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     inkscape:label="BG-001"
-     id="g3019"
-     inkscape:groupmode="layer"
      style="display:inline"
-     zpos="-5000">
-    <path
-       inkscape:connector-curvature="0"
-       id="path3021"
-       d="m 0,0 400,0 0,400 -400,0 z"
-       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  </g>
-  <g
-     style="display:none"
      inkscape:label="ELEMENT-001"
      layerid="element"
      id="element"
@@ -259,7 +247,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="ELEMENT-002">
+     inkscape:label="ELEMENT-002"
+     style="display:none">
     <path
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00000036px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 240.75064,297.13885 c 0,11.25297 -18.24468,20.37532 -40.75064,20.37532 -22.50596,0 -40.75064,-9.12235 -40.75064,-20.37532 0,-11.25299 18.24468,-20.37532 40.75064,-20.37532 22.50596,0 40.75064,9.12233 40.75064,20.37532 z"
@@ -272,8 +261,9 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:#000000;stroke:none;display:inline"
-       d="M 200 276.5 C 196.30549 276.5 192.85982 277.0492 190 278 L 190 369.5 L 210 369.5 L 210 278 C 207.14018 277.0492 203.69451 276.5 200 276.5 z "
-       id="bottom-left-2-0" />
+       d="m 200,276.5 c -3.69451,0 -7.14018,0.5492 -10,1.5 l 0,91.5 20,0 0,-91.5 c -2.85982,-0.9508 -6.30549,-1.5 -10,-1.5 z"
+       id="bottom-left-2-0"
+       inkscape:connector-curvature="0" />
     <path
        id="bottom-left-2"
        style="fill:none;stroke:#000000;stroke-width:1.00000036px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"

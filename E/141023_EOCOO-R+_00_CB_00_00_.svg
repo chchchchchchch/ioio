@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.93671841"
+     inkscape:zoom="1.7245785"
      inkscape:cx="274.34926"
-     inkscape:cy="210.65435"
+     inkscape:cy="349.13461"
      inkscape:document-units="px"
-     inkscape:current-layer="g3099"
+     inkscape:current-layer="element"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -698,16 +698,10 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="CCC-001"
      id="element"
      inkscape:groupmode="layer">
-    <path
-       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 400,0 400,400 0,400 0,0 z"
-       id="rect3096-2"
-       inkscape:connector-curvature="0"
-       zpos="-5000" />
     <path
        id="C-top-4-2-5"
        style="color:#000000;fill:#000000;stroke:none;stroke-width:1.00000036px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -731,7 +725,7 @@
      inkscape:groupmode="layer"
      id="g3099"
      inkscape:label="CCC-002"
-     style="display:inline">
+     style="display:none">
     <path
        id="path3107"
        style="color:#000000;fill:none;stroke:#000000;stroke-width:1.00000036px;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
