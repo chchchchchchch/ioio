@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.63481142"
-     inkscape:cx="-8.684319"
-     inkscape:cy="231.07316"
+     inkscape:zoom="1.1279433"
+     inkscape:cx="280.01077"
+     inkscape:cy="135.75866"
      inkscape:document-units="px"
-     inkscape:current-layer="g4538"
+     inkscape:current-layer="g4632"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -632,7 +632,7 @@
      inkscape:label="STABE-001"
      id="g4510"
      inkscape:groupmode="layer"
-     style="display:inline">
+     style="display:none">
     <path
        inkscape:connector-curvature="0"
        zpos="-2000"
@@ -644,7 +644,7 @@
        zpos="-2000"
        id="path4514"
        d="m 259.4739,251.4499 20.9139,64.04882 67.09876,0 -109.79797,-317.6298491 -72.32723,0 -112.84792,317.6298491 66.66305,0 21.34961,-64.04882 118.9478,0"
-       style="font-size:435.70623779px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold" />
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
     <path
        id="path4516"
        d="m 206.31602,-30.553539 c 0,1.689865 -4.10972,3.059771 -9.17932,3.059771 -5.06959,0 -9.17931,-1.369906 -9.17931,-3.059771 0,-1.689865 4.10972,-3.059772 9.17931,-3.059772 5.0696,0 9.17932,1.369907 9.17932,3.059772 z"
@@ -665,8 +665,8 @@
     <path
        id="path4522"
        d="m 241.60995,196.98662 -82.78419,0 41.39209,-124.176276 41.3921,124.176276"
-       style="font-size:435.70623779px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
     <path
        sodipodi:nodetypes="ccscc"
        inkscape:connector-curvature="0"
@@ -694,14 +694,14 @@
     <path
        id="path4554-0"
        d="m 280.3878,263.49872 67.09876,0 -109.79797,-317.62985 -72.32723,0 -112.84792,317.62985 66.66305,0 21.34961,-64.04882 118.9478,0 z"
-       style="font-size:435.70623779px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;display:inline;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold"
+       style="font-size:435.70623779px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc"
        zpos="-2000" />
     <path
        id="path4554"
        d="m 280.3878,263.49872 67.09876,0 -109.79797,-317.62985 -72.32723,0 -112.84792,317.62985 66.66305,0 21.34961,-64.04882 118.9478,0 z"
-       style="font-size:435.70623779px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;display:inline;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold"
+       style="font-size:435.70623779px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc"
        zpos="-2000" />
@@ -713,7 +713,7 @@
        sodipodi:nodetypes="cccccccc" />
     <path
        id="path4560"
-       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.00000036px;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 190,30.499999 0,10.000237 -0.13017,11.354176 c 0,22.446949 -31.04407,55.016468 -31.04407,93.132208 l 82.78419,0 c 0,-38.92892 -31.04408,-70.66435 -31.04408,-93.132208 L 210,40.500236 210,30.499999"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc" />
@@ -734,7 +734,7 @@
        zpos="-2000"
        id="path4608"
        d="m 259.4739,241.4499 20.9139,64.04882 67.09876,0 -109.79797,-317.629849 -72.32723,0 -112.84792,317.629849 66.66305,0 21.34961,-64.04882 118.9478,0"
-       style="font-size:435.70623779px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold" />
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        inkscape:connector-curvature="0"
        id="path4610"
@@ -756,7 +756,7 @@
        inkscape:connector-curvature="0"
        id="path4616"
        d="m 241.60995,186.98662 -82.78419,0 41.39209,-124.176276 41.3921,124.176276"
-       style="font-size:435.70623779px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold" />
+       style="font-size:435.70623779px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold" />
     <path
        sodipodi:nodetypes="ccscc"
        inkscape:connector-curvature="0"
@@ -780,7 +780,7 @@
      inkscape:groupmode="layer"
      id="g4632"
      inkscape:label="STABE-004"
-     style="display:none">
+     style="display:inline">
     <path
        sodipodi:nodetypes="ccccccccc"
        inkscape:connector-curvature="0"
@@ -792,7 +792,7 @@
        zpos="-2000"
        sodipodi:nodetypes="ccccccccc"
        inkscape:connector-curvature="0"
-       style="font-size:435.70623779px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;display:inline;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold"
+       style="font-size:435.70623778999998876px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;display:inline;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;overflow:visible;enable-background:accumulate"
        d="m 280.3878,383.49872 67.09876,0 -109.79797,-317.62985 -72.32723,0 -112.84792,317.62985 66.66305,0 21.34961,-64.04882 118.9478,0 z"
        id="path4636" />
     <path
@@ -805,7 +805,7 @@
        sodipodi:nodetypes="cccccc"
        inkscape:connector-curvature="0"
        d="m 190,30.5 0,10.00024 -31.17424,224.48638 82.78419,0 L 210,40.50024 210,30.5"
-       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.00000036px;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1"
        id="path4640" />
   </g>
 </svg>
