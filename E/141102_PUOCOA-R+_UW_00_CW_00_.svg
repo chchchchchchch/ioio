@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.52544066"
-     inkscape:cx="97.377911"
-     inkscape:cy="177.7046"
+     inkscape:zoom="0.72095346"
+     inkscape:cx="162.32222"
+     inkscape:cy="175.80144"
      inkscape:document-units="px"
-     inkscape:current-layer="g3757"
+     inkscape:current-layer="g3797"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -565,13 +565,10 @@
      style="display:inline"
      inkscape:label="AUSSEN-001"
      id="g3757"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <path
-       sodipodi:nodetypes="ccccccccc"
-       inkscape:connector-curvature="0"
-       d="M 67,369.5 67,359.49977 67,40.500237 67,30.5 l 266,0 0,10.000237 0,318.999533 0,10.00023 z"
        style="color:#000000;fill:#ffffff;stroke:none;stroke-width:1.00000036px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 67 30.5 L 67 40.5 L 67 359.5 L 67 369.5 L 93 369.5 L 93 269.5 L 307 269.5 L 307 369.5 L 333 369.5 L 333 359.5 L 333 40.5 L 333 30.5 L 67 30.5 z "
        id="path3759" />
     <path
        sodipodi:nodetypes="cccc"
@@ -596,7 +593,8 @@
        inkscape:connector-curvature="0"
        d="m 93,369.5 0,-100.00023 214,0 0,100.00023 z"
        style="color:#000000;fill:#ffffff;stroke:none;stroke-width:1.00000036px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path3799" />
+       id="path3799"
+       zpos="-100" />
     <path
        inkscape:connector-curvature="0"
        id="path3801"
