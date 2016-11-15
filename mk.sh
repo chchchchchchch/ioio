@@ -59,7 +59,8 @@
                   sed 's/scape:label/\nlabel/g'            | #
                   grep ^label                              | #
                   cut -d "\"" -f 2                         | #
-                  grep $BASETYPE`                            #
+                  grep $BASETYPE                           | #
+                  sort -u`                                   #
        LOOPSTART=${LOOPSTART}"for V$CNT in $ALLOFTYPE; do "
        VARIABLES=${VARIABLES}'$'V${CNT}" "
        LOOPCLOSE=${LOOPCLOSE}"done; "
@@ -82,9 +83,12 @@
    do
       KOMBI=`echo $KOMBI | sed 's/DHSZEJDS/ /g'`
         R=`basename $SVG | cut -d "_" -f 2 | #
-           grep "R+" | cut -d "-" -f 2`
-      IOS=`basename $SVG | cut -d "_" -f 3-`
+           grep "R+" | sed 's/\(.*\)\(R+\)\(.*\)/\2/g'`
+        M=`basename $SVG | cut -d "_" -f 2 | #
+           grep -- "-M[-]*" | sed 's/\(.*\)\(M\)\(.*\)/\2/g'`
       if [ A$R = "AR+" ]; then R="+R-"; else R= ; fi
+      if [ A$M = "AM" ]; then M="-M-"; else M= ; fi
+      IOS=`basename $SVG | cut -d "_" -f 3-`
       NID=`echo ${OUTPUTBASE}        | #
            cut -d "-" -f 1           | #
            tr -t [:lower:] [:upper:] | #
@@ -98,8 +102,10 @@
            md5sum | cut -c 1-9       | #
            tr -t [:lower:] [:upper:] | #
            rev`                        #
-
-      SVGOUT=$OUTDIR/$NID$FID`echo $R$DIF | cut -c 1-9 | rev`_${IOS}
+      SVGOUT=$OUTDIR/$NID$FID`echo $R$M$DIF | #
+                              cut -c 1-9    | #
+                              rev           | #
+                              sed 's/-M[-]*R+/-MR+/'`_${IOS}
       echo "WRITING: $SVGOUT"
 
       echo "$SVGHEADER"                                  >  $SVGOUT
