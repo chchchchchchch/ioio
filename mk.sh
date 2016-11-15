@@ -102,10 +102,9 @@
            md5sum | cut -c 1-9       | #
            tr -t [:lower:] [:upper:] | #
            rev`                        #
-      SVGOUT=$OUTDIR/$NID$FID`echo $R$M$DIF | #
-                              cut -c 1-9    | #
-                              rev           | #
-                              sed 's/-M[-]*R+/-MR+/'`_${IOS}
+      SVGOUT=$OUTDIR/$NID$FID`echo $R$M$DIF | rev            | #
+                              sed 's/-M[-]*R+/-MR+/'         | #
+                              rev | cut -c 1-9 | rev`_${IOS}   #
       echo "WRITING: $SVGOUT"
 
       echo "$SVGHEADER"                                  >  $SVGOUT
