@@ -67,7 +67,7 @@
      done
 
      convert collect.gif -transparent "#ccffaa" $OUT
-     rm ${TMP}.svg ${TMP}2.svg ${TMP}.pdf 
+     rm ${TMP}.svg ${TMP}2.svg ${TMP}.pdf collect.gif 
 
  done
 
