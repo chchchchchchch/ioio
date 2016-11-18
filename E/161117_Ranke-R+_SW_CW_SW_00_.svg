@@ -24,11 +24,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1051566"
-     inkscape:cx="239.16931"
-     inkscape:cy="142.27712"
+     inkscape:zoom="1.0968364"
+     inkscape:cx="309.87413"
+     inkscape:cy="225.23121"
      inkscape:document-units="px"
-     inkscape:current-layer="g3333"
+     inkscape:current-layer="layer5"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -620,6 +620,23 @@
        xlink:href="#rect3099"
        y="0"
        x="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="SV-001">
+    <path
+       sodipodi:nodetypes="cscccc"
+       inkscape:connector-curvature="0"
+       d="M 354.99768,307 C 295.90449,307 248,259.09448 248,199.99998 248,140.90552 295.90449,93 354.99768,93 l 14.50232,0 0,214 z"
+       style="fill:#ffffff;stroke:none;display:inline"
+       id="path3141" />
+    <path
+       id="C-right-3-8"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
+       d="m 369.5,307 -10,0 -4.50232,0 C 295.90449,307 248,259.09448 248,199.99998 248,140.90552 295.90449,93 354.99768,93 l 4.50232,0 10,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsccc" />
   </g>
   <g
      inkscape:groupmode="layer"
