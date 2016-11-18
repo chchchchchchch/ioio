@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2135903"
-     inkscape:cx="174.50323"
-     inkscape:cy="207.36875"
+     inkscape:zoom="1.1783115"
+     inkscape:cx="174.31584"
+     inkscape:cy="157.6053"
      inkscape:document-units="px"
-     inkscape:current-layer="g3273"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -765,7 +765,8 @@
      id="layer3"
      inkscape:label="U-001"
      style="display:none"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     zpos="600">
     <path
        inkscape:connector-curvature="0"
        style="color:#000000;fill:none;stroke:#000000;stroke-width:1.00000036px;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -776,7 +777,8 @@
      style="display:none"
      inkscape:label="O-001"
      id="g3279"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     zpos="600">
     <path
        id="path3281"
        d="m 44.5,80 c 0,-7.202 5.798,-13 13,-13 l 14,0 267.99977,0 30.00023,0"
@@ -788,7 +790,8 @@
      id="g3237"
      inkscape:groupmode="layer"
      style="display:none"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     zpos="600">
     <path
        id="path3241"
        d="m 369.5,333 -30.00023,0 c -65.9666,0 -87.99871,33 -133.99989,33 C 159.49871,366 150.02658,333 71.5,333 l -14,0 c -7.202,0 -13,-5.798 -13,-13"
@@ -800,7 +803,8 @@
      style="display:none"
      inkscape:groupmode="layer"
      id="g3285"
-     inkscape:label="O-002">
+     inkscape:label="O-002"
+     zpos="600">
     <path
        sodipodi:nodetypes="cscacc"
        inkscape:connector-curvature="0"
@@ -813,7 +817,8 @@
      id="g3249"
      inkscape:label="U-003"
      style="display:inline"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     zpos="600">
     <path
        sodipodi:nodetypes="ccacsc"
        inkscape:connector-curvature="0"
@@ -825,7 +830,8 @@
      style="display:inline"
      inkscape:label="O-003"
      id="g3291"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     zpos="600">
     <path
        id="path3293"
        d="m 44.5,80 c 0,-7.202 5.798,-13 13,-13 l 14,0 c 82.17786,0 82.48401,77 133.99988,77 51.51588,0 56.12893,-77 133.99989,-77 L 369.5,67"
