@@ -115,22 +115,33 @@
       echo "</svg>"                                      >> $SVGOUT
       rm ${SVGOUT}.tmp
 
+    # MAKE IDs UNIQ
+    # -------------------------------------------  #
+    
+      for OLDID in `sed 's/id="/\n&/g' $SVGOUT | #
+                   grep "^id=" | cut -d "\"" -f 2`
+       do
+          NEWID=`echo $SVGOUT$OLDID | md5sum | #
+                 cut -c 1-9 | tr [:lower:] [:upper:]`
+          sed -i "s,$OLDID,I$NEWID,g" $SVGOUT
+      done
+
     # DO SOME CLEAN UP
     # -------------------------------------------  #
       inkscape --vacuum-defs              $SVGOUT  # INKSCAPES VACUUM CLEANER
       NLFOO=Nn${RANDOM}lL                          # SET RANDOM PLACEHOLDER
       sed -i ":a;N;\$!ba;s/\n/$NLFOO/g"   $SVGOUT  # PLACEHOLDER FOR LINEBREAKS
-      sed -i -e "s,<defs,\nXXX<defs,g"    \
+      sed -i -e "s,<defs,\n<defs,g"       \
              -e "s,</defs>,</defs>\n,g"   \
-             -e "/^<defs/s/\/>/&\n/g"     $SVGOUT  # FORMAT DEFS AND MARK
+             -e "/^<defs/s/\/>/&\n/g"     $SVGOUT  # FORMAT DEFS
       sed -i -e "s,<sodipodi,\nXXX&,g"    \
              -e "s,</sodipodi>,&\n,g"     \
-             -e "/^<sodipodi/s/\/>/&\n/g" $SVGOUT  # FORMAT SODIPODI STUFF AND MARK
+             -e "/^<sodipodi/s/\/>/&\n/g" $SVGOUT  # MARK SODIPODI STUFF
       sed -i -e "s,<metadata,\nXXX&,g"    \
-             -e "s,</metadata>,&\n,g"     $SVGOUT  # FORMAT METADATA AND MARK
+             -e "s,</metadata>,&\n,g"     $SVGOUT  # MARK METADATA
       sed -i "/^XXX/s/^.*$//g"            $SVGOUT  # DELETE MARKED LINES
       sed -i "s/$NLFOO/\n/g"              $SVGOUT  # RESTORE LINEBREAKS
-      sed -i '/^$/d'                      $SVGOUT  # DELETE EMPTY LINES
+      sed -i '/^[ \t]*$/d'                $SVGOUT  # DELETE EMPTY LINES
 
   done
 
