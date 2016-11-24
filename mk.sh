@@ -1,9 +1,26 @@
 #!/bin/bash
 
-# TODO: SVGHEADER not as variable
+# PERMUTE SVG LAYERS                                                          #
+# --------------------------------------------------------------------------- #
+# copyright (c) 2016 Christoph Haag                                           #
+# --------------------------------------------------------------------------- #
 
+# This is free software: you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published
+# by the Free Software Foundation, either version 3 of the License,
+# or (at your option) any later version.
+# 
+# The software is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty
+# of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU General Public License below for more details.
+# 
+# -> http://www.gnu.org/licenses/gpl.txt
+
+# --------------------------------------------------------------------------- #
+# CONFIGURATION 
+# --------------------------------------------------------------------------- #
   OUTDIR=_
-
 
 # --------------------------------------------------------------------------- #
 # VALIDATE (PROVIDED) INPUT 
@@ -107,7 +124,7 @@
                               rev | cut -c 1-9 | rev`_${IOS}   #
       echo "WRITING: $SVGOUT"
 
-      echo "$SVGHEADER"                                  >  $SVGOUT
+      head -n 1 ${SVG%%.*}.tmp                           >  $SVGOUT
       for  LAYERNAME in `echo $KOMBI`
         do grep -n "label=\"$LAYERNAME\"" ${SVG%%.*}.tmp >> ${SVGOUT}.tmp
       done
