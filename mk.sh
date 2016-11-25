@@ -148,6 +148,7 @@
       inkscape --vacuum-defs              $SVGOUT  # INKSCAPES VACUUM CLEANER
       NLFOO=Nn${RANDOM}lL                          # SET RANDOM PLACEHOLDER
       sed -i ":a;N;\$!ba;s/\n/$NLFOO/g"   $SVGOUT  # PLACEHOLDER FOR LINEBREAKS
+# TODO: NOT RELIABLE
       sed -i -e "s,<defs,\n<defs,g"       \
              -e "s,</defs>,</defs>\n,g"   \
              -e "/^<defs/s/\/>/&\n/g"     $SVGOUT  # FORMAT DEFS
