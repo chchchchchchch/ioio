@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.1265732"
-     inkscape:cx="57.742669"
-     inkscape:cy="260.56336"
+     inkscape:zoom="1.2419434"
+     inkscape:cx="198.57519"
+     inkscape:cy="230.14397"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g3078"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -69,7 +69,7 @@
      inkscape:groupmode="layer"
      id="XX_referenz"
      layerid="XX_referenz"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        id="innerframe"
@@ -590,8 +590,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="IISB-001"
-     style="display:inline">
+     inkscape:label="XX_IISB-001"
+     style="display:none">
     <path
        id="I-left-1-8-0-0"
        style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
@@ -606,8 +606,32 @@
        sodipodi:nodetypes="ccsc" />
     <path
        id="S-left-2-9-0"
-       style="fill:none;stroke:#000000;stroke-width:1.00000036000000003px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       style="fill:none;stroke:#000000;stroke-width:1.00000036px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="m 30.5,210 70.00024,0 c 89.80894,0 124.82928,-10 258.99952,-10 L 369.5,200"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="IISB-001"
+     id="g3078"
+     inkscape:groupmode="layer">
+    <path
+       id="path3128"
+       style="fill:#ffffff;stroke:none;stroke-width:1.00000036000000003px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 30.5,210 0,-20 220.50018,0 c 15.50185,0 20.49988,10 20.49988,10 l -32.0003,0 c -23.34461,0 -36.02017,10 -58.99952,10 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccscc" />
+    <path
+       id="S-left-2-8"
+       style="fill:none;stroke:#000000;stroke-width:1.00000036px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 369.5,200 -10.00012,0 -120.00012,0 c -23.34461,0 -36.02017,10 -58.99952,10 L 40.500118,210 30.5,210"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.00000036px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 30.5,190 10.000118,0 210.500062,0 c 15.50185,0 20.50006,10 20.50006,10"
+       id="S-left-1-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
   </g>
