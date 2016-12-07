@@ -133,14 +133,16 @@
 
     # MAKE IDs UNIQ
     # -------------------------------------------  #
-    
+    ( IFS=$'\n'
       for OLDID in `sed 's/id="/\n&/g' $SVGOUT | #
-                   grep "^id=" | cut -d "\"" -f 2`
+                    grep "^id=" | cut -d "\"" -f 2`
        do
           NEWID=`echo $SVGOUT$OLDID | md5sum | #
                  cut -c 1-9 | tr [:lower:] [:upper:]`
-          sed -i "s,$OLDID,I$NEWID,g" $SVGOUT
-      done
+          OLDID="id=\"$OLDID\""
+          NEWID="id=\"I$NEWID\""
+          sed -i "s,$OLDID,$NEWID,g" $SVGOUT
+      done; )
 
     # DO SOME CLEAN UP
     # -------------------------------------------  #
