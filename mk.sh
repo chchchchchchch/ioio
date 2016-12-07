@@ -123,7 +123,6 @@
                               sed 's/-M[-]*R+/-MR+/'         | #
                               rev | cut -c 1-9 | rev`_${IOS}   #
       echo "WRITING: $SVGOUT"
-
       head -n 1 ${SVG%%.*}.tmp                           >  $SVGOUT
       for  LAYERNAME in `echo $KOMBI`
         do grep -n "label=\"$LAYERNAME\"" ${SVG%%.*}.tmp >> ${SVGOUT}.tmp
@@ -146,8 +145,8 @@
     # DO SOME CLEAN UP
     # -------------------------------------------  #
       inkscape --vacuum-defs              $SVGOUT  # INKSCAPES VACUUM CLEANER
-      NLFOO=Nn${RANDOM}lL                          # SET RANDOM PLACEHOLDER
-      sed -i ":a;N;\$!ba;s/\n/$NLFOO/g"   $SVGOUT  # PLACEHOLDER FOR LINEBREAKS
+      NLFOO=Nn${RANDOM}lL                          # RANDOM PLACEHOLDER
+      sed -i ":a;N;\$!ba;s/\n/$NLFOO/g"   $SVGOUT  # FOR LINEBREAKS
 
       cat $SVGOUT                      | # USELESS USE OF CAT
       sed "s,<defs,\n<defs,g"          | #
@@ -164,9 +163,12 @@
       sed "/^XXX.*/d"                  | # RM MARKED LINE
       sed "s/$NLFOO/\n/g"              | # RESTORE LINEBREAKS
       sed "/^[ \t]*$/d"                | # DELETE EMPTY LINES
-      tee > ${SVG%%.*}.tmp               # WRITE TO FILE
+      tee > ${SVG%%.*}.X.tmp               # WRITE TO FILE
 
-      cp ${SVG%%.*}.tmp $SVGOUT
+      mv ${SVG%%.*}.X.tmp $SVGOUT
+
+      SRCSTAMP="<!-- Based on "`basename $SVG`" ("`date +%d.%m.%Y" "%T`")-->"
+      sed -i "1s,^.*$,&\n$SRCSTAMP,"     $SVGOUT
 
   done
 
