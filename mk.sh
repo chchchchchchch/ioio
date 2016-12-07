@@ -150,22 +150,22 @@
       NLFOO=Nn${RANDOM}lL                          # RANDOM PLACEHOLDER
       sed -i ":a;N;\$!ba;s/\n/$NLFOO/g"   $SVGOUT  # FOR LINEBREAKS
 
-      cat $SVGOUT                      | # USELESS USE OF CAT
-      sed "s,<defs,\n<defs,g"          | #
-      sed "s,</defs>,</defs>\n,g"      | #
-      sed "/<\/defs>/!s/\/>/&\n/g"     | # SEPARATE DEFS
-      sed "s,<sodipodi,\nXXX&,g"       | #
-      sed "s,</sodipodi>,&\n,g"        | #
-      sed "/<\/sodipodi>/!s/\/>/&\n/g" | # MARK TO RM SODIPODI
-      sed "/^XXX.*/d"                  | # RM MARKED LINE
-      tr -d '\n'                       | # DE-LINEBREAKS (AGAIN)
-      sed "s,<metadata,\nXXX&,g"       | #
-      sed "s,</metadata>,&\n,g"        | #
-      sed "/<\/metadata>/!s/\/>/&\n/g" | # MARK TO RM METADATA
-      sed "/^XXX.*/d"                  | # RM MARKED LINE
-      sed "s/$NLFOO/\n/g"              | # RESTORE LINEBREAKS
-      sed "/^[ \t]*$/d"                | # DELETE EMPTY LINES
-      tee > ${SVG%%.*}.X.tmp               # WRITE TO FILE
+      cat $SVGOUT                             | # USELESS USE OF CAT
+      sed "s,<defs,\n<defs,g"                 | #
+      sed "s,</defs>,</defs>\n,g"             | #
+      sed "/<\/defs>/!s/\/>/&\n/g"            | # SEPARATE DEFS
+      sed "s,</sodipodi:[^>]*>,&\n,g"         | #
+      sed "s,<.\?sodipodi,\nXXX&,g"           | #
+      sed "/<\/sodipodi:[^>]*>/!s/\/>/&\n/g"  | # MARK TO RM SODIPODI
+      sed "/^XXX.*/d"                         | # RM MARKED LINE
+      tr -d '\n'                              | # DE-LINEBREAK (AGAIN)
+      sed "s,<metadata,\nXXX&,g"              | #
+      sed "s,</metadata>,&\n,g"               | #
+      sed "/<\/metadata>/!s/\/>/&\n/g"        | # MARK TO RM METADATA
+      sed "/^XXX.*/d"                         | # RM MARKED LINE
+      sed "s/$NLFOO/\n/g"                     | # RESTORE LINEBREAKS
+      sed "/^[ \t]*$/d"                       | # DELETE EMPTY LINES
+      tee > ${SVG%%.*}.X.tmp                    # WRITE TO FILE
 
       mv ${SVG%%.*}.X.tmp $SVGOUT
 
