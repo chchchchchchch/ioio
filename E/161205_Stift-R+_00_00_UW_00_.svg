@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.38803875"
-     inkscape:cx="421.1899"
-     inkscape:cy="488.15289"
+     inkscape:zoom="2.4103232"
+     inkscape:cx="230.34657"
+     inkscape:cy="322.50393"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g3386"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -79,7 +79,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -725,14 +725,6 @@
          d="m 272.82944,102.17052 c 14.44939,14.44939 27.74042,24.58545 29.68631,22.63957 l 22.62743,-74.953308 -74.9533,22.627431 c -1.94588,1.945894 8.19018,15.236928 22.63956,29.686307 z"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="scccs" />
-      <path
-         transform="matrix(-0.70710678,0.70710678,-0.70710678,-0.70710678,753.19293,332.94964)"
-         sodipodi:nodetypes="ccscc"
-         inkscape:connector-curvature="0"
-         d="m 171.5,465.85377 304.0172,-10e-6 c 2.752,3e-5 4.9828,16.56548 4.9828,37 0,20.43451 -2.2308,36.99997 -4.9828,37 L 171.5,539.85375"
-         style="color:#000000;fill:none;stroke:#ff00ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="path4675-6"
-         clip-path="url(#clipPath4817-5)" />
       <path
          style="color:#000000;fill:#000000;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          d="m 316.75337,77.70619 8.39689,-27.84233 -27.84233,8.396893 c -0.76532,4.345652 14.1679,20.152147 19.44544,19.445437 z"
