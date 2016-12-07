@@ -139,9 +139,8 @@
        do
           NEWID=`echo $SVGOUT$OLDID | md5sum | #
                  cut -c 1-9 | tr [:lower:] [:upper:]`
-          OLDID="id=\"$OLDID\""
-          NEWID="id=\"I$NEWID\""
-          sed -i "s,$OLDID,$NEWID,g" $SVGOUT
+          sed -i "s,id=\"$OLDID\",id=\"$NEWID\",g" $SVGOUT
+          sed -i "s,url(#$OLDID),url(#$NEWID),g"   $SVGOUT
       done; )
 
     # DO SOME CLEAN UP
