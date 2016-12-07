@@ -148,18 +148,62 @@
       inkscape --vacuum-defs              $SVGOUT  # INKSCAPES VACUUM CLEANER
       NLFOO=Nn${RANDOM}lL                          # SET RANDOM PLACEHOLDER
       sed -i ":a;N;\$!ba;s/\n/$NLFOO/g"   $SVGOUT  # PLACEHOLDER FOR LINEBREAKS
-# TODO: NOT RELIABLE
-      sed -i -e "s,<defs,\n<defs,g"       \
-             -e "s,</defs>,</defs>\n,g"   \
-             -e "/^<defs/s/\/>/&\n/g"     $SVGOUT  # FORMAT DEFS
-      sed -i -e "s,<sodipodi,\nXXX&,g"    \
-             -e "s,</sodipodi>,&\n,g"     \
-             -e "/^<sodipodi/s/\/>/&\n/g" $SVGOUT  # MARK SODIPODI STUFF
-      sed -i -e "s,<metadata,\nXXX&,g"    \
-             -e "s,</metadata>,&\n,g"     $SVGOUT  # MARK METADATA
-      sed -i "/^XXX/s/^.*$//g"            $SVGOUT  # DELETE MARKED LINES
-      sed -i "s/$NLFOO/\n/g"              $SVGOUT  # RESTORE LINEBREAKS
-      sed -i '/^[ \t]*$/d'                $SVGOUT  # DELETE EMPTY LINES
+
+
+    # TODO: NOT RELIABLE
+
+    ##sed -i -e "s,<defs,\n<defs,g"       \
+    ##       -e "s,</defs>,</defs>\n,g"   \
+    ##       -e "/^<defs/s/\/>/&\n/g"     $SVGOUT  # FORMAT DEFS
+    ##sed -i -e "s,<sodipodi,\nXXX&,g"    \
+    ##       -e "s,</sodipodi>,&\n,g"     \
+    ##       -e "/^<sodipodi/s/\/>/&\n/g" $SVGOUT  # MARK SODIPODI STUFF
+    ##sed -i -e "s,<metadata,\nXXX&,g"    \
+    ##       -e "s,</metadata>,&\n,g"     $SVGOUT  # MARK METADATA
+
+     #sed -i "s,<defs,\n<defs,g"      $SVGOUT
+     #sed -i "s,</defs>,</defs>\n,g"  $SVGOUT
+     #sed -i "/<\/defs>/!s/\/>/&\n/g" $SVGOUT
+
+#    #paste -sd "" $SVGOUT > tmp;  mv tmp $SVGOUT
+#     sed -i -e "s,<defs,\n<defs,g"       \
+#            -e "s,</defs>,</defs>\n,g"   \
+#            -e "/<\/defs>/!s/\/>/&\n/g"     $SVGOUT  # SEPARATE DEFS
+#     sed -i -e "s,<sodipodi,\nXXX&,g"    \
+#            -e "s,</sodipodi>,&\n,g"     \
+#            -e "/<\/sodipodi>/!s/\/>/&\n/g" $SVGOUT  # MARK TO RM SODIPODI
+#    #sed -i -e "s,<metadata,\nXXX&,g"    \
+#    #       -e "s,</metadata>,&\n,g"     \
+#    #       -e "/<\/metadata>/!s/\/>/&\n/g" $SVGOUT  # MARK TO RM METADATA
+
+#     sed -i -e "s,<metadata,\nXXX&,g"    \
+#            -e "s,</metadata>,&\n,g"     $SVGOUT  # MARK METADATA
+
+
+      cat $SVGOUT                      | # USELESS USE OF CAT
+      sed "s,<defs,\n<defs,g"          | #
+      sed "s,</defs>,</defs>\n,g"      | #
+      sed "/<\/defs>/!s/\/>/&\n/g"     | # SEPARATE DEFS
+      sed "s,<sodipodi,\nXXX&,g"       | #
+      sed "s,</sodipodi>,&\n,g"        | #
+      sed "/<\/sodipodi>/!s/\/>/&\n/g" | # MARK TO RM SODIPODI
+      sed "/^XXX.*/d"                  | # RM MARKED LINE
+      tr -d '\n'                       | # DE-LINEBREAKS (AGAIN)
+      sed "s,<metadata,\nXXX&,g"       | #
+      sed "s,</metadata>,&\n,g"        | #
+      sed "/<\/metadata>/!s/\/>/&\n/g" | # MARK TO RM METADATA
+      sed "/^XXX.*/d"                  | # RM MARKED LINE
+      sed "s/$NLFOO/\n/g"              | # RESTORE LINEBREAKS
+      sed "/^[ \t]*$/d"                | # DELETE EMPTY LINES
+      tee > ${SVG%%.*}.tmp               # WRITE TO FILE
+
+      cp ${SVG%%.*}.tmp $SVGOUT
+
+     #sed -i "/^XXX/s/^.*$//g"            $SVGOUT  # RM MARKED LINES
+     #sed -i '/^XXX.*/d'              $SVGOUT  # RM MARKED LINES
+     #sed -i "s/$NLFOO/\n/g"              $SVGOUT  # RESTORE LINEBREAKS
+     #sed -i "s/[ ]*$NLFOO[ ]*/ /g"       $SVGOUT  # DEBUG/TMP
+     #sed -i '/^[ \t]*$/d'                $SVGOUT  # DELETE EMPTY LINES
 
   done
 
