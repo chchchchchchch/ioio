@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.7100075"
-     inkscape:cx="137.26551"
-     inkscape:cy="335.18323"
+     inkscape:zoom="1.0824135"
+     inkscape:cx="204.90246"
+     inkscape:cy="135.74627"
      inkscape:document-units="px"
-     inkscape:current-layer="g4285"
+     inkscape:current-layer="layer10"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -79,7 +79,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -599,12 +599,10 @@
      inkscape:label="LINKS-001"
      style="display:none">
     <path
-       id="path4281"
        style="fill:#000000;stroke:none"
-       d="m 369.5,270 -179.5,0 0,-229.5 0,-10 179.5,0 z"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc"
-       zpos="-10" />
+       d="m 190,30.5 0,10 0,229.5 179.5,0 0,-80 -159.5,0 0,-159.5 -20,0 z"
+       id="path4281"
+       inkscape:connector-curvature="0" />
     <path
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
@@ -615,14 +613,13 @@
   <g
      inkscape:label="LINKS-002"
      id="g4285"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     style="display:inline">
     <path
-       zpos="-10"
-       sodipodi:nodetypes="cccccc"
-       inkscape:connector-curvature="0"
-       d="m 369.5,350 -179.5,0 0,-309.5 0,-10 179.5,0 z"
        style="fill:#000000;stroke:none"
-       id="path4287" />
+       d="m 190,30.5 0,10 0,309.5 179.5,0 0,-160 -159.5,0 0,-159.5 -20,0 z"
+       id="path4287"
+       inkscape:connector-curvature="0" />
     <path
        id="path4289"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
@@ -633,14 +630,14 @@
   <g
      inkscape:groupmode="layer"
      id="layer9"
-     inkscape:label="OBEN-001">
+     inkscape:label="OBEN-001"
+     style="display:inline">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        d="m 210,30.5 161.5,0 0,159.5 -161.5,0 z"
        style="fill:#ffffff;stroke:none"
-       id="path4279"
-       zpos="-5" />
+       id="path4279" />
     <path
        id="S-right-1-0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
@@ -651,14 +648,14 @@
   <g
      inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="UNTEN-001">
+     inkscape:label="UNTEN-001"
+     style="display:inline">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        d="m 200,369.5 171.5,0 0,-159.5 -171.5,0 z"
        style="fill:#ffffff;stroke:none"
-       id="path4283"
-       zpos="-5" />
+       id="path4283" />
     <path
        id="I-bottom-1-9"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
