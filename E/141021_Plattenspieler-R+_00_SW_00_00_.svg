@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.61683146"
+     inkscape:zoom="0.66703867"
      inkscape:cx="167.93242"
-     inkscape:cy="216.7754"
+     inkscape:cy="215.15421"
      inkscape:document-units="px"
-     inkscape:current-layer="XX_referenz"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -68,7 +68,8 @@
      inkscape:label="XX_Referenz"
      inkscape:groupmode="layer"
      id="XX_referenz"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        id="innerframe"
        style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none"
@@ -773,7 +774,8 @@
      inkscape:groupmode="layer"
      id="g4205"
      inkscape:label="TONARM-001"
-     style="display:none">
+     style="display:inline"
+     zpos="800">
     <path
        d="m 340.45036,110.09455 c 0.90717,6.56117 -3.68837,12.61541 -10.25582,13.5232 -6.57528,0.90431 -12.63853,-3.67312 -13.54695,-10.23266 -0.90132,-6.5619 3.68835,-12.6154 10.26144,-13.525375 6.5753,-0.904313 12.63872,3.674565 13.54133,10.234835"
        id="path4235"
@@ -826,7 +828,7 @@
        inkscape:transform-center-y="60.792916" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="TONARM-002"
      id="g5142"
      inkscape:groupmode="layer">
