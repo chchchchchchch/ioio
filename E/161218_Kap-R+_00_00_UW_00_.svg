@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    style="display:inline"
-   sodipodi:docname="161218_Telexop-R+_00_00_UW_00_.svg"
+   sodipodi:docname="161218_Kap-R+_00_00_UW_00_.svg"
    inkscape:version="0.48.3.1 r9886"
    version="1.1"
    id="svg2902"
@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.52973661"
+     inkscape:zoom="0.52563012"
      inkscape:cx="128.18185"
-     inkscape:cy="-15.2745"
+     inkscape:cy="-17.162231"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -79,7 +79,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -596,7 +596,6 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="CAP-001"
-     zpos="800"
      style="display:inline">
     <path
        sodipodi:nodetypes="ccccsccc"
