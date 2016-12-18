@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    style="display:inline"
-   sodipodi:docname="161206_Bend-R+_00_II_00_II_.svg"
+   sodipodi:docname="161206_Hoekr-R+_00_II_00_SW_.svg"
    inkscape:version="0.48.3.1 r9886"
    version="1.1"
    id="svg2902"
@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7234611"
-     inkscape:cx="29.82592"
-     inkscape:cy="82.766583"
+     inkscape:zoom="0.46655017"
+     inkscape:cx="205.48541"
+     inkscape:cy="342.19376"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -87,7 +87,8 @@
      inkscape:groupmode="layer"
      id="bg"
      inkscape:label="XX_BG"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="fill:#e3dbdb"
        d="M 400,0 400,400 0,400 0,0 z"
@@ -597,6 +598,10 @@
      id="layer2"
      inkscape:label="U-001"
      style="display:inline">
+    <path
+       style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:square;display:inline"
+       d="M 197.4375,119 C 143.90017,119.79607 113.51433,190 50.5,190 l -10,0 -10,0 0,20 10,0 c 88.76411,0 114.0224,56.66821 174,50 40.74966,-4.53048 68.94283,-46.03539 104.5625,-67.40625 C 277.93083,172.81537 245.97845,120.22217 200,119 c -0.86169,-0.0229 -1.7127,-0.0126 -2.5625,0 z"
+       id="path3108" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 30.5,210 10,0 c 88.76411,0 114.0224,56.66821 174,50 55.15392,-6.13192 87.29991,-80 146,-80"
