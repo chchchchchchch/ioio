@@ -25,9 +25,9 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.68627883"
      inkscape:cx="136.76161"
-     inkscape:cy="181.52333"
+     inkscape:cy="180.0662"
      inkscape:document-units="px"
-     inkscape:current-layer="g3221"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -775,7 +775,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="UKON-001"
-     zpos="-20"
+     zpos="-100"
      style="display:inline"
      sodipodi:insensitive="true">
     <path
@@ -796,7 +796,7 @@
      id="layer5"
      inkscape:label="XX_YYYY-005"
      style="display:none"
-     zpos="50"
+     zpos="-80"
      sodipodi:insensitive="true">
     <flowRoot
        xml:space="preserve"
@@ -812,7 +812,7 @@
            style="font-size:420px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:140.99999666%;writing-mode:lr-tb;text-anchor:middle;fill:#00ff00;font-family:Autobahn;-inkscape-font-specification:Autobahn Semi-Bold" /></flowRegion><flowPara
          id="flowPara3532">Y</flowPara></flowRoot>  </g>
   <g
-     zpos="50"
+     zpos="-80"
      style="display:none"
      inkscape:label="YYYY-005"
      id="g3189"
@@ -828,7 +828,7 @@
      id="layer6"
      inkscape:label="XX_YYYY-006"
      style="display:none"
-     zpos="50"
+     zpos="-80"
      sodipodi:insensitive="true">
     <flowRoot
        transform="matrix(1.2543692,0,0,1.2543692,-142.32784,-126.60765)"
@@ -844,7 +844,7 @@
            id="rect3544" /></flowRegion><flowPara
          id="flowPara3546">Y</flowPara></flowRoot>  </g>
   <g
-     zpos="50"
+     zpos="-80"
      style="display:none"
      inkscape:label="YYYY-006"
      id="g3205"
@@ -860,7 +860,7 @@
      id="layer7"
      inkscape:label="XX_YYYY-007"
      style="display:none"
-     zpos="-200">
+     zpos="-80">
     <flowRoot
        xml:space="preserve"
        id="flowRoot3554"
@@ -878,7 +878,7 @@
      inkscape:groupmode="layer"
      id="g3131"
      inkscape:label="OKON-002"
-     zpos="100"
+     zpos="-40"
      style="display:none"
      sodipodi:insensitive="true">
     <path
