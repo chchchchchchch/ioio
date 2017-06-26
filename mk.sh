@@ -168,7 +168,24 @@
 
       mv ${SVG%%.*}.X.tmp $SVGOUT
 
-      SRCSTAMP="<!-- Based on "`basename $SVG`" ("`date +%d.%m.%Y" "%T`")-->"
+    # CHECK FILE'S GIT STATUS
+    # -------------------------------------------------------------------- #
+      if [ `ls $SVG 2>/dev/null | wc -l` -lt 1 ] ||
+         [ `git ls-files $SVG --exclude-standard --others | wc -l` -gt 0 ]
+       then LATESTHASH="UNTRACKED";echo -e "\e[31m$SVG UNTRACKED\e[0m"
+       else LATESTHASH=`git log --pretty=tformat:%H $SVG | head -n 1`
+            LATESTHASH="($LATESTHASH)"
+            SVGSTATUS=`git status -s $SVG | #
+                       sed 's/^[ \t]*//'  | #
+                       cut -d " " -f 1`     #
+       if [ "M$SVGSTATUS" == "MM" ]
+       then LATESTHASH="$LATESTHASH +MOD";echo -e "\e[31m$SVG MODIFIED\e[0m"
+       fi
+      fi
+
+    # DO STAMP
+    # -------------------------------------------------------------------- #
+      SRCSTAMP="<!-- "`basename $SVG`" $LATESTHASH -->"
       sed -i "1s,^.*$,&\n$SRCSTAMP,"     $SVGOUT
 
   done

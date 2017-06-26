@@ -3,6 +3,14 @@
  SVGDIR="_"
  TMP=XX
 
+
+# =========================================================================== #
+# CHECK EXIFTOOL
+# --------------------------------------------------------------------------- #
+  if [ `hash exiftool 2>&1 | wc -l` -gt 0 ]
+  then EXIF="OFF";echo "PLEASE INSTALL exiftool";exit 0;else EXIF="ON"; fi
+
+
 # --------------------------------------------------------------------------- #
 # VALIDATE (PROVIDED) INPUT 
 # --------------------------------------------------------------------------- #
@@ -67,8 +75,14 @@
      done
 
      convert collect.gif -transparent "#ccffaa" $OUT
-     rm ${TMP}.svg ${TMP}2.svg ${TMP}.pdf collect.gif 
 
+     SRCSTAMP=`grep '^<!-- .*\.svg ([0-9a-f]*) -->$' $SVG | #
+               sed 's/^<!--[ ]*//' | sed 's/[ ]*-->$//'`
+     if [ "$EXIF" == ON ]; then
+           exiftool -Source="$SRCSTAMP" $OUT > /dev/null 2>&1
+     fi
+
+     rm ${TMP}.svg ${TMP}2.svg ${TMP}.pdf collect.gif 
  done
 
 
