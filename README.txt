@@ -1,7 +1,7 @@
 
  C O L L E C T I N G  I/O  E L E M E N T S
  =========================================
- There is an alternative.
+ There is an alternative. Most probably...
 
  
  More Information soonish.
@@ -11,23 +11,25 @@
 
 
 
- NAMING ?
- --------
+ NAMING 
+ ------
 
   1-4 ID BASED ON TYPE (e.g. GLOTZE,SPIRALE,...)
   .
   |
   |       UNIFIER BASED KOMBI/I0S
   |       .
-  |       |     ................. CONNECTOR TYPE
- _|__    -'-    :  :  :  :
- 4FB0B573CDD-R+_CB_CB_CB_CB_.svg
-     -.--   -.-
-      |      |
-      |      '
-      |      ROTATABLE?
+  |       |         ................. CONNECTOR TYPE
+ _|__    -'-------  :  :  :  :
+ 6E1C64C3FA4366132_00_UW_00_UW_.svg
+ 6F9B09B220A40A-R+_II_00_SW_00_.svg
+     -.--      -.-
+      |         |
+      |         '
+      |          ROTATABLE?
       '
       5-8 ID BASED ON SRC NAME (e.g. 141021_GLOTZE_00_00_CW_00_.svg)
+
 
 
  -------------------------------------------------------------------
