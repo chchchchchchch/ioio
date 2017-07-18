@@ -126,29 +126,55 @@
     # FOR THE HIGHLY UNLIKELY CASE OF AN --------------------- #
     # IDENTICAL CHECKSUM FOR A DIFFERENT LAYER KOMBI --------- #
       if [ -f $SVGOUT ];then
-           LAYERNAMES=`sed ':a;N;$!ba;s/\n//g' $SVGOUT       | #
-                       sed 's/<g/\n&/g' | sed 's/<\/g/\n&/g' | #
-                       grep "^<g" | grep 'groupmode="layer"' | #
-                       sed 's/inkscape:label/\nXX&/'         | #
-                       grep '^XX' | cut -d '"' -f 2          | #
-                       sort -u | sed ':a;N;$!ba;s/\n/ /g'`
-           if [ "$LAYERNAMES" != "$KOMBI" ];then
-                 FULLDIF=`echo ${LAYERNAMES}${IOS}  | #
-                          md5sum                    | #
-                          tr -t [:lower:] [:upper:] | #
-                          cut -d " " -f 1 | rev`      #
-                 C1="2";C2="10"
-                 DIFNEU=`echo $FULLDIF | rev | #
-                         cut -c ${C1}-${C2} | rev`
-                 while [ "$DIF" == "$DIFNEU" ]
-                  do      DIFNEU=`echo $FULLDIF | rev | #
-                                  cut -c ${C1}-${C2} | rev`
-                          C1=`expr $C1 + 1`;C2=`expr $C2 + 1`
-                 done
-                 SVGOUT=$OUTDIR/$NID$FID`echo $R$M$DIFNEU    | #
-                                rev | sed 's/-M[-]*R+/-MR+/' | #
-                                rev | cut -c 1-9 | rev`_${IOS} #
+
+      SRCNOW=`basename $SVG`
+      STAMPREGEX="^<!-- .*\.svg ([0-9a-f]\{40\}) -->"
+      SRCOLD=`sed "s/$STAMPREGEX/X&/" $SVGOUT | #
+              grep '^X<!--' | cut -d " " -f 2`  #
+      LAYERNAMES=`sed ':a;N;$!ba;s/\n//g' $SVGOUT       | #
+                  sed 's/<g/\n&/g' | sed 's/<\/g/\n&/g' | #
+                  grep "^<g" | grep 'groupmode="layer"' | #
+                  sed 's/inkscape:label/\nXX&/'         | #
+                  grep '^XX' | cut -d '"' -f 2          | #
+                  sort -u | sed ':a;N;$!ba;s/\n/ /g'`
+      if [ "$SRCNOW" != "$SRCOLD" ] ||
+         [ "$LAYERNAMES" != "$KOMBI" ]
+      then
+           echo 'FILENAME CONFLICT!'" ($SVGOUT)"
+           FULLDIF=`echo ${KOMBI}${IOS}       | #
+                    md5sum                    | #
+                    tr -t [:lower:] [:upper:] | #
+                    cut -d " " -f 1 | rev`      #
+           C1="2";C2="10"
+           DIFNEU=`echo $FULLDIF | rev | #
+                   cut -c ${C1}-${C2} | rev`
+           SVGOUT=$OUTDIR/$NID$FID`echo $R$M$DIFNEU    | #
+                          rev | sed 's/-M[-]*R+/-MR+/' | #
+                          rev | cut -c 1-9 | rev`_${IOS} #
+           while [ -f $SVGOUT ] &&
+                 [ "$SRCNOW" != "$SRCOLD" ] || 
+                 [ "$LAYERNAMES" != "$KOMBI" ]
+            do      DIFNEU=`echo $FULLDIF | rev | #
+                            cut -c ${C1}-${C2} | rev`
+                    C1=`expr $C1 + 1`;C2=`expr $C2 + 1`
+           if [ -f $SVGOUT ];then
+           SRCOLD=`sed "s/$STAMPREGEX/X&/" $SVGOUT | #
+                   grep '^X<!--' | cut -d " " -f 2`  #
+       LAYERNAMES=`sed ':a;N;$!ba;s/\n//g' $SVGOUT       | #
+                   sed 's/<g/\n&/g' | sed 's/<\/g/\n&/g' | #
+                   grep "^<g" | grep 'groupmode="layer"' | #
+                   sed 's/inkscape:label/\nXX&/'         | #
+                   grep '^XX' | cut -d '"' -f 2          | #
+                   sort -u | sed ':a;N;$!ba;s/\n/ /g'`
+           echo 'FILENAME CONFLICT!'" ($SVGOUT)"
+           SVGOUT=$OUTDIR/$NID$FID`echo $R$M$DIFNEU    | #
+                          rev | sed 's/-M[-]*R+/-MR+/' | #
+                          rev | cut -c 1-9 | rev`_${IOS} #
            fi
+           done
+      else
+           echo "REWRITE (SAME SRC/KOMBI)"
+      fi
       fi
     # -------------------------------------------------------- #
 
