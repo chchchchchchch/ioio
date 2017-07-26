@@ -80,7 +80,7 @@
                sed 's/^<!--[ ]*//' | sed 's/[ ]*-->$//'`
      if [ "$EXIF" == ON ]; then
            exiftool -Source="$SRCSTAMP" $OUT > /dev/null 2>&1
-           rm ${OUT}_original
+           if [ -f ${OUT}_original ];then rm ${OUT}_original; fi
      fi
 
      rm ${TMP}.svg ${TMP}2.svg ${TMP}.pdf collect.gif 
