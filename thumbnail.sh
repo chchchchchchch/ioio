@@ -37,14 +37,14 @@
           d="m 0\,0 800\,0 0\,800 -800\,0 z" id="c" />'
    # CANVAS='<path style="fill:#ffffff;" \
    #          d="m 0\,0 400\,0 0\,400 -400\,0 z" id="c" />'
-   # TRANSFORM='transform="translate(300\,300) scale(0.5\,0.5)"'        
      TRANSFORM='transform="scale(0.5\,0.5) translate(600\,600)"'        
 
      sed -i "s,</metadata>,&$BG<g $TRANSFORM>$CANVAS,g" ${TMP}.svg
      sed -i 's,</svg>,</g>&,g'                          ${TMP}.svg
-     sed -i 's/stroke-width:1/stroke-width:2/g'         ${TMP}.svg
+     sed -i 's/stroke-width:[0-9\.]*/stroke-width:2/g'  ${TMP}.svg
      sed -i 's/height="400"/height="800"/g'             ${TMP}.svg
      sed -i 's/width="400"/width="800"/g'               ${TMP}.svg
+     sed -i 's/fill:#000000/fill:#555555/g'             ${TMP}.svg
 
      COUNT=0
      for COLOR in `cat ${TMP}.svg | sed 's/style="/\n&/g' | #
@@ -55,8 +55,8 @@
       do
          cp ${TMP}.svg ${TMP}2.svg
          sed -i -re "s/$COLOR/XxXxXx/g"           ${TMP}2.svg  # PROTECT COLOR
-         sed -i -re 's/#[0-9A-Fa-f]{6}/#ffffff/g' ${TMP}2.svg  # ALL HEX TO BLACK
-         sed -i -re "s/XxXxXx/#000000/g"          ${TMP}2.svg  # PROTECT COLOR
+         sed -i -re 's/#[0-9A-Fa-f]{6}/#ffffff/g' ${TMP}2.svg  # ALL HEX TO WHITE
+         sed -i -re "s/XxXxXx/#000000/g"          ${TMP}2.svg  # COLOR TO BLACK
 
          inkscape --export-pdf=${TMP}.pdf ${TMP}2.svg
          convert -monochrome ${TMP}.pdf ${TMP}.gif
