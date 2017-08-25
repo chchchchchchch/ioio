@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2116162"
-     inkscape:cx="190.76345"
-     inkscape:cy="181.41993"
+     inkscape:zoom="0.6058081"
+     inkscape:cx="387.81646"
+     inkscape:cy="194.59048"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -701,13 +701,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="UOUO-001"
-     style="display:none">
-    <path
-       id="C-bottom-4-4-3"
-       style="color:#000000;fill:#ffffff;stroke:none;stroke-width:1.00000036px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 67,30.5 0,10.000237 0,318.999533 0,10.00023 266,0 0,-10.00023 L 333,40.500237 333,30.5 z"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc" />
+     style="display:inline">
     <path
        id="C-bottom-4-4"
        style="color:#000000;fill:none;stroke:#000000;stroke-width:1.00000036px;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -737,11 +731,11 @@
      inkscape:label="UOUO-002"
      id="g3217"
      inkscape:groupmode="layer"
-     style="display:inline">
+     style="display:none">
     <path
-       sodipodi:nodetypes="ccccccccc"
+       sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
-       d="m 67,30.5 0,10.000237 0,318.999533 0,10.00023 266,0 0,-10.00023 L 333,40.500237 333,30.5 z"
+       d="m 333,130.5 -266,0 0,129 266,0 z"
        style="color:#000000;fill:#ffffff;stroke:none;stroke-width:1.00000036px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path3219" />
     <path
