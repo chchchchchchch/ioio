@@ -24,7 +24,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6128211"
-     inkscape:cx="113.50464"
+     inkscape:cx="92.113551"
      inkscape:cy="242.17386"
      inkscape:document-units="px"
      inkscape:current-layer="svg2902"
@@ -597,12 +597,13 @@
      id="layer2"
      inkscape:label="SCHWARZ-01"
      style="display:inline"
-     zpos="-500">
+     zpos="-500"
+     sodipodi:insensitive="true">
     <path
        inkscape:connector-curvature="0"
        id="path3101"
        d="m 30,367 164,0 0,-334 -164,0 z"
-       style="fill:#ffff00;stroke:none;display:inline"
+       style="fill:#000000;stroke:none;display:inline"
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
@@ -688,7 +689,7 @@
      inkscape:label="HZ-01"
      sodipodi:insensitive="true"
      style="display:none"
-     zpos="-480">
+     zpos="-487">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 30.5,190 169,0"
@@ -715,7 +716,7 @@
      inkscape:label="HZ-02"
      style="display:none"
      sodipodi:insensitive="true"
-     zpos="-480">
+     zpos="-487">
     <path
        sodipodi:nodetypes="ccacc"
        inkscape:connector-curvature="0"
@@ -743,7 +744,7 @@
      id="g3481"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true"
-     zpos="-480">
+     zpos="-487">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 30.5,190 15.25,0 c 31.358079,0 44.820279,24.17031 69.25,24 23.48716,-0.16373 30.49852,-24 66.25,-24 l 18.25,0"
@@ -770,8 +771,8 @@
      inkscape:label="HZ-04"
      id="g3489"
      inkscape:groupmode="layer"
-     sodipodi:insensitive="true"
-     zpos="-480">
+     zpos="-487"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 30.5,190 17.25,0 c 31.358079,0 36.761226,-62.22961 67.25,-62 30.00204,0.22595 29.49852,62 65.25,62 l 19.25,0"
