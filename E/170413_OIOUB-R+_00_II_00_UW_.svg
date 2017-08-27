@@ -27,7 +27,7 @@
      inkscape:cx="31.499993"
      inkscape:cy="179.23486"
      inkscape:document-units="px"
-     inkscape:current-layer="g3342"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -79,7 +79,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -648,7 +648,6 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="BOW-01"
-     zpos="-15"
      style="display:none"
      sodipodi:insensitive="true">
     <path
@@ -659,7 +658,6 @@
        sodipodi:nodetypes="cccsc" />
   </g>
   <g
-     zpos="-15"
      inkscape:label="BOW-02"
      id="g3289"
      inkscape:groupmode="layer"
@@ -676,7 +674,6 @@
      inkscape:groupmode="layer"
      id="g3293"
      inkscape:label="BOW-03"
-     zpos="-15"
      sodipodi:insensitive="true"
      style="display:none">
     <path
@@ -688,7 +685,6 @@
   </g>
   <g
      style="display:none"
-     zpos="-15"
      inkscape:label="BOW-04"
      id="g3309"
      inkscape:groupmode="layer"
@@ -740,7 +736,6 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="HZ-01"
-     zpos="-10"
      sodipodi:insensitive="true"
      style="display:none">
     <path
@@ -757,7 +752,6 @@
        sodipodi:nodetypes="cccccc" />
   </g>
   <g
-     zpos="-10"
      inkscape:label="HZ-02"
      id="g3297"
      inkscape:groupmode="layer"
@@ -779,7 +773,6 @@
      inkscape:groupmode="layer"
      id="g3303"
      inkscape:label="HZ-03"
-     zpos="-10"
      style="display:none">
     <path
        sodipodi:nodetypes="ccccccc"
