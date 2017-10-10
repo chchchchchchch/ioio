@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5648441"
-     inkscape:cx="169.06006"
-     inkscape:cy="199.58269"
+     inkscape:zoom="0.78242205"
+     inkscape:cx="-51.841552"
+     inkscape:cy="261.03328"
      inkscape:document-units="px"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer7"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -605,7 +605,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="STMPN-001"
-     style="display:inline"
+     style="display:none"
      zpos="-2400"
      sodipodi:insensitive="true">
     <path
@@ -624,8 +624,9 @@
   <g
      inkscape:groupmode="layer"
      id="layer6"
-     inkscape:label="L-001"
-     style="display:inline">
+     inkscape:label="LINKSOBEN-001"
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccccccc"
        inkscape:connector-curvature="0"
@@ -644,7 +645,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="ALONG-001"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="cccscsscc"
@@ -811,8 +812,9 @@
   <g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="R-001"
-     sodipodi:insensitive="true">
+     inkscape:label="RECHTSUNTEN-001"
+     sodipodi:insensitive="true"
+     style="display:inline">
     <path
        sodipodi:nodetypes="cccccccc"
        inkscape:connector-curvature="0"
