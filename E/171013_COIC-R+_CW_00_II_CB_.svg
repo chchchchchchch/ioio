@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.916521"
-     inkscape:cx="183.60804"
-     inkscape:cy="143.82069"
+     inkscape:zoom="0.85034234"
+     inkscape:cx="146.58051"
+     inkscape:cy="228.90655"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -565,8 +565,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="STMPN-001"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        style="fill:#000000;stroke:none;display:inline"
        d="m 29.5,307 316,0 0,26 -316,0 z"
@@ -581,7 +580,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#000000;display:inline"
+       style="fill:none;stroke:#000000;stroke-width:1;display:inline"
        d="m 52.5,307 293,0"
        id="path4019"
        zpos="-2500"
@@ -606,7 +605,7 @@
        zpos="-2500"
        id="path3133"
        d="m 52.5,67 53,0"
-       style="fill:none;stroke:#000000;display:inline" />
+       style="fill:none;stroke:#000000;stroke-width:1;display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -794,7 +793,7 @@
        sodipodi:nodetypes="cc" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="BSCHMGR-005"
      id="g3228"
      inkscape:groupmode="layer"
@@ -953,7 +952,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="IUNTEN-001">
+     inkscape:label="IUNTEN-001"
+     style="display:inline">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 200,369.5 0,-36"
