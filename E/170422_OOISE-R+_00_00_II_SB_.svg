@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    style="display:inline"
-   sodipodi:docname="170422_OOIUE-R+_00_00_II_UB_.svg"
+   sodipodi:docname="170422_OOISE-R+_00_00_II_SB_.svg"
    inkscape:version="0.48.3.1 r9886"
    version="1.1"
    id="svg2902"
@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1941881"
-     inkscape:cx="163.48713"
-     inkscape:cy="148.30377"
+     inkscape:zoom="1.1978853"
+     inkscape:cx="178.00689"
+     inkscape:cy="265.93288"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer9"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -79,7 +79,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -676,10 +676,15 @@
        zpos="-490" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
-       d="M 30.5,210 362,210"
+       d="m 30.5,210 25.75,0"
+       id="path3099"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
+       d="M 56.25,210 362,210"
        id="S-left-2-8-4"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       zpos="-490"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -725,6 +730,7 @@
      inkscape:groupmode="layer"
      id="g4420"
      inkscape:label="BOW-03"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="cccccccssccccccccc"
