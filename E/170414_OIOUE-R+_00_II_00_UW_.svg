@@ -25,10 +25,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.7034974"
-     inkscape:cx="119.38728"
+     inkscape:cx="43.954233"
      inkscape:cy="137.61884"
      inkscape:document-units="px"
-     inkscape:current-layer="g3639"
+     inkscape:current-layer="layer7"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -80,7 +80,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -744,15 +744,18 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="STUMP-01"
-     sodipodi:insensitive="true"
-     style="display:inline"
-     zpos="-200">
+     style="display:inline">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
-       d="m 30.5,333 10,0 310,0"
+       d="m 30.5,333 10,0"
+       id="path3119"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
+       d="m 40.5,333 310,0"
        id="path3488-4"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       zpos="-250" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -847,7 +850,8 @@
   <g
      inkscape:groupmode="layer"
      id="g3639"
-     inkscape:label="KURVE-05">
+     inkscape:label="KURVE-05"
+     sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
