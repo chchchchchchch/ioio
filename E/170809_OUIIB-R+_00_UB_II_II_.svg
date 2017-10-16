@@ -25,10 +25,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2117441"
-     inkscape:cx="111.62408"
+     inkscape:cx="5.5785874"
      inkscape:cy="194.04074"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="g3347"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -745,8 +745,7 @@
      style="display:inline"
      inkscape:label="L-003"
      id="g3347"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <path
        id="path3349"
        d="m 40.5,80 158.08916,0 0,280 L 40.5,360 z"
@@ -754,12 +753,11 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="color:#000000;fill:#000000;stroke:none;stroke-width:0.99999994px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#000000;stroke:none;stroke-width:0.99999994000000003px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="M 127,57.96252 C 127,40.80929 140.80929,27 157.96252,27 l 11.07496,0 C 186.19071,27 200,40.80929 200,57.96252 L 200,290 l -73,0 z"
        id="path3351"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csscccc"
-       zpos="200" />
+       sodipodi:nodetypes="csscccc" />
     <path
        sodipodi:nodetypes="cccsccccc"
        inkscape:connector-curvature="0"
@@ -777,7 +775,6 @@
        inkscape:connector-curvature="0"
        id="path3353"
        d="M 127,288.03748 127,57.96252 C 127,40.80929 140.80929,27 157.96252,27 l 11.07496,0 C 186.19071,27 200,40.80929 200,57.96252 l 0,301.53748 0,10"
-       style="color:#000000;fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       zpos="200" />
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
 </svg>
