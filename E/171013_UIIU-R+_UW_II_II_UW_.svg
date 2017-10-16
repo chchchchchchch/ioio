@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0765825"
-     inkscape:cx="125.25627"
-     inkscape:cy="253.5545"
+     inkscape:zoom="6.3696008"
+     inkscape:cx="35.888606"
+     inkscape:cy="349.37196"
      inkscape:document-units="px"
-     inkscape:current-layer="layer14"
+     inkscape:current-layer="layer12"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -67,7 +67,7 @@
      inkscape:label="XX_REFERENZ"
      inkscape:groupmode="layer"
      id="XX_referenz"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        id="innerframe"
@@ -691,11 +691,10 @@
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="PETITE-001"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
-       d="m 93,30.5 0,23 C 93,75.383 75.383,93 53.5,93 l -23,0"
+       d="m 67,30.5 0,8 C 67,52.605857 53.457885,67 39.5,67 l -9,0"
        id="C-top-2-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -703,10 +702,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer14"
-     inkscape:label="PETITE-002">
+     inkscape:label="PETITE-002"
+     style="display:none">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
-       d="m 30.5,93 10,0 36.596924,0 C 85.907228,93 93,85.907228 93,77.096924 L 93,40.5 l 0,-10"
+       d="m 30.5,67 10,0 10.596924,0 C 59.907228,67 67,59.907228 67,51.096924 L 67,40.5 l 0,-10"
        id="C-left-2-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccsscc" />
