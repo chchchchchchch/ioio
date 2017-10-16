@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0279924"
-     inkscape:cx="152.88812"
-     inkscape:cy="181.13688"
+     inkscape:zoom="3.6570534"
+     inkscape:cx="67.121119"
+     inkscape:cy="273.83471"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g3252"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -866,17 +866,18 @@
        sodipodi:nodetypes="cccccc" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="BECKE-001"
      id="g3252"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
-       d="m 93,30.5 0,11 C 93,71.71225 64.308495,93 40.5,93 l -10,0 0,57 117.78125,0 c 0.58656,-0.7058 1.16262,-1.42507 1.71875,-2.15625 L 150,30.5 l -57,0 z"
+       d="m 93,30.5 0,11 C 93,71.71225 64.308495,93 40.5,93 l -14,0 0,57 121.78125,0 c 0.58656,-0.7058 1.16262,-1.42507 1.71875,-2.15625 L 150,30.5 z"
        id="path3284"
        inkscape:connector-curvature="0"
-       zpos="-2300" />
+       zpos="-2300"
+       sodipodi:nodetypes="csscccccc" />
     <path
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
@@ -904,7 +905,7 @@
        sodipodi:nodetypes="cccccc" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="BECKE-002"
      id="g3260"
      inkscape:groupmode="layer"
@@ -913,7 +914,7 @@
        inkscape:connector-curvature="0"
        zpos="-2300"
        id="path3262"
-       d="m 93,29.96875 0,53.0625 C 93,88.56053 88.56053,93 83.03125,93 L 40.5,93 l -10,0 0,57 119.5,0 0,-120.03125 z"
+       d="m 93,29.96875 0,53.0625 C 93,88.56053 88.56053,93 83.03125,93 L 40.5,93 l -13,0 0,57 122.5,0 0,-120.03125 z"
        style="fill:#ffffff;stroke:none;display:inline"
        sodipodi:nodetypes="csscccccc" />
     <path
