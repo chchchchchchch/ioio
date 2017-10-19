@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.7388984"
-     inkscape:cx="-2.0192721"
-     inkscape:cy="302.63121"
+     inkscape:zoom="2.2066532"
+     inkscape:cx="120.2136"
+     inkscape:cy="352.68259"
      inkscape:document-units="px"
-     inkscape:current-layer="g3252"
+     inkscape:current-layer="g3212"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -794,7 +794,7 @@
        sodipodi:nodetypes="cc" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="BSCHMGR-005"
      id="g3228"
      inkscape:groupmode="layer"
@@ -877,8 +877,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="AECKE-001"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:none">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
        d="m 333,25.5 0,243.625 C 333,304.5097 304.5097,333 269.125,333 l -228.625,0 -10,0 0,57 357.78125,0 c 0.58656,-0.7058 1.16262,-1.42507 1.71875,-2.15625 L 390,25.5 l -57,0 z"
@@ -899,10 +898,10 @@
      inkscape:groupmode="layer">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
-       d="m 93,30.5 0,11 C 93,71.71225 64.308495,93 40.5,93 l -13,0 0,57 120.78125,0 c 0.58656,-0.7058 1.16262,-1.42507 1.71875,-2.15625 L 150,30.5 z"
+       d="m 93,25.5 0,16 C 93,71.71225 64.308495,93 40.5,93 l -13,0 0,57 120.78125,0 c 0.58656,-0.7058 1.16262,-1.42507 1.71875,-2.15625 L 150,25.5 z"
        id="path3284"
        inkscape:connector-curvature="0"
-       zpos="-2300"
+       zpos="-2280"
        sodipodi:nodetypes="csscccccc" />
     <path
        sodipodi:nodetypes="cccc"
@@ -938,7 +937,7 @@
      sodipodi:insensitive="true">
     <path
        inkscape:connector-curvature="0"
-       zpos="-2300"
+       zpos="-2280"
        id="path3262"
        d="m 93,29.96875 0,53.0625 C 93,88.56053 88.56053,93 83.03125,93 L 40.5,93 l -14,0 0,57 123.5,0 0,-120.03125 z"
        style="fill:#ffffff;stroke:none;display:inline"
