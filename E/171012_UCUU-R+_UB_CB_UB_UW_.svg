@@ -24,10 +24,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1596372"
-     inkscape:cx="88.261278"
+     inkscape:cx="-22.549241"
      inkscape:cy="204.38038"
      inkscape:document-units="px"
-     inkscape:current-layer="svg2902"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -722,14 +722,15 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="UCU-001"
-     style="display:none">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;display:inline"
        d="m 380,67 0,-52 -313,0 0,29.71875 C 67,58.943329 75.064049,67 85.0625,67 z"
        id="bgrect-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccscc"
-       zpos="-2000" />
+       zpos="-20000" />
     <path
        sodipodi:nodetypes="cccccc"
        inkscape:connector-curvature="0"
@@ -742,7 +743,7 @@
        id="bgrect-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cscccc"
-       zpos="-2000" />
+       zpos="-20000" />
     <path
        sodipodi:nodetypes="cccccc"
        inkscape:connector-curvature="0"
@@ -777,7 +778,7 @@
        zpos="10" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="UCU-002"
      id="g3425"
      inkscape:groupmode="layer">
