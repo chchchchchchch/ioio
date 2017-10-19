@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.506994"
-     inkscape:cx="166.0927"
-     inkscape:cy="176.15898"
+     inkscape:zoom="1.1596372"
+     inkscape:cx="88.261278"
+     inkscape:cy="204.38038"
      inkscape:document-units="px"
-     inkscape:current-layer="g3425"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -625,7 +625,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="SCHMIEGER-001"
-     zpos="-2300"
+     zpos="-23000"
      style="display:none"
      sodipodi:insensitive="true">
     <path
@@ -655,7 +655,7 @@
   </g>
   <g
      style="display:inline"
-     zpos="-2300"
+     zpos="-23000"
      inkscape:label="SCHMIEGER-002"
      id="g3357"
      inkscape:groupmode="layer"
@@ -697,14 +697,14 @@
        id="path3332"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
-       zpos="-2200" />
+       zpos="-22000" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path3326"
        d="m 370.5,67 -340,0 0,-40 340,0 z"
        style="fill:#ffffff;stroke:none;display:inline"
-       zpos="-2200" />
+       zpos="-22000" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 30.5,67 90,0"
@@ -780,17 +780,16 @@
      style="display:inline"
      inkscape:label="UCU-002"
      id="g3425"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <path
        style="fill:#ffffff;display:inline"
        d="M 222.28125,313 C 179.21435,313 159.92019,330.34642 99.125,332.71875 94.666451,332.8927 89.993222,333 85.0625,333 75.064049,333 67,341.06405 67,351.0625 L 67,385 l 313,0 0,-52 -10.5,0 -10,0 c -58.90184,0 -90.99344,-20 -137.21875,-20 z"
        id="path3429"
-       zpos="-2000"
+       zpos="-20000"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
-       zpos="-2000"
+       zpos="-20000"
        id="path3457"
        d="M 222.28125,87 C 179.21435,87 159.92019,69.65358 99.125,67.28125 94.666451,67.1073 89.993222,67 85.0625,67 75.064049,67 67,58.93595 67,48.9375 L 67,15 l 313,0 0,52 -10.5,0 -10,0 c -58.90184,0 -90.99344,20 -137.21875,20 z"
        style="fill:#ffffff;display:inline" />
