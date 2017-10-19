@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    style="display:inline"
-   sodipodi:docname="141031_innerblobb-R+_00_CW_SB_00_.svg"
+   sodipodi:docname="141031_Innerblobb-R+_00_CW_SB_00_.svg"
    inkscape:version="0.48.3.1 r9886"
    version="1.1"
    id="svg2902"
@@ -18,16 +18,16 @@
    width="400">
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#f0f0f0"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0403315"
-     inkscape:cx="122.42007"
-     inkscape:cy="13.056883"
+     inkscape:zoom="0.89968134"
+     inkscape:cx="65.803573"
+     inkscape:cy="70.699189"
      inkscape:document-units="px"
-     inkscape:current-layer="g4612"
+     inkscape:current-layer="g4626"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -641,10 +641,10 @@
        d="m 67,358.5 0,31 c 1.852377,76.34841 69.85516,134.89419 133,134.89419 63.14484,0 133.484,-60.44661 133,-134.89419 l 0,-31"
        id="path3614"
        sodipodi:nodetypes="ccscc"
-       zpos="-5000" />
+       zpos="5000" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="SBLOB-001"
      id="g4612"
      inkscape:groupmode="layer">
