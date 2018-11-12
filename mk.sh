@@ -179,15 +179,16 @@
             SVGSTATUS=`git status -s $SVG | #
                        sed 's/^[ \t]*//'  | #
                        cut -d " " -f 1`     #
-       if [ "M$SVGSTATUS" == "MM" ]
+       if [ "$SVGSTATUS" == "M" ]
        then LATESTHASH="$LATESTHASH +MOD";echo -e "\e[31m$SVG MODIFIED\e[0m"
        fi
-      fi
+      fi  # CLEAR EMPTY (= () ) HASH
+            LATESTHASH=`echo $LATESTHASH | sed 's/()//g'`
 
     # DO STAMP
     # -------------------------------------------------------------------- #
-      SRCSTAMP="<!-- "`basename $SVG`" $LATESTHASH -->"
-      sed -i "1s,^.*$,&\n$SRCSTAMP,"     $SVGOUT
+      SRCSTAMP=`echo '<!-- '\`basename $SVG\`" $LATESTHASH -->" | tr -s ' '`
+      sed -i "1s,^.*$,&\n$SRCSTAMP," $SVGOUT
 
   done
 
