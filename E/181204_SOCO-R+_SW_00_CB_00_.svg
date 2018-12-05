@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.92693276"
-     inkscape:cx="157.16228"
-     inkscape:cy="53.704862"
+     inkscape:zoom="1.3684702"
+     inkscape:cx="192.35525"
+     inkscape:cy="174.22897"
      inkscape:document-units="px"
-     inkscape:current-layer="layer43"
+     inkscape:current-layer="layer41"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -67,7 +67,8 @@
      inkscape:label="XX_REFERENZ"
      inkscape:groupmode="layer"
      id="XX_referenz"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        id="innerframe"
        style="fill:none;stroke:#ff0000;stroke-width:1"
@@ -628,7 +629,7 @@
      inkscape:groupmode="layer"
      id="layer41"
      inkscape:label="UNDER-02"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
@@ -653,12 +654,19 @@
        id="C-bottom-3-2-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
+       d="m 333,220.5 0,10 0,129 0,10"
+       id="C-top-4-4-5-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer42"
      inkscape:label="OVER-01"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="cccccc"
        inkscape:connector-curvature="0"
@@ -681,19 +689,28 @@
   <g
      inkscape:groupmode="layer"
      id="layer43"
-     inkscape:label="UNDER-01">
+     inkscape:label="UNDER-01"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path5829-7"
+       d="m 67,369.5 0,-310 26,0 0,310 z"
+       style="fill:#000000;stroke:none;display:inline" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
-       d="m 333,220.5 0,10 0,129 0,10"
-       id="C-top-4-4-5"
+       d="m 93,369.5 0,-310"
+       id="C-bottom-2-1-0-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer40"
      inkscape:label="OVER-01"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
        d="m 376.5,97 -172,0 C 196.467,97 190,90.532999 190,82.5 l 0,-48 -153,0 0,330 30,0 0,-64 c 0,-8.033 6.471611,-14.22785 14.5,-14.5 l 295,0 z"
@@ -706,5 +723,36 @@
        id="C-bottom-1-8-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="UNDER-01"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path5845-6"
+       d="m 333,369.5 -26,0 0,-272 26,0 z"
+       style="fill:#000000;stroke:none;display:inline" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
+       d="m 307,369.5 0,-272"
+       id="C-bottom-3-2-9-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
+       d="m 333,97.5 0,272"
+       id="C-top-4-4-5-3-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
+       d="m 366.5,97 -92,0"
+       id="C-bottom-1-8-9-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
