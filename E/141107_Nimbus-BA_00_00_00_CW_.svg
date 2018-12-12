@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.80937817"
-     inkscape:cx="-249.97822"
-     inkscape:cy="171.45055"
+     inkscape:zoom="0.70551991"
+     inkscape:cx="226.74723"
+     inkscape:cy="226.03904"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="g4952"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -599,7 +599,8 @@
      style="display:none"
      inkscape:label="STABE-002"
      id="g4685"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <path
        inkscape:connector-curvature="0"
        id="path4697-0"
@@ -691,7 +692,7 @@
      inkscape:label="STABE-003"
      id="g4918"
      inkscape:groupmode="layer"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        zpos="100"
@@ -738,7 +739,7 @@
      inkscape:groupmode="layer"
      id="g4952"
      inkscape:label="STABE-004"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none"
@@ -776,7 +777,7 @@
     <path
        id="path4964"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square"
-       d="M 277.9043,93 35.88626,93 m 242.01804,-26 -40.00023,0 -58.06491,0.0032 -90.49176,0 c -38.30629,0 -58.8474,16.101193 -58.8474,46.08265 0,29.42626 20.54111,45.52745 58.8474,45.52745 l 171.7659,0"
+       d="m 30.5,93 242.01804,0 M 30.5,67 l 40.00023,0 58.06491,0.0032 90.49176,0 c 38.30629,0 58.8474,16.101193 58.8474,46.08265 0,29.42626 -20.54111,45.52745 -58.8474,45.52745 l -171.7659,0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccsssc"
        zpos="300" />
