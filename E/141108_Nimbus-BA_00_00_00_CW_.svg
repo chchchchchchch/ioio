@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.94047183"
-     inkscape:cx="185.10977"
-     inkscape:cy="157.41744"
+     inkscape:zoom="0.332507"
+     inkscape:cx="-74.295723"
+     inkscape:cy="172.17613"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="g4685"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -595,7 +595,7 @@
        sodipodi:nodetypes="cccsssccc" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="STABE-002"
      id="g4685"
      inkscape:groupmode="layer">
@@ -604,14 +604,14 @@
        id="path4697-0"
        d="m 247.10516,492.15335 c 66.58597,0 110.97676,-12.68308 145.85513,-42.01262 34.87836,-29.32953 57.07374,-78.47644 57.07374,-124.45247 0,-57.07369 -30.91501,-102.25717 -95.9156,-140.30629 57.07369,-36.46375 79.2691,-69.75685 79.2691,-118.90364 0,-39.63451 -19.81731,-81.647197 -52.31761,-110.184042 -34.08567,-29.329534 -74.513,-42.012618 -136.34283,-42.012618 l -257.624552,0 0,577.87168 z"
        style="fill:#ffffff;stroke:none"
-       zpos="-2000"
+       zpos="-20000"
        sodipodi:nodetypes="ssscscsccs" />
     <path
        inkscape:connector-curvature="0"
        id="path4697"
        d="m 247.10516,492.15335 c 66.58597,0 110.97676,-12.68308 145.85513,-42.01262 34.87836,-29.32953 57.07374,-78.47644 57.07374,-124.45247 0,-57.07369 -30.91501,-102.25717 -95.9156,-140.30629 57.07369,-36.46375 79.2691,-69.75685 79.2691,-118.90364 0,-39.63451 -19.81731,-81.647197 -52.31761,-110.184042 -34.08567,-29.329534 -74.513,-42.012618 -136.34283,-42.012618 l -257.624552,0 0,577.87168 z"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square"
-       zpos="-2000"
+       zpos="-20000"
        sodipodi:nodetypes="ssscscsccs" />
     <path
        sodipodi:nodetypes="csc"
@@ -690,7 +690,7 @@
      inkscape:label="STABE-003"
      id="g4918"
      inkscape:groupmode="layer"
-     style="display:inline">
+     style="display:none">
     <path
        zpos="100"
        sodipodi:nodetypes="ccccssscscscc"
