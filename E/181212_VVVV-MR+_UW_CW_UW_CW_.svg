@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -82,11 +81,7 @@
     </cc:Work>
   </rdf:RDF>
 </metadata>
-
-  
-tmp/TMP.change:
-tmp/TMP.change:
-tmp/TMP.change:<g
+<g
      inkscape:groupmode="layer"
      id="bg"
      inkscape:label="XX_BG"
@@ -97,8 +92,7 @@ tmp/TMP.change:<g
        id="bgrect"
        inkscape:connector-curvature="0" />
   </g>
-  
-tmp/TMP.change:<g
+<g
      inkscape:label="XX_Referenz"
      inkscape:groupmode="layer"
      id="XX_referenz"
@@ -596,8 +590,7 @@ tmp/TMP.change:<g
        id="C-left-4"
        inkscape:connector-curvature="0" />
   </g>
-  
-tmp/TMP.change:<g
+<g
      inkscape:groupmode="layer"
      id="g3149"
      inkscape:label="OKON-001"
@@ -635,8 +628,7 @@ tmp/TMP.change:<g
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
   </g>
-  
-tmp/TMP.master:<g
+<g
    zpos="-200"
    style="display:none"
    inkscape:label="VVVV-001"
@@ -655,11 +647,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccccc" />
 </g>
-
-  
-tmp/TMP.master:
-tmp/TMP.master:
-tmp/TMP.master:<g
+<g
    zpos="-200"
    style="display:none"
    inkscape:label="VVVV-002"
@@ -678,11 +666,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cscccccsccscccccccsc" />
 </g>
-
-  
-tmp/TMP.master:
-tmp/TMP.master:
-tmp/TMP.master:<g
+<g
    zpos="-200"
    style="display:none"
    inkscape:label="VVVV-003"
@@ -701,11 +685,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cscccccccccccccc" />
 </g>
-
-  
-tmp/TMP.master:
-tmp/TMP.master:
-tmp/TMP.master:<g
+<g
    zpos="-200"
    style="display:inline"
    inkscape:label="VVVV-004"
@@ -724,11 +704,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccccccccc" />
 </g>
-
-  
-tmp/TMP.master:
-tmp/TMP.master:
-tmp/TMP.master:<g
+<g
    zpos="-200"
    style="display:none"
    inkscape:label="VVVV-006"
@@ -747,11 +723,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cssccscccccsscccscsccccssscsccccscc" />
 </g>
-
-  
-tmp/TMP.master:
-tmp/TMP.master:
-tmp/TMP.master:<g
+<g
    zpos="-200"
    style="display:none"
    inkscape:label="VVVV-008"
@@ -770,11 +742,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccscccccscccsscc" />
 </g>
-
-  
-tmp/TMP.change:
-tmp/TMP.change:
-tmp/TMP.change:<g
+<g
      style="display:inline"
      zpos="-180"
      inkscape:label="UKON-001"
@@ -837,5 +805,4 @@ tmp/TMP.change:<g
        d="m 67,93.5 0,10 0,256 0,10"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline" />
   </g>
-
 </svg>
