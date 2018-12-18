@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -82,12 +81,7 @@
     </cc:Work>
   </rdf:RDF>
 </metadata>
-
-
-  
-tmp/TMP.change:
-tmp/TMP.change:
-tmp/TMP.change:<g
+<g
      inkscape:groupmode="layer"
      id="bg"
      inkscape:label="XX_BG"
@@ -98,12 +92,11 @@ tmp/TMP.change:<g
        id="bgrect"
        inkscape:connector-curvature="0" />
   </g>
-  
-tmp/TMP.change:<g
+<g
      inkscape:label="XX_Referenz"
      inkscape:groupmode="layer"
      id="XX_referenz"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        id="innerframe"
@@ -597,8 +590,7 @@ tmp/TMP.change:<g
        id="C-left-4"
        inkscape:connector-curvature="0" />
   </g>
-  
-tmp/TMP.change:<g
+<g
      inkscape:groupmode="layer"
      id="g3149"
      inkscape:label="OKON-001"
@@ -609,11 +601,11 @@ tmp/TMP.change:<g
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path3147"
-       d="m 30.5,307 0,26 339,0 0,-26 z"
+       d="m 67,307 0,26 302.5,0 0,-26 z"
        style="fill:#ffffff;stroke:none;display:inline" />
     <path
        style="fill:#ffffff;stroke:none;display:inline"
-       d="m 30.5,67 0,26 339,0 0,-26 z"
+       d="m 67,67 0,26 302.5,0 0,-26 z"
        id="path3118"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -625,19 +617,18 @@ tmp/TMP.change:<g
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
-       d="m 369.5,307 -10,0 -285,0 -10,0"
+       d="m 369.5,307 -10,0 -282.5,0 -10,0"
        id="C-right-3-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
-       d="m 30.5,93 10,0 319,0 10,0"
+       d="m 66.5,93 10,0 283,0 10,0"
        id="C-left-2-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
   </g>
-  
-tmp/TMP.master:<g
+<g
    zpos="-200"
    style="display:none"
    inkscape:label="JJJJ-001"
@@ -656,12 +647,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cssssccssc" />
 </g>
-
-
-  
-tmp/TMP.master:
-tmp/TMP.master:
-tmp/TMP.master:<g
+<g
    zpos="-200"
    style="display:none"
    inkscape:label="JJJJ-002"
@@ -686,12 +672,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccsscccscccccccccccc" />
 </g>
-
-
-  
-tmp/TMP.master:
-tmp/TMP.master:
-tmp/TMP.master:<g
+<g
    zpos="-200"
    style="display:none"
    inkscape:label="JJJJ-003"
@@ -710,12 +691,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccssccccssccscc" />
 </g>
-
-
-  
-tmp/TMP.master:
-tmp/TMP.master:
-tmp/TMP.master:<g
+<g
    zpos="-200"
    style="display:none"
    inkscape:label="JJJJ-004"
@@ -740,12 +716,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cscsccccscccsc" />
 </g>
-
-
-  
-tmp/TMP.master:
-tmp/TMP.master:
-tmp/TMP.master:<g
+<g
    zpos="-200"
    style="display:inline"
    inkscape:label="JJJJ-006"
@@ -764,12 +735,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccscscccscccsccscc" />
 </g>
-
-
-  
-tmp/TMP.master:
-tmp/TMP.master:
-tmp/TMP.master:<g
+<g
    zpos="-80"
    style="display:none"
    inkscape:label="JJJJ-008"
@@ -788,12 +754,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cscccccccsscccscscsc" />
 </g>
-
-
-  
-tmp/TMP.change:
-tmp/TMP.change:
-tmp/TMP.change:<g
+<g
      style="display:inline"
      zpos="-180"
      inkscape:label="UKON-001"
@@ -822,7 +783,7 @@ tmp/TMP.change:<g
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path3153"
-       d="m 64.5,67 10,0 285,0 10,0"
+       d="m 67,67 10,0 282.5,0 10,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline" />
     <path
        sodipodi:nodetypes="ccccc"
@@ -879,8 +840,7 @@ tmp/TMP.change:<g
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
   </g>
-
-tmp/TMP.master:<g
+<g
    zpos="-80"
    style="display:none"
    inkscape:label="JJJJ-005"
@@ -905,12 +865,7 @@ tmp/TMP.master:<g
      inkscape:connector-curvature="0"
      zpos="2000" />
 </g>
-
-
-  
-tmp/TMP.master:
-tmp/TMP.master:
-tmp/TMP.master:<g
+<g
    zpos="-80"
    style="display:none"
    inkscape:label="JJJJ-007"
@@ -928,5 +883,4 @@ tmp/TMP.master:<g
      id="path3218-3"
      inkscape:connector-curvature="0" />
 </g>
-
 </svg>
