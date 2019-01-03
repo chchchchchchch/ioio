@@ -594,7 +594,6 @@
      inkscape:groupmode="layer"
      id="g3149"
      inkscape:label="OKON-001"
-     zpos="-300"
      style="display:inline"
      sodipodi:insensitive="true">
     <path
@@ -629,7 +628,6 @@
        sodipodi:nodetypes="cccc" />
   </g>
 <g
-   zpos="-200"
    style="display:none"
    inkscape:label="QQQQ-001"
    id="g3125"
@@ -648,7 +646,6 @@
      sodipodi:nodetypes="ccssccccccccssccscscsscscsscs" />
 </g>
 <g
-   zpos="-200"
    style="display:none"
    inkscape:label="QQQQ-002"
    id="g3143"
@@ -672,7 +669,6 @@
      sodipodi:nodetypes="cccccsccccccccscsccccccsccsccccccccccccccccccccccscsccccccss" />
 </g>
 <g
-   zpos="-200"
    style="display:none"
    inkscape:label="QQQQ-003"
    id="g3161"
@@ -692,7 +688,6 @@
 </g>
 <g
      style="display:inline"
-     zpos="-180"
      inkscape:label="UKON-001"
      id="g3155"
      inkscape:groupmode="layer"
@@ -739,7 +734,7 @@
        id="path3236"
        d="m 67,30.5 0,62"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
-       zpos="100" />
+        />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 30.5,307 36,0"
@@ -754,7 +749,6 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline" />
   </g>
 <g
-   zpos="-80"
    style="display:none"
    inkscape:label="QQQQ-004"
    id="g3179"
@@ -777,7 +771,6 @@
      id="path3195-6" />
 </g>
 <g
-   zpos="-80"
    style="display:none"
    inkscape:label="QQQQ-005"
    id="g3197"
@@ -803,7 +796,6 @@
      sodipodi:nodetypes="ccccccccccccccccc" />
 </g>
 <g
-   zpos="-80"
    style="display:none"
    inkscape:label="QQQQ-006"
    id="g3215"
@@ -826,7 +818,6 @@
      inkscape:connector-curvature="0" />
 </g>
 <g
-   zpos="-80"
    style="display:inline"
    inkscape:label="QQQQ-007"
    id="g3233"
@@ -856,7 +847,6 @@
    id="g3359"
    inkscape:label="QQQQ-008"
    style="display:none"
-   zpos="-80"
    sodipodi:insensitive="true">
   <path
      style="fill:#ffffff;stroke:none;display:inline"

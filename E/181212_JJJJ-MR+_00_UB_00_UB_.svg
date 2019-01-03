@@ -594,7 +594,6 @@
    inkscape:groupmode="layer"
    id="g3149"
    inkscape:label="OKON-001"
-   zpos="-300"
    style="display:inline"
    sodipodi:insensitive="true">
   <path
@@ -605,7 +604,6 @@
      sodipodi:nodetypes="ccccc" />
 </g>
 <g
-   zpos="-200"
    style="display:none"
    inkscape:label="JJJJ-001"
    id="g3125"
@@ -624,7 +622,6 @@
      sodipodi:nodetypes="cssssccssc" />
 </g>
 <g
-   zpos="-200"
    style="display:inline"
    inkscape:label="JJJJ-002"
    id="g3141"
@@ -643,7 +640,6 @@
      sodipodi:nodetypes="ccsscccscccccccccccc" />
 </g>
 <g
-   zpos="-200"
    style="display:none"
    inkscape:label="JJJJ-003"
    id="g3159"
@@ -662,7 +658,6 @@
      sodipodi:nodetypes="ccssccccssccscc" />
 </g>
 <g
-   zpos="-200"
    style="display:none"
    inkscape:label="JJJJ-004"
    id="g3239"
@@ -687,7 +682,6 @@
      sodipodi:nodetypes="cscsccccscccsc" />
 </g>
 <g
-   zpos="-200"
    style="display:none"
    inkscape:label="JJJJ-006"
    id="g3191"
@@ -706,7 +700,6 @@
      sodipodi:nodetypes="ccccccscscccscccsccscc" />
 </g>
 <g
-   zpos="-80"
    style="display:none"
    inkscape:label="JJJJ-008"
    id="g3223"
@@ -726,7 +719,6 @@
 </g>
 <g
    style="display:inline"
-   zpos="-180"
    inkscape:label="UKON-001"
    id="g3155"
    inkscape:groupmode="layer"
@@ -745,7 +737,6 @@
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline" />
 </g>
 <g
-   zpos="-80"
    style="display:none"
    inkscape:label="JJJJ-005"
    id="g3175"
@@ -767,10 +758,9 @@
      d="m 139.01089,105.59004 0,0 71.82,0 -24.36,31.92 0,280.56 64.68,-40.32 0,-296.1 18.9,-34.86 -99.12,0 -31.92,58.8"
      id="path3186-0"
      inkscape:connector-curvature="0"
-     zpos="2000" />
+      />
 </g>
 <g
-   zpos="-80"
    style="display:none"
    inkscape:label="JJJJ-007"
    id="g3207"

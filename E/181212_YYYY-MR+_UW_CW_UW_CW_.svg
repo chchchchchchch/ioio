@@ -594,7 +594,6 @@
      inkscape:groupmode="layer"
      id="g3149"
      inkscape:label="OKON-001"
-     zpos="-300"
      style="display:inline"
      sodipodi:insensitive="true">
     <path
@@ -629,7 +628,6 @@
        sodipodi:nodetypes="cccc" />
   </g>
 <g
-   zpos="-200"
    style="display:none"
    inkscape:label="YYYY-001"
    id="g3125"
@@ -648,7 +646,6 @@
      sodipodi:nodetypes="ccccccccccc" />
 </g>
 <g
-   zpos="-200"
    style="display:none"
    inkscape:label="YYYY-002"
    id="g3141"
@@ -667,7 +664,6 @@
      sodipodi:nodetypes="ccccccccccccc" />
 </g>
 <g
-   zpos="-200"
    style="display:none"
    inkscape:label="YYYY-003"
    id="g3157"
@@ -686,7 +682,6 @@
      sodipodi:nodetypes="ccscccccccccccccc" />
 </g>
 <g
-   zpos="-200"
    style="display:none"
    inkscape:label="YYYY-004"
    id="g3173"
@@ -706,7 +701,6 @@
 </g>
 <g
      style="display:inline"
-     zpos="-180"
      inkscape:label="UKON-001"
      id="g3155"
      inkscape:groupmode="layer"
@@ -753,7 +747,7 @@
        id="path3236"
        d="m 67,30.5 0,62"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
-       zpos="100" />
+        />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 30.5,307 36,0"
@@ -768,7 +762,6 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline" />
   </g>
 <g
-   zpos="-200"
    style="display:inline"
    inkscape:label="YYYY-008"
    id="g3221"
@@ -793,7 +786,6 @@
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline" />
 </g>
 <g
-   zpos="-80"
    style="display:none"
    inkscape:label="YYYY-005"
    id="g3189"
@@ -813,7 +805,6 @@
      sodipodi:nodetypes="ccccccccccccccccc" />
 </g>
 <g
-   zpos="-80"
    style="display:none"
    inkscape:label="YYYY-006"
    id="g3205"
