@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    style="display:inline"
-   sodipodi:docname="190218_Outlets-R+_UB_00_II_00_.svg"
+   sodipodi:docname="190218_Container-R+_UB_00_II_00_.svg"
    inkscape:version="0.48.3.1 r9886"
    version="1.1"
    id="svg2902"
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3257714"
-     inkscape:cx="212.95601"
-     inkscape:cy="195.21809"
+     inkscape:zoom="1.2098854"
+     inkscape:cx="220.9792"
+     inkscape:cy="202.09209"
      inkscape:document-units="px"
      inkscape:current-layer="layer11"
      showgrid="false"
@@ -625,7 +625,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="FLEXUNTEN-001"
-     style="display:none"
+     style="display:inline"
      zpos="-160"
      sodipodi:insensitive="true">
     <path
@@ -683,7 +683,7 @@
   </g>
   <g
      zpos="-160"
-     style="display:inline"
+     style="display:none"
      inkscape:label="FLEXUNTEN-004"
      id="g4167"
      inkscape:groupmode="layer"
@@ -962,7 +962,7 @@
      inkscape:groupmode="layer"
      id="g4574"
      inkscape:label="FLEXUNTEN-001"
-     style="display:none"
+     style="display:inline"
      zpos="100"
      sodipodi:insensitive="true">
     <path
@@ -1020,7 +1020,7 @@
   </g>
   <g
      zpos="1000"
-     style="display:inline"
+     style="display:none"
      inkscape:label="FLEXUNTEN-004"
      id="g4628"
      inkscape:groupmode="layer"
@@ -1211,14 +1211,14 @@
      inkscape:groupmode="layer" />
   <g
      zpos="100"
-     style="display:none"
+     style="display:inline"
      inkscape:label="FLEXUNTEN-001"
      id="g3308"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true">
     <path
        style="fill:#000000;stroke:none;display:inline"
-       d="m 218,286.5 0,48 125.5,0 0,-0.0313 C 317.12334,333.94398 295.81169,312.81307 295.03125,286.5 z"
+       d="m 218,285.5 0,49 125.5,0 0,-0.0313 C 317.12334,333.94398 295.81169,311.81307 295.03125,285.5 z"
        id="path3316"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
@@ -1297,7 +1297,7 @@
      inkscape:groupmode="layer"
      id="g3332"
      inkscape:label="FLEXUNTEN-004"
-     style="display:inline"
+     style="display:none"
      zpos="1000"
      sodipodi:insensitive="true">
     <path
