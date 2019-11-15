@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -40,9 +41,9 @@
      id="namedview102"
      showgrid="false"
      inkscape:zoom="2.398250203"
-     inkscape:cx="208.9111977"
+     inkscape:cx="101.7497349"
      inkscape:cy="273.7447754"
-     inkscape:current-layer="g3247" />
+     inkscape:current-layer="F24D071A0" />
   <defs
      id="82BA9A2E5" />
   <g
@@ -591,21 +592,23 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="E-01"
+     zpos="-40"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="A1AAAFADA"
        d="m 67,30 0,303 266,0 0,-303 z"
-       style="fill:#ffffff;stroke:none;display:inline"
-       zpos="-10" />
+       style="fill:#ffffff;stroke:none;display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="STRFN-01"
      style="display:none"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     zpos="-30">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
@@ -760,7 +763,8 @@
      id="g3160"
      inkscape:groupmode="layer"
      style="display:none"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     zpos="-30">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
        d="m 67,93 266,0 0,-26 -266,0 z"
@@ -926,7 +930,8 @@
      inkscape:groupmode="layer"
      id="g3247"
      inkscape:label="STRFN-03"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     zpos="-30">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
@@ -1086,7 +1091,8 @@
      inkscape:groupmode="layer"
      id="401C34BD9"
      inkscape:label="E-01"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:inline">
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -1130,7 +1136,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="STRFN-03"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
