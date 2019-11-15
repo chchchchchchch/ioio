@@ -30,7 +30,7 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#ffffff"
+     pagecolor="#f4f4f4"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -48,6 +48,19 @@
      inkscape:current-layer="g3162" />
   <defs
      id="071588EEF" />
+  <g
+     style="display:inline"
+     inkscape:label="BG-00"
+     id="bglayer"
+     inkscape:groupmode="layer"
+     zpos="-10000"
+     sodipodi:insensitive="true">
+    <path
+       inkscape:connector-curvature="0"
+       id="bgfill"
+       d="M 400,0 400,400 0,400 0,0 z"
+       style="fill:#ffffff" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="bg"

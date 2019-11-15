@@ -30,38 +30,47 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#ffffff"
+     pagecolor="#f4f4f4"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
      id="namedview102"
      showgrid="false"
      inkscape:zoom="1.109894924"
-     inkscape:cx="214.111017"
+     inkscape:cx="98.33429145"
      inkscape:cy="164.0992325"
-     inkscape:current-layer="2DCD17D31" />
+     inkscape:current-layer="A2CD52346" />
   <defs
      id="8F721A988" />
+  <g
+     style="display:inline"
+     inkscape:label="BG-00"
+     id="bglayer"
+     inkscape:groupmode="layer"
+     zpos="-10000"
+     sodipodi:insensitive="true">
+    <path
+       inkscape:connector-curvature="0"
+       id="bgfill"
+       d="M 400,0 400,400 0,400 0,0 z"
+       style="fill:#ffffff" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="bg"
      inkscape:label="XX_BG"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:inline">
     <path
        style="fill:#f4d7e3"
        d="M 400,0 400,400 0,400 0,0 z"
        id="bgrect"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#d5ffe6;display:inline"
-       d="M 400,0 400,400 0,400 0,0 z"
-       id="bgrect-3"
        inkscape:connector-curvature="0" />
   </g>
   <g
@@ -1005,7 +1014,8 @@
      id="layer2"
      inkscape:label="COVER-01"
      zpos="-1950"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:inline">
     <path
        style="fill:#ffffff;display:inline"
        d="m 0,0 0,400 400,0 0,-400 z m 30.5,31.5 339,0 0,338 -339,0 z"
