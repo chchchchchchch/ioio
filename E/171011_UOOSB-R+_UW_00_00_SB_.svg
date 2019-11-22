@@ -24,10 +24,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.7667863"
-     inkscape:cx="182.38122"
+     inkscape:cx="109.6502961"
      inkscape:cy="243.48356"
      inkscape:document-units="px"
-     inkscape:current-layer="g4388"
+     inkscape:current-layer="layer8"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -587,7 +587,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="MITTELINKS-001"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="fill:#000000;stroke:none;display:inline"
@@ -600,22 +600,22 @@
        inkscape:connector-curvature="0"
        id="path4263"
        d="m 30.5,210 10,0 30,0 c 55.66841,0 94.72305,2.69114 128.125,3.625 33.40195,0.93386 58.93935,1.62463 83.4375,-10.28125 24.49815,-11.90588 38.58526,-38.53052 43.46875,-67.4375 C 330.41474,106.99927 330.5,86.063276 330.5,35 M 203,190 l -162.5,0 -10,0"
-       style="fill:none;stroke:#1a1a1a;stroke-width:1px;stroke-linecap:square;display:inline" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="MITTELINKS-002"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="cssssccccc"
        inkscape:connector-curvature="0"
        id="path4418"
        d="m 30.5,210 40,0 c 29.60904,0 58.40433,6.15462 86.21875,12.25 27.81442,6.09538 54.52107,13.09841 83.40625,8.625 28.88518,-4.47341 56.86982,-26.67687 70.4375,-60.96875 C 323.05388,138.33467 328.57425,96.463701 329.375,36 L 258.21875,36 220.5,190 l -190,0 z"
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+       style="fill:#000000;stroke:none" />
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:none;stroke:#000000;stroke-width:1px;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="fill:none;stroke:#000000;stroke-width:1px"
        d="m 30,210 40.5,0 c 29.60904,0 58.40433,6.15462 86.21875,12.25 27.81442,6.09538 54.52107,13.09841 83.40625,8.625 28.88518,-4.47341 56.86982,-26.67687 70.4375,-60.96875 C 323.05388,138.33467 328.57425,96.463701 329.375,36 M 220.5,190 30,190"
        id="I-left-1-6-8"
        inkscape:connector-curvature="0"
@@ -625,7 +625,7 @@
      inkscape:label="MITTELINKS-003"
      id="g4388"
      inkscape:groupmode="layer"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        style="fill:#000000;stroke:none;display:inline"
@@ -644,7 +644,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="BLOCK-001"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="cccsscccc"
@@ -683,7 +683,7 @@
      id="layer8"
      inkscape:label="BLOCK-003"
      sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:none">
     <path
        sodipodi:nodetypes="cccsscccc"
        inkscape:connector-curvature="0"
