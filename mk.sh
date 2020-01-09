@@ -93,7 +93,6 @@
 # --------------------------------------------------------------------------- #
 # WRITE SVG FILES ACCORDING TO POSSIBLE COMBINATIONS
 # --------------------------------------------------------------------------- #
-
   SVGHEADER=`head -n 1 ${SVG%%.*}.tmp`
 
   for KOMBI in `cat $KOMBILIST | sed 's/ /DHSZEJDS/g'`
@@ -102,9 +101,10 @@
         R=`basename $SVG | cut -d "_" -f 2 | #
            grep "R+" | sed 's/\(.*\)\(R+\)\(.*\)/\2/g'`
         M=`basename $SVG | cut -d "_" -f 2 | #
-           grep -- "-M[-]*" | sed 's/\(.*\)\(M\)\(.*\)/\2/g'`
-      if [ A$R = "AR+" ]; then R="+R-"; else R= ; fi
-      if [ A$M = "AM" ]; then M="-M-"; else M= ; fi
+           grep -- "-M[-+]*" | sed 's/\(.*\)\(M[-+]*\)\(.*\)/\2/g'`
+      if [ "$M" == "M"  ];then M="-M-";fi
+      if [ "$M" == "M+" ];then M="+M-";fi
+      if [ "$R" == "R+" ];then R="+R-";else R="";fi
       IOS=`basename $SVG | cut -d "_" -f 3-`
       NID=`echo ${OUTPUTBASE}        | #
            cut -d "-" -f 1           | #
