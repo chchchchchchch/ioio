@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.640463856"
-     inkscape:cx="187.1793168"
-     inkscape:cy="149.4977038"
+     inkscape:zoom="1.534989436"
+     inkscape:cx="161.844468"
+     inkscape:cy="196.2859461"
      inkscape:document-units="px"
-     inkscape:current-layer="g5306"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -79,7 +79,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -627,7 +627,7 @@
      style="display:none"
      sodipodi:insensitive="true">
     <path
-       style="fill:#ffffff;stroke:none;display:inline"
+       style="fill:#000000;stroke:none;display:inline"
        d="m 370,190 -340,0 0,20 340,0 z"
        id="path3963"
        inkscape:connector-curvature="0"
@@ -1515,7 +1515,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="LMNT-14"
      id="g4933"
      inkscape:groupmode="layer"
@@ -1564,7 +1564,7 @@
      inkscape:groupmode="layer"
      id="g4996"
      inkscape:label="LMNT-15"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="cccccc"
