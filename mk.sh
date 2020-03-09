@@ -105,7 +105,9 @@
       if [ "$M" == "M"  ];then M="-M-";fi
       if [ "$M" == "M+" ];then M="+M-";fi
       if [ "$R" == "R+" ];then R="+R-";else R="";fi
-      IOS=`basename $SVG | cut -d "_" -f 3-`
+
+      IOS=`basename $SVG | cut -d "_" -f 3- | cut -d "." -f 1`
+
       NID=`echo ${OUTPUTBASE}        | #
            cut -d "-" -f 1           | #
            tr -t [:lower:] [:upper:] | #
@@ -119,18 +121,49 @@
            md5sum | cut -c 1-9       | #
            tr -t [:lower:] [:upper:] | #
            rev`                        #
-      SVGOUT=$OUTDIR/$NID$FID`echo $R$M$DIF | rev            | #
-                              sed 's/-M[-]*R+/-MR+/'         | #
-                              rev | cut -c 1-9 | rev`_${IOS}   #
+      SVGOUT=$OUTDIR/$NID$FID`echo $R$M$DIF | rev              | #
+                              sed 's/-M[-]*R+/-MR+/'           | #
+                              rev | cut -c 1-9 | rev`_${IOS}.svg #
 
-      echo "WRITING: $SVGOUT"
-      head -n 1 ${SVG%%.*}.tmp                           >  $SVGOUT
+    # ------------------------------------------------------------------- #
+      head -n 1 ${SVG%%.*}.tmp                           >  ${SVGOUT}
       for  LAYERNAME in `echo $KOMBI`
         do grep -n "label=\"$LAYERNAME\"" ${SVG%%.*}.tmp >> ${SVGOUT}.tmp
       done
-      cat ${SVGOUT}.tmp | sort -n | cut -d ":" -f 2-     >> $SVGOUT
-      echo "</svg>"                                      >> $SVGOUT
+      cat ${SVGOUT}.tmp | sort -n | cut -d ":" -f 2-     >> ${SVGOUT}
+      echo "</svg>"                                      >> ${SVGOUT}
       rm ${SVGOUT}.tmp
+    # ------------------------------------------------------------------- #
+      if [ "_$IOS" == "_XX_XX_XX_XX_" ]
+       then 
+             TOP=`sed 's/connect="/\n&/g' $SVGOUT     | #
+                  grep '^connect="' | cut -d '"' -f 2 | #
+                  cut -c 1-2 | tr [:lower:] [:upper:] | #
+                  egrep '[A-Z0]' | head -n 1`
+           RIGHT=`sed 's/connect="/\n&/g' $SVGOUT     | #
+                  grep '^connect="' | cut -d '"' -f 2 | #
+                  cut -c 3-4 | tr [:lower:] [:upper:] | #
+                  egrep '[A-Z0]' | head -n 1`
+          BOTTOM=`sed 's/connect="/\n&/g' $SVGOUT     | #
+                  grep '^connect="' | cut -d '"' -f 2 | #
+                  cut -c 5-6 | tr [:lower:] [:upper:] | #
+                  egrep '[A-Z0]' | head -n 1`
+            LEFT=`sed 's/connect="/\n&/g' $SVGOUT     | #
+                  grep '^connect="' | cut -d '"' -f 2 | #
+                  cut -c 7-8 | tr [:lower:] [:upper:] | #
+                  egrep '[A-Z0]' | head -n 1`
+             IOS="${TOP}_${RIGHT}_${BOTTOM}_${LEFT}"
+             DIF=`echo ${KOMBI}${IOS}       | #
+                  md5sum | cut -c 1-9       | #
+                  tr -t [:lower:] [:upper:] | #
+                  rev`                        #
+            SVGNEU=$OUTDIR/$NID$FID`echo $R$M$DIF | rev    | #
+                                    sed 's/-M[-]*R+/-MR+/' | #
+                                    rev | cut -c 1-9 | rev`_${IOS}_.svg
+            mv $SVGOUT $SVGNEU;SVGOUT="$SVGNEU"
+      fi
+    # ------------------------------------------------------------------- #
+      echo "WRITING: $SVGOUT"
 
     # MAKE IDs UNIQ
     # -------------------------------------------  #
@@ -169,21 +202,21 @@
 
       mv ${SVG%%.*}.X.tmp $SVGOUT
 
-    # CHECK FILE'S GIT STATUS
-    # -------------------------------------------------------------------- #
-      if [ `ls $SVG 2>/dev/null | wc -l` -lt 1 ] ||
-         [ `git ls-files $SVG --exclude-standard --others | wc -l` -gt 0 ]
-       then LATESTHASH="UNTRACKED";echo -e "\e[31m$SVG UNTRACKED\e[0m"
-       else LATESTHASH=`git log --pretty=tformat:%H $SVG | head -n 1`
-            LATESTHASH="($LATESTHASH)"
-            SVGSTATUS=`git status -s $SVG | #
-                       sed 's/^[ \t]*//'  | #
-                       cut -d " " -f 1`     #
-       if [ "$SVGSTATUS" == "M" ]
-       then LATESTHASH="$LATESTHASH +MOD";echo -e "\e[31m$SVG MODIFIED\e[0m"
-       fi
-      fi  # CLEAR EMPTY (= () ) HASH
-            LATESTHASH=`echo $LATESTHASH | sed 's/()//g'`
+#   # CHECK FILE'S GIT STATUS
+#   # -------------------------------------------------------------------- #
+#     if [ `ls $SVG 2>/dev/null | wc -l` -lt 1 ] ||
+#        [ `git ls-files $SVG --exclude-standard --others | wc -l` -gt 0 ]
+#      then LATESTHASH="UNTRACKED";echo -e "\e[31m$SVG UNTRACKED\e[0m"
+#      else LATESTHASH=`git log --pretty=tformat:%H $SVG | head -n 1`
+#           LATESTHASH="($LATESTHASH)"
+#           SVGSTATUS=`git status -s $SVG | #
+#                      sed 's/^[ \t]*//'  | #
+#                      cut -d " " -f 1`     #
+#      if [ "$SVGSTATUS" == "M" ]
+#      then LATESTHASH="$LATESTHASH +MOD";echo -e "\e[31m$SVG MODIFIED\e[0m"
+#      fi
+#     fi  # CLEAR EMPTY (= () ) HASH
+#           LATESTHASH=`echo $LATESTHASH | sed 's/()//g'`
 
     # DO STAMP
     # -------------------------------------------------------------------- #
