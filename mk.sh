@@ -103,6 +103,7 @@
         M=`basename $SVG | cut -d "_" -f 2 | #
            grep -- "-M[-+]*" | sed 's/\(.*\)\(M[-+]*\)\(.*\)/\2/g'`
       if [ "$M" == "M"  ];then M="-M-";fi
+      if [ "$M" == "M-" ];then M="-M-";fi
       if [ "$M" == "M+" ];then M="+M-";fi
       if [ "$R" == "R+" ];then R="+R-";else R="";fi
 
