@@ -202,21 +202,21 @@
 
       mv ${SVG%%.*}.X.tmp $SVGOUT
 
-#   # CHECK FILE'S GIT STATUS
-#   # -------------------------------------------------------------------- #
-#     if [ `ls $SVG 2>/dev/null | wc -l` -lt 1 ] ||
-#        [ `git ls-files $SVG --exclude-standard --others | wc -l` -gt 0 ]
-#      then LATESTHASH="UNTRACKED";echo -e "\e[31m$SVG UNTRACKED\e[0m"
-#      else LATESTHASH=`git log --pretty=tformat:%H $SVG | head -n 1`
-#           LATESTHASH="($LATESTHASH)"
-#           SVGSTATUS=`git status -s $SVG | #
-#                      sed 's/^[ \t]*//'  | #
-#                      cut -d " " -f 1`     #
-#      if [ "$SVGSTATUS" == "M" ]
-#      then LATESTHASH="$LATESTHASH +MOD";echo -e "\e[31m$SVG MODIFIED\e[0m"
-#      fi
-#     fi  # CLEAR EMPTY (= () ) HASH
-#           LATESTHASH=`echo $LATESTHASH | sed 's/()//g'`
+    # CHECK FILE'S GIT STATUS
+    # -------------------------------------------------------------------- #
+      if [ `ls $SVG 2>/dev/null | wc -l` -lt 1 ] ||
+         [ `git ls-files $SVG --exclude-standard --others | wc -l` -gt 0 ]
+       then LATESTHASH="UNTRACKED";echo -e "\e[31m$SVG UNTRACKED\e[0m"
+       else LATESTHASH=`git log --pretty=tformat:%H $SVG | head -n 1`
+            LATESTHASH="($LATESTHASH)"
+            SVGSTATUS=`git status -s $SVG | #
+                       sed 's/^[ \t]*//'  | #
+                       cut -d " " -f 1`     #
+       if [ "$SVGSTATUS" == "M" ]
+       then LATESTHASH="$LATESTHASH +MOD";echo -e "\e[31m$SVG MODIFIED\e[0m"
+       fi
+      fi  # CLEAR EMPTY (= () ) HASH
+            LATESTHASH=`echo $LATESTHASH | sed 's/()//g'`
 
     # DO STAMP
     # -------------------------------------------------------------------- #
