@@ -153,14 +153,14 @@
                   grep '^connect="' | cut -d '"' -f 2 | #
                   cut -c 7-8 | tr [:lower:] [:upper:] | #
                   egrep '[A-Z0]' | head -n 1`
-             IOS="${TOP}_${RIGHT}_${BOTTOM}_${LEFT}"
-             DIF=`echo ${KOMBI}${IOS}.svg   | #
+             IOS="${TOP}_${RIGHT}_${BOTTOM}_${LEFT}_"
+             DIF=`echo ${KOMBI}${IOS}.svg  | #
                   md5sum | cut -c 1-9       | #
                   tr -t [:lower:] [:upper:] | #
                   rev`                        #
             SVGNEU=$OUTDIR/$NID$FID`echo $R$M$DIF | rev    | #
                                     sed 's/-M[-]*R+/-MR+/' | #
-                                    rev | cut -c 1-9 | rev`_${IOS}_.svg
+                                    rev | cut -c 1-9 | rev`_${IOS}.svg
             mv $SVGOUT $SVGNEU;SVGOUT="$SVGNEU"
       fi
     # ------------------------------------------------------------------- #
