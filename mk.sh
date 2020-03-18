@@ -118,7 +118,7 @@
            tr -t [:lower:] [:upper:] | #
            md5sum | cut -c 1-4       | #
            tr -t [:lower:] [:upper:]`  #
-      DIF=`echo ${KOMBI}${IOS}       | #
+      DIF=`echo ${KOMBI}${IOS}.svg   | #
            md5sum | cut -c 1-9       | #
            tr -t [:lower:] [:upper:] | #
            rev`                        #
@@ -154,7 +154,7 @@
                   cut -c 7-8 | tr [:lower:] [:upper:] | #
                   egrep '[A-Z0]' | head -n 1`
              IOS="${TOP}_${RIGHT}_${BOTTOM}_${LEFT}"
-             DIF=`echo ${KOMBI}${IOS}       | #
+             DIF=`echo ${KOMBI}${IOS}.svg   | #
                   md5sum | cut -c 1-9       | #
                   tr -t [:lower:] [:upper:] | #
                   rev`                        #
