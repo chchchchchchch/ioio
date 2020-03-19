@@ -80,6 +80,7 @@
        LOOPCLOSE=${LOOPCLOSE}"done; "
        CNT=`expr $CNT + 1`
   done
+
 # --------------------------------------------------------------------------- #
 # EXECUTE CODE FOR FOR-LOOP TO EVALUATE COMBINATIONS
 # --------------------------------------------------------------------------- #
@@ -135,19 +136,19 @@
              TOP=`sed 's/connect="/\n&/g' $SVGOUT     | #
                   grep '^connect="' | cut -d '"' -f 2 | #
                   cut -c 1-2 | tr [:lower:] [:upper:] | #
-                  egrep '[A-Z0]' | head -n 1`
+                  egrep '[A-Z0]' | tail -n 1`
            RIGHT=`sed 's/connect="/\n&/g' $SVGOUT     | #
                   grep '^connect="' | cut -d '"' -f 2 | #
                   cut -c 3-4 | tr [:lower:] [:upper:] | #
-                  egrep '[A-Z0]' | head -n 1`
+                  egrep '[A-Z0]' | tail -n 1`
           BOTTOM=`sed 's/connect="/\n&/g' $SVGOUT     | #
                   grep '^connect="' | cut -d '"' -f 2 | #
                   cut -c 5-6 | tr [:lower:] [:upper:] | #
-                  egrep '[A-Z0]' | head -n 1`
+                  egrep '[A-Z0]' | tail -n 1`
             LEFT=`sed 's/connect="/\n&/g' $SVGOUT     | #
                   grep '^connect="' | cut -d '"' -f 2 | #
                   cut -c 7-8 | tr [:lower:] [:upper:] | #
-                  egrep '[A-Z0]' | head -n 1`
+                  egrep '[A-Z0]' | tail -n 1`
              IOS="${TOP}_${RIGHT}_${BOTTOM}_${LEFT}_"
              DIF=`echo ${KOMBI}${IOS}.svg  | #
                   md5sum | cut -c 1-9       | #
@@ -158,8 +159,14 @@
                                     rev | cut -c 1-9 | rev`_${IOS}.svg
             mv $SVGOUT $SVGNEU;SVGOUT="$SVGNEU"
       fi
+  # ----------------------------------------------------------------------- #
+    if [ `basename $SVGOUT | #
+           egrep "^[0-9A-FRM+-]{17}_([A-Z0]{2}_){4}\.svg" | #
+            wc -l` -gt 0 ]
+      then
     # ------------------------------------------------------------------- #
       echo "WRITING: $SVGOUT"
+    # ------------------------------------------------------------------- #
 
     # MAKE IDs UNIQ
     # -------------------------------------------  #
@@ -218,7 +225,12 @@
     # -------------------------------------------------------------------- #
       SRCSTAMP=`echo '<!-- '\`basename $SVG\`" $LATESTHASH -->" | tr -s ' '`
       sed -i "1s,^.*$,&\n$SRCSTAMP," $SVGOUT
-
+    # ------------------------------------------------------------------- #
+  # ----------------------------------------------------------------------- #
+    else   if [ -f "$SVGOUT" ];then rm $SVGOUT;fi
+       >&2 echo -e "\e[31mSOMETHING WENT WRONT ("`basename $SVGOUT`")\e[0m"
+    fi
+  # ----------------------------------------------------------------------- #
   done
 # --------------------------------------------------------------------------- #
 # REMOVE TEMP FILES
