@@ -20,21 +20,27 @@
 # --------------------------------------------------------------------------- #
 # CONFIGURATION 
 # --------------------------------------------------------------------------- #
-  OUTDIR=_
+  OUTDIR="_"
 # --------------------------------------------------------------------------- #
 # VALIDATE (PROVIDED) INPUT 
 # --------------------------------------------------------------------------- #
-  if [ `echo $* | wc -c` -lt 2 ]; then echo "No arguments provided"; exit 0;
-  else if [ `ls \`ls ${1}* 2> /dev/null\` 2> /dev/null  | #
-             grep "\.svg$" | wc -l` -lt 1 ];              #
-        then echo 'No valid svg!'; exit 0;                #    
-      # else echo -e "PROCESSING NOW:\n${1}* \n--------------------";
-    fi
+  if [ `echo $* | wc -c` -lt 2 ];then echo "No arguments provided";exit 0;
+  else  NOFLAGS=`echo $* | sed 's/ /\n/g' | grep -v '^-'`
+        if [ `ls \`ls ${NOFLAGS}* 2> /dev/null\` 2> /dev/null  | #
+              grep "\.svg$" | wc -l` -lt 1 ];              #
+        then  echo 'No valid svg!';exit 0
+        else  SVGINPUT=`ls \`ls ${NOFLAGS}*\` | grep "\.svg$"`
+        fi
   fi
+# --------------------------------------------------------------------------- #
+# CHECK/SET FLAGS
+# --------------------------------------------------------------------------- #
+  if [ `echo $* | sed 's/ /\n/g' | grep "^-" | #
+        egrep -- '-u|update' | wc -l` -gt 0  ];then MODUS="UPDATE";fi
 # =========================================================================== #
 # DO IT NOW!
 # =========================================================================== #
-  for SVG in `ls \`ls ${1}*\` | grep "\.svg$"`
+  for SVG in $SVGINPUT
    do OUTPUTBASE=`basename $SVG            | #
                   cut -d "_" -f 2          | #
                   sed 's/-R+//g'           | #
@@ -80,7 +86,6 @@
        LOOPCLOSE=${LOOPCLOSE}"done; "
        CNT=`expr $CNT + 1`
   done
-
 # --------------------------------------------------------------------------- #
 # EXECUTE CODE FOR FOR-LOOP TO EVALUATE COMBINATIONS
 # --------------------------------------------------------------------------- #
@@ -122,6 +127,10 @@
                               sed 's/-M[-]*R+/-MR+/'           | #
                               rev | cut -c 1-9 | rev`_${IOS}.svg #
 
+      if [ ! -f "$SVGOUT" ] || 
+         [ "$MODUS" != "UPDATE" ] || 
+         [ "_$IOS" == "_XX_XX_XX_XX_" ]
+      then AKTION="WRITE"
     # ------------------------------------------------------------------- #
       head -n 1 ${SVG%%.*}.tmp                           >  ${SVGOUT}
       for  LAYERNAME in `echo $KOMBI`
@@ -132,37 +141,43 @@
       rm ${SVGOUT}.tmp
     # ------------------------------------------------------------------- #
       if [ "_$IOS" == "_XX_XX_XX_XX_" ]
-       then 
-             TOP=`sed 's/connect="/\n&/g' $SVGOUT     | #
-                  grep '^connect="' | cut -d '"' -f 2 | #
-                  cut -c 1-2 | tr [:lower:] [:upper:] | #
-                  egrep '[A-Z0]' | tail -n 1`
-           RIGHT=`sed 's/connect="/\n&/g' $SVGOUT     | #
-                  grep '^connect="' | cut -d '"' -f 2 | #
-                  cut -c 3-4 | tr [:lower:] [:upper:] | #
-                  egrep '[A-Z0]' | tail -n 1`
-          BOTTOM=`sed 's/connect="/\n&/g' $SVGOUT     | #
-                  grep '^connect="' | cut -d '"' -f 2 | #
-                  cut -c 5-6 | tr [:lower:] [:upper:] | #
-                  egrep '[A-Z0]' | tail -n 1`
-            LEFT=`sed 's/connect="/\n&/g' $SVGOUT     | #
-                  grep '^connect="' | cut -d '"' -f 2 | #
-                  cut -c 7-8 | tr [:lower:] [:upper:] | #
-                  egrep '[A-Z0]' | tail -n 1`
-             IOS="${TOP}_${RIGHT}_${BOTTOM}_${LEFT}_"
-             DIF=`echo ${KOMBI}${IOS}.svg  | #
-                  md5sum | cut -c 1-9       | #
-                  tr -t [:lower:] [:upper:] | #
-                  rev`                        #
-            SVGNEU=$OUTDIR/$NID$FID`echo $R$M$DIF | rev    | #
-                                    sed 's/-M[-]*R+/-MR+/' | #
-                                    rev | cut -c 1-9 | rev`_${IOS}.svg
-            mv $SVGOUT $SVGNEU;SVGOUT="$SVGNEU"
+      then  TOP=`sed 's/connect="/\n&/g' $SVGOUT     | #
+                 grep '^connect="' | cut -d '"' -f 2 | #
+                 cut -c 1-2 | tr [:lower:] [:upper:] | #
+                 egrep '[A-Z0]' | tail -n 1`
+          RIGHT=`sed 's/connect="/\n&/g' $SVGOUT     | #
+                 grep '^connect="' | cut -d '"' -f 2 | #
+                 cut -c 3-4 | tr [:lower:] [:upper:] | #
+                 egrep '[A-Z0]' | tail -n 1`
+         BOTTOM=`sed 's/connect="/\n&/g' $SVGOUT     | #
+                 grep '^connect="' | cut -d '"' -f 2 | #
+                 cut -c 5-6 | tr [:lower:] [:upper:] | #
+                 egrep '[A-Z0]' | tail -n 1`
+           LEFT=`sed 's/connect="/\n&/g' $SVGOUT     | #
+                 grep '^connect="' | cut -d '"' -f 2 | #
+                 cut -c 7-8 | tr [:lower:] [:upper:] | #
+                 egrep '[A-Z0]' | tail -n 1`
+            IOS="${TOP}_${RIGHT}_${BOTTOM}_${LEFT}_"
+            DIF=`echo ${KOMBI}${IOS}.svg  | #
+                 md5sum | cut -c 1-9       | #
+                 tr -t [:lower:] [:upper:] | #
+                 rev`                        #
+           SVGNEU=$OUTDIR/$NID$FID`echo $R$M$DIF | rev    | #
+                                   sed 's/-M[-]*R+/-MR+/' | #
+                                   rev | cut -c 1-9 | rev`_${IOS}.svg
+           if [ ! -f "$SVGNEU" ] || [ "$MODUS" != "UPDATE" ]
+           then mv $SVGOUT $SVGNEU;AKTION="WRITE"
+           else if [ -f "$SVGOUT" ];then rm $SVGOUT;fi;AKTION="SKIP"
+           fi
+           SVGOUT="$SVGNEU"
+      fi
+    # ------------------------------------------------------------------- #
+      else AKTION="SKIP"
       fi
   # ----------------------------------------------------------------------- #
     if [ `basename $SVGOUT | #
            egrep "^[0-9A-FRM+-]{17}_([A-Z0]{2}_){4}\.svg" | #
-            wc -l` -gt 0 ]
+            wc -l` -gt 0 ] && [ "$AKTION" != "SKIP" ]
       then
     # ------------------------------------------------------------------- #
       echo "WRITING: $SVGOUT"
@@ -227,8 +242,13 @@
       sed -i "1s,^.*$,&\n$SRCSTAMP," $SVGOUT
     # ------------------------------------------------------------------- #
   # ----------------------------------------------------------------------- #
-    else   if [ -f "$SVGOUT" ];then rm $SVGOUT;fi
-       >&2 echo -e "\e[31mSOMETHING WENT WRONT ("`basename $SVGOUT`")\e[0m"
+    else if [ `basename $SVGOUT | #
+               egrep "^[0-9A-FRM+-]{17}_([A-Z0]{2}_){4}\.svg" | #
+               wc -l` -lt 1 ] && [ -f "$SVGOUT" ]
+         then rm $SVGOUT
+              >&2 echo -e "\e[31mSKIPPING "`basename $SVGOUT`"\e[0m"
+         else >&2 echo -e "\e[32m$SVGOUT EXISTS\e[0m"
+         fi
     fi
   # ----------------------------------------------------------------------- #
   done
