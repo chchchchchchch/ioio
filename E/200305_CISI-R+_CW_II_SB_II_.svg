@@ -24,10 +24,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.174490856"
-     inkscape:cx="300.6494782"
+     inkscape:cx="191.2403676"
      inkscape:cy="220.6951219"
      inkscape:document-units="px"
-     inkscape:current-layer="g4455"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -625,7 +625,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="LMNT-01"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        id="path3130"
@@ -641,52 +641,28 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
-       d="M 307,67 93,67"
-       id="path3126"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 190,67 0,303"
        id="S-bottom-2-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
-       id="path3120"
-       d="m 307,200 0,-170 26,0 0,170 z"
-       style="fill:#ffffff;stroke:none" />
-    <path
-       sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
-       id="path3116"
-       d="M 93,200 93,30 67,30 67,200 z"
-       style="fill:#ffffff;stroke:none" />
-    <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
-       d="m 333,30 0,170"
+       d="m 333,30 0,170 37,0"
        id="C-top-4-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
-       d="m 67,30 0,170"
+       d="m 67,30 0,170 -37,0"
        id="C-top-1-3"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
-       d="m 93,30 0,170 -63,0"
-       id="C-top-2-5"
-       inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
-       d="m 307,30 0,170 63,0"
-       id="C-top-3-6"
+       d="m 93,30 0,37 214,0 0,-37"
+       id="path3170"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="cccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -881,7 +857,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="LMNT-05"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        style="fill:#000000;stroke:none;display:inline"
