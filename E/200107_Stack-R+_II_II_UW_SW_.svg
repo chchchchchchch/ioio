@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.623924936"
-     inkscape:cx="192.9301235"
-     inkscape:cy="232.4542151"
+     inkscape:zoom="0.8572042181"
+     inkscape:cx="306.943476"
+     inkscape:cy="134.2450874"
      inkscape:document-units="px"
      inkscape:current-layer="g3677"
      showgrid="false"
@@ -617,13 +617,6 @@
        sodipodi:nodetypes="cc"
        zpos="-100" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
-       d="m 333,370 0,-180 -303,0"
-       id="C-bottom-4-0"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc"
-       zpos="-100" />
-    <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path3655"
@@ -636,6 +629,13 @@
        id="C-bottom-1-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
+       d="m 333,370 0,-180 -303,0"
+       id="C-bottom-4-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       zpos="-100" />
   </g>
   <g
      style="display:inline"
@@ -654,16 +654,16 @@
        zpos="-100"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
-       id="path3679"
-       d="m 200,30 0,180"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
-    <path
-       zpos="-100"
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
        id="path3683"
        d="m 30,210 51,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
+    <path
+       zpos="-100"
+       style="fill:#ffffff;stroke:none"
+       d="m 67,200 303,0 0,170 -303,0 z"
+       id="path3687"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <path
        zpos="-100"
        sodipodi:nodetypes="ccc"
@@ -673,11 +673,11 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
     <path
        zpos="-100"
-       style="fill:#ffffff;stroke:none"
-       d="m 67,200 303,0 0,170 -303,0 z"
-       id="path3687"
+       sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       id="path3679"
+       d="m 200,30 0,170"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
     <path
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
