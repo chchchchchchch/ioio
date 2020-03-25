@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.6139325364"
-     inkscape:cx="222.2059759"
-     inkscape:cy="291.1530011"
+     inkscape:zoom="11.52209924"
+     inkscape:cx="214.8800036"
+     inkscape:cy="40.91315268"
      inkscape:document-units="px"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -587,14 +587,21 @@
      id="layer3"
      inkscape:label="VL-001"
      style="display:inline"
-     sodipodi:insensitive="true"
-     zpos="-590">
+     zpos="-590"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 210,30.5 0,10 0,319 0,10"
        id="S-top-2-6-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path3125"
+       d="m 210,30.5 0,10 m 0,319 0,10"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
+       zpos="10" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -740,7 +747,7 @@
      inkscape:groupmode="layer"
      id="g3330"
      inkscape:label="UNTEN-003"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true"
      zpos="-550">
     <path
@@ -757,7 +764,7 @@
        sodipodi:nodetypes="ccacc" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="UNTEN-004"
      id="g3336"
      inkscape:groupmode="layer"
