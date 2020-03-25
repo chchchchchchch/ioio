@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9936480786"
-     inkscape:cx="303.9353412"
-     inkscape:cy="142.0997185"
+     inkscape:zoom="1.07297502"
+     inkscape:cx="338.4558391"
+     inkscape:cy="139.4534027"
      inkscape:document-units="px"
      inkscape:current-layer="layer5"
      showgrid="false"
@@ -79,7 +79,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -797,7 +797,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="LMNT-05"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none"
@@ -841,13 +841,12 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="LMNT-06"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path4334"
-       d="M 370,333 30,333 30,67 370,67 z"
+       d="m 30,333 320,0 0,-266 -320,0 z"
        style="fill:#000000;stroke:none" />
     <path
        style="fill:#ffffff;stroke:none"
@@ -871,7 +870,7 @@
        sodipodi:nodetypes="csscc"
        inkscape:connector-curvature="0"
        id="path4332"
-       d="m 243.7500001,333 122.75,0 c 142.5753774,0 132.4236106,-179 0,-179 l -123.5,0 z"
+       d="m 313.7500001,333 52.75,0 c 142.5753774,0 132.4236106,-179 0,-179 l -53.5,0 z"
        style="fill:#000000;stroke:none"
        zpos="500" />
     <path
@@ -888,7 +887,7 @@
        sodipodi:nodetypes="csscc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round"
-       d="m 313.7500001,333 52.75,0 c 142.5753774,0 132.4236106,-179 0,-179 l -53.5,0"
+       d="m 283.7500001,333 82.75,0 c 142.5753774,0 132.4236106,-179 0,-179 l -83.5,0"
        id="path4328"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssc"
