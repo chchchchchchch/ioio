@@ -41,7 +41,7 @@
  
  CONTINUOUS        #000000
  SEMI-CONTINUOUS   #ff00ff
- NON-CONTINUOUS    #ffff00 #00ff00
+ NON-CONTINUOUS    #0000ff #00ff00 #ffff00
  NO-TRACE          #ff0000
  TINY
  SMALL
