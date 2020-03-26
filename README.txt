@@ -1,18 +1,13 @@
-
+ ===================================================================
  C O L L E C T I N G  I/O  E L E M E N T S
- =========================================
+ ===================================================================
  There is an alternative. Most probably...
 
- 
- More Information soonish.
 
 
-
-
-
-
- NAMING 
- ------
+ -------------------------------------------------------------------
+  NAMING 
+ -------------------------------------------------------------------
 
   1-4 ID BASED ON TYPE (e.g. GLOTZE,SPIRALE,...)
   .
@@ -31,9 +26,32 @@
       5-8 ID BASED ON SRC NAME (e.g. 141021_GLOTZE_00_00_CW_00_.svg)
 
 
-
  -------------------------------------------------------------------
- COPYRIGHT (C) 2016 Christoph Haag
+  DEDICATED COLORS
+ -------------------------------------------------------------------
+
+ line/fill colors that may be considered
+ for further handling of graphic elements.
+
+ - continuous connects visually to one element.
+ - semi-continuous is close to continuous
+ - non-continuous may be handled separately
+ - no-trace are small or complex elements that should not be traced
+ - tiny/small/large/x-large indicate relative size
+ 
+ CONTINUOUS        #000000
+ SEMI-CONTINUOUS   #ff00ff
+ NON-CONTINUOUS    #ffff00
+ NO-TRACE          #ff0000
+ TINY
+ SMALL
+ LARGE
+ X-LARGE
+ 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+ -------------------------------------------------------------------
+ COPYRIGHT (C) 2020 Christoph Haag
  -------------------------------------------------------------------
  If not stated otherwise permission is granted to copy, distribute
  and/or modify these documents under the  terms of the Creative 
@@ -44,7 +62,7 @@
  -------------------------------------------------------------------
  EXCEPT: lib/* *.sh
  -------------------------------------------------------------------
- COPYRIGHT (C) 2016 Christoph Haag
+ COPYRIGHT (C) 2020 Christoph Haag
  -------------------------------------------------------------------
  These files are free software: you can redistribute it and/or
  modify it under the terms of the GNU General Public License as
@@ -59,4 +77,3 @@
  -> http://www.gnu.org/licenses/gpl.txt
 
  -------------------------------------------------------------------
-
