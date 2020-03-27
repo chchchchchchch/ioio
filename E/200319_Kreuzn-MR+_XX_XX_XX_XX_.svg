@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.478168566"
-     inkscape:cx="262.1090496"
-     inkscape:cy="206.6851096"
+     inkscape:zoom="1.715247712"
+     inkscape:cx="329.1522165"
+     inkscape:cy="185.0240445"
      inkscape:document-units="px"
-     inkscape:current-layer="g3786"
+     inkscape:current-layer="g3545"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -1138,7 +1138,7 @@
      id="layer2"
      inkscape:label="L-40"
      connect="SW..SW.."
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
@@ -1681,7 +1681,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="C-01"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
@@ -1741,7 +1741,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="C-02"
      id="g3244"
      inkscape:groupmode="layer"
@@ -1852,7 +1852,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="C-07"
      id="g3254"
      inkscape:groupmode="layer"
@@ -2018,7 +2018,7 @@
   </g>
   <g
      connect="..SB...."
-     style="display:none"
+     style="display:inline"
      inkscape:label="R-05"
      id="g3545"
      inkscape:groupmode="layer"
@@ -2044,9 +2044,9 @@
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
-       id="path3723-0"
-       d="m 333,173 0,54"
-       style="fill:none;stroke:#000000;stroke-width:1px;display:inline" />
+       id="path3723-9-3"
+       d="m 333,67 0,266"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;display:inline" />
   </g>
   <g
      style="display:none"
@@ -2131,7 +2131,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="R-08"
      id="g3786"
      inkscape:groupmode="layer"
@@ -2506,7 +2506,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="L-20"
-     style="display:none"
+     style="display:inline"
      connect="II..IISW"
      sodipodi:insensitive="true">
     <path
@@ -2526,7 +2526,7 @@
        d="m 30,190 170,0"
        id="S-left-1-0"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"/>
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 30,210 170,0"
@@ -3166,7 +3166,7 @@
   </g>
   <g
      connect="......SW"
-     style="display:inline"
+     style="display:none"
      inkscape:label="L-40"
      id="g3732"
      inkscape:groupmode="layer"
@@ -3498,7 +3498,7 @@
        d="m 30,190 160,0"
        id="path3910"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"/>
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 30,210 160,0"
