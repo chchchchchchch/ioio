@@ -36,12 +36,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7169339355"
-     inkscape:cx="296.8516621"
-     inkscape:cy="214.1954628"
+     inkscape:zoom="1.162949338"
+     inkscape:cx="206.9450997"
+     inkscape:cy="227.7386264"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:current-layer="svg2902" />
+     inkscape:current-layer="layer4" />
   <g
      inkscape:groupmode="layer"
      id="bg"
@@ -625,7 +625,7 @@
        sodipodi:nodetypes="cc" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      connect="00......"
      inkscape:label="O-00"
      id="g4370"
@@ -636,7 +636,7 @@
      id="layer8"
      inkscape:label="O-01"
      connect="CW......"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
@@ -964,20 +964,6 @@
        sodipodi:nodetypes="ccc" />
   </g>
   <g
-     connect="....II.."
-     style="display:inline"
-     inkscape:label="U-05"
-     id="g5066"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path5070"
-       d="m 200,370 0,-170"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
-  </g>
-  <g
      connect="....SW.."
      inkscape:groupmode="layer"
      id="g5076"
@@ -1015,7 +1001,7 @@
        sodipodi:nodetypes="cc" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="U-07"
      id="g5154"
      inkscape:groupmode="layer"
@@ -1023,7 +1009,7 @@
      sodipodi:insensitive="true">
     <path
        style="fill:#000000;stroke:none;display:inline"
-       d="m 190,370 0,-60.7307017 20,0 L 210,370 z"
+       d="m 190,370 0,-70.7307017 20,0 L 210,370 z"
        id="path5156"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -1378,7 +1364,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     connect="......00"
+     connect="......SW"
      style="display:none"
      inkscape:label="L-07"
      id="g4611"
@@ -1421,21 +1407,6 @@
        id="path4300"
        d="M 200.0000001,20.49999995 C 277.0437226,20.49999995 339.5,82.95627731 339.5,159.9999999 339.5,237.0437226 277.0437226,299.5 200.0000001,299.5"
        style="fill:none;stroke:#ff00ff;stroke-width:1px" />
-  </g>
-  <g
-     style="display:none"
-     connect="..00...."
-     inkscape:label="R-00"
-     id="g4646"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true"
-     zpos="500">
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path4300-1"
-       d="m 200.0000001,299.5 0,-279"
-       style="fill:none;stroke:#ff00ff;stroke-width:1px;stroke-linecap:round;display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1560,7 +1531,7 @@
      id="g4038"
      inkscape:label="L-07"
      style="display:none"
-     connect="......00"
+     connect="......SW"
      sodipodi:insensitive="true"
      zpos="500">
     <path
@@ -1580,9 +1551,9 @@
      id="g4665"
      inkscape:label="L-08"
      style="display:none"
-     connect="......00"
-     sodipodi:insensitive="true"
-     zpos="500">
+     connect="......SB"
+     zpos="500"
+     sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
@@ -1607,6 +1578,51 @@
        id="path4673"
        d="m 30,210 29.091,0.035505 C 53.52817982,194.4170765 50.50000002,177.5621808 50.50000002,159.9999999 50.50000002,77.43342985 117.43343,10.5 200.0000001,10.5"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;display:inline" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g4489"
+     inkscape:label="L-04"
+     style="display:none"
+     connect="......UB"
+     sodipodi:insensitive="true"
+     zpos="500">
+    <path
+       sodipodi:nodetypes="cscc"
+       inkscape:connector-curvature="0"
+       id="path4495"
+       d="M 200.0000001,309.5 C 117.43343,309.5 50.50000002,242.5665701 50.50000002,159.9999999 50.50000002,77.43342985 117.43343,10.5 200.0000001,10.5 z"
+       style="fill:#ffffff;stroke:none;display:inline" />
+  </g>
+  <g
+     connect="......UW"
+     style="display:none"
+     inkscape:label="L-05"
+     id="g4505"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true"
+     zpos="500">
+    <path
+       style="fill:#ffffff;stroke:none;display:inline"
+       d="M 200.0000001,309.5 C 117.43343,309.5 50.50000002,242.5665701 50.50000002,159.9999999 50.50000002,77.43342985 117.43343,10.5 200.0000001,10.5 z"
+       id="path4511"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g4575"
+     inkscape:label="L-06"
+     style="display:inline"
+     connect="......UW"
+     sodipodi:insensitive="true"
+     zpos="500">
+    <path
+       sodipodi:nodetypes="cscc"
+       inkscape:connector-curvature="0"
+       id="path4585"
+       d="M 200.0000001,309.5 C 117.43343,309.5 50.50000002,242.5665701 50.50000002,159.9999999 50.50000002,77.43342985 117.43343,10.5 200.0000001,10.5 z"
+       style="fill:#ffffff;stroke:none;display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1680,18 +1696,19 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     inkscape:groupmode="layer"
-     id="g5072"
-     inkscape:label="U-06"
+     connect="....II.."
      style="display:none"
-     connect="....SW.."
-     sodipodi:insensitive="true"
-     zpos="500">
+     inkscape:label="U-05"
+     id="g5066"
+     inkscape:groupmode="layer"
+     zpos="500"
+     sodipodi:insensitive="true">
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;display:inline"
-       d="m 200.0000001,309.5 0,-109.5"
-       id="path5146"
-       inkscape:connector-curvature="0" />
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path5070"
+       d="m 200,370 0,-70.5"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
   </g>
   <g
      connect="....SB.."
@@ -1709,48 +1726,17 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="g4489"
-     inkscape:label="L-04"
+     id="g5072"
+     inkscape:label="U-06"
      style="display:none"
-     connect="......UW"
+     connect="....SW.."
      sodipodi:insensitive="true"
      zpos="500">
     <path
-       sodipodi:nodetypes="cscc"
-       inkscape:connector-curvature="0"
-       id="path4495"
-       d="M 200.0000001,309.5 C 117.43343,309.5 50.50000002,242.5665701 50.50000002,159.9999999 50.50000002,77.43342985 117.43343,10.5 200.0000001,10.5 z"
-       style="fill:#ffffff;stroke:none;display:inline" />
-  </g>
-  <g
-     connect="......UW"
-     style="display:none"
-     inkscape:label="L-05"
-     id="g4505"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true"
-     zpos="500">
-    <path
-       style="fill:#ffffff;stroke:none;display:inline"
-       d="M 200.0000001,309.5 C 117.43343,309.5 50.50000002,242.5665701 50.50000002,159.9999999 50.50000002,77.43342985 117.43343,10.5 200.0000001,10.5 z"
-       id="path4511"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cscc" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g4575"
-     inkscape:label="L-06"
-     style="display:none"
-     connect="......UW"
-     sodipodi:insensitive="true"
-     zpos="500">
-    <path
-       sodipodi:nodetypes="cscc"
-       inkscape:connector-curvature="0"
-       id="path4585"
-       d="M 200.0000001,309.5 C 117.43343,309.5 50.50000002,242.5665701 50.50000002,159.9999999 50.50000002,77.43342985 117.43343,10.5 200.0000001,10.5 z"
-       style="fill:#ffffff;stroke:none;display:inline" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;display:inline"
+       d="m 200.0000001,309.5 0,-109.5"
+       id="path5146"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1758,8 +1744,8 @@
      inkscape:label="R-01"
      connect="..UW...."
      style="display:inline"
-     sodipodi:insensitive="true"
-     zpos="500">
+     zpos="500"
+     sodipodi:insensitive="true">
     <path
        inkscape:connector-curvature="0"
        id="path3921"
@@ -1932,7 +1918,8 @@
      id="g4497"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true"
-     zpos="500">
+     zpos="500"
+     connect="......UB">
     <path
        inkscape:connector-curvature="0"
        id="path4503"
@@ -1945,7 +1932,8 @@
      inkscape:label="L-05"
      style="display:none"
      sodipodi:insensitive="true"
-     zpos="500">
+     zpos="500"
+     connect="......CW">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;display:inline"
        d="M 200.0000001,309.5 C 117.43343,309.5 50.50000002,242.5665701 50.50000002,159.9999999 50.50000002,77.43342985 117.43343,10.5 200.0000001,10.5"
@@ -1958,11 +1946,27 @@
      id="g4587"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true"
-     zpos="500">
+     zpos="500"
+     connect="......CB">
     <path
        inkscape:connector-curvature="0"
        id="path4593"
        d="M 200.0000001,309.5 C 117.43343,309.5 50.50000002,242.5665701 50.50000002,159.9999999 50.50000002,77.43342985 117.43343,10.5 200.0000001,10.5"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;display:inline" />
+  </g>
+  <g
+     style="display:none"
+     connect="..00...."
+     inkscape:label="R-00"
+     id="g4646"
+     inkscape:groupmode="layer"
+     zpos="500"
+     sodipodi:insensitive="true">
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4300-1"
+       d="m 200.0000001,299.5 0,-279"
+       style="fill:none;stroke:#ff00ff;stroke-width:1px;stroke-linecap:round;display:inline" />
   </g>
 </svg>
