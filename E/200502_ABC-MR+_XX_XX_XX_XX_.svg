@@ -37,11 +37,11 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.158330283"
-     inkscape:cx="189.6692296"
+     inkscape:cx="78.73368567"
      inkscape:cy="190.5944454"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:current-layer="svg2902"
+     inkscape:current-layer="layer8"
      showguides="true"
      inkscape:guide-bbox="true" />
   <g
@@ -1509,13 +1509,13 @@
   <g
      inkscape:groupmode="layer"
      id="layer8"
-     inkscape:label="R-00"
+     inkscape:label="XX_R-00"
      sodipodi:insensitive="true"
      style="display:none" />
   <g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="R-01"
+     inkscape:label="XX_R-01"
      connect="..CW...."
      style="display:none"
      sodipodi:insensitive="true">
@@ -1552,7 +1552,7 @@
   </g>
   <g
      connect="..CB...."
-     inkscape:label="R-02"
+     inkscape:label="XX_R-02"
      id="g4502"
      inkscape:groupmode="layer"
      style="display:none"
@@ -1591,7 +1591,7 @@
   <g
      inkscape:groupmode="layer"
      id="g4518"
-     inkscape:label="R-03"
+     inkscape:label="XX_R-03"
      connect="..SW...."
      sodipodi:insensitive="true"
      style="display:none">
@@ -1622,7 +1622,7 @@
   </g>
   <g
      connect="..SB...."
-     inkscape:label="R-04"
+     inkscape:label="XX_R-04"
      id="g4576"
      inkscape:groupmode="layer"
      style="display:none"
@@ -1654,10 +1654,10 @@
   </g>
   <g
      connect="..CB...."
-     inkscape:label="R-05"
+     inkscape:label="XX_R-05"
      id="g4562"
      inkscape:groupmode="layer"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="cc"
@@ -1675,13 +1675,13 @@
   <g
      style="display:none"
      sodipodi:insensitive="true"
-     inkscape:label="L-00"
+     inkscape:label="XX_L-00"
      id="g4586"
      inkscape:groupmode="layer" />
   <g
      style="display:none"
      connect="......CW"
-     inkscape:label="L-01"
+     inkscape:label="XX_L-01"
      id="g4588"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true">
@@ -1720,7 +1720,7 @@
      style="display:none"
      inkscape:groupmode="layer"
      id="g4596"
-     inkscape:label="L-02"
+     inkscape:label="XX_L-02"
      connect="......CB"
      sodipodi:insensitive="true">
     <path
@@ -1757,7 +1757,7 @@
   <g
      style="display:none"
      connect="......SW"
-     inkscape:label="L-03"
+     inkscape:label="XX_L-03"
      id="g4608"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true">
@@ -1790,7 +1790,7 @@
      style="display:none"
      inkscape:groupmode="layer"
      id="g4618"
-     inkscape:label="L-04"
+     inkscape:label="XX_L-04"
      connect="......SB"
      sodipodi:insensitive="true">
     <path
@@ -1819,10 +1819,10 @@
        sodipodi:nodetypes="cc" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:groupmode="layer"
      id="g4628"
-     inkscape:label="L-05"
+     inkscape:label="XX_L-05"
      connect="......CB"
      sodipodi:insensitive="true">
     <path
