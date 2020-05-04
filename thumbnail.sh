@@ -59,7 +59,7 @@
          sed -i -re "s/XxXxXx/#000000/g"          ${TMP}2.svg  # COLOR TO BLACK
 
          inkscape --export-pdf=${TMP}.pdf ${TMP}2.svg
-         convert -monochrome ${TMP}.pdf ${TMP}.gif
+         convert -monochrome -flatten ${TMP}.pdf ${TMP}.gif
 
          convert ${TMP}.gif -fill $COLOR -opaque black ${COUNT}.gif
          if [ $COUNT -gt 0 ]; then
