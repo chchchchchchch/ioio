@@ -40,7 +40,7 @@
  - tiny/small/large/x-large indicate relative size
  
  CONTINUOUS        #000000
- SEMI-CONTINUOUS   #ff00ff
+ SEMI-CONTINUOUS   #ff00ff #1a2a3a
  NON-CONTINUOUS    #0000ff #00ff00 #ffff00
  NO-TRACE          #ff0000
  TINY
