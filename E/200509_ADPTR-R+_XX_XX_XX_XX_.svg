@@ -36,12 +36,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.029579142"
-     inkscape:cx="199.0261728"
-     inkscape:cy="105.0981719"
+     inkscape:zoom="11.11696094"
+     inkscape:cx="351.7352146"
+     inkscape:cy="147.9405026"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:current-layer="layer16"
+     inkscape:current-layer="layer2"
      showguides="true"
      inkscape:guide-bbox="true" />
   <g
@@ -1329,11 +1329,18 @@
        id="path3322"
        sodipodi:nodetypes="ccsssc" />
     <path
+       style="fill:#ffffff;stroke:none;display:inline"
+       d="m 348,226.09375 0,38.8125 c 9.8329936,-0.9985949 17.5,-9.3097944 17.5,-19.40625 0,-10.0964556 -7.6670064,-18.4076551 -17.5,-19.40625 z"
+       id="path3274"
+       zpos="1000"
+       inkscape:connector-curvature="0" />
+    <path
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;display:inline"
        d="m 346.0000001,265.0000001 c 10.7695527,0 19.5000001,-8.7304474 19.5000001,-19.5 0,-10.7695526 -8.7304474,-19.5 -19.5000001,-19.5"
        id="path3320"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       zpos="1000" />
   </g>
   <g
      style="display:none"
