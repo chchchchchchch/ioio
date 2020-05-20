@@ -24,11 +24,11 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7766745589"
-     inkscape:cx="26.09512859"
-     inkscape:cy="305.4263839"
+     inkscape:cx="204.4194968"
+     inkscape:cy="289.9758971"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:current-layer="layer30"
+     inkscape:current-layer="svg2902"
      showguides="true"
      inkscape:guide-bbox="true" />
   <metadata
@@ -5197,7 +5197,7 @@
   <g
      zpos="1400"
      connect="000000UW"
-     style="display:none"
+     style="display:inline"
      inkscape:label="LMNT-1404"
      id="layer16"
      inkscape:groupmode="layer"
@@ -5585,18 +5585,21 @@
      inkscape:label="LMNT-1601"
      id="layer19"
      inkscape:groupmode="layer"
+     connect="0000IIUW"
+     zpos="500"
      sodipodi:insensitive="true">
-    <path
-       inkscape:connector-curvature="0"
-       id="path4124"
-       d="m 214.8125,24.96875 -69.28125,194 100.3125,43.84375 L 362.96875,89.5 c -10.1592146,13.3067736 -46.8891091,11.4702478 -85.53125,-4.90625 -39.906695,-16.91241435 -67.2261534,-43.1358151 -62.625,-59.625 z"
-       style="fill:#ffffff;stroke:none;display:inline" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 30,67.00000004 170,0"
        id="C-left-1-93-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       zpos="-1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4124"
+       d="m 214.8125,24.96875 -69.28125,194 100.3125,43.84375 L 362.96875,89.5 c -10.1592146,13.3067736 -46.8891091,11.4702478 -85.53125,-4.90625 -39.906695,-16.91241435 -67.2261534,-43.1358151 -62.625,-59.625 z"
+       style="fill:#ffffff;stroke:none;display:inline" />
     <path
        sodipodi:nodetypes="cssc"
        inkscape:connector-curvature="0"
@@ -6326,7 +6329,6 @@
      inkscape:groupmode="layer"
      id="layer28"
      inkscape:label="LMNT-2400"
-     00UW00UW=""
      zpos="400"
      connect="00UW00UW"
      style="display:none"
@@ -6492,7 +6494,8 @@
      inkscape:label="LMNT-2600"
      connect="00SWUW00"
      zpos="600"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
        d="m 349.5,210 20.5,0 0,-20 -20.5,0 z"
