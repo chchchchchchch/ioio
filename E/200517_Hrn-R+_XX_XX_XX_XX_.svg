@@ -24,11 +24,11 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7766745589"
-     inkscape:cx="204.4194968"
+     inkscape:cx="38.97053426"
      inkscape:cy="289.9758971"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:current-layer="svg2902"
+     inkscape:current-layer="g4247"
      showguides="true"
      inkscape:guide-bbox="true" />
   <metadata
@@ -2382,7 +2382,7 @@
        d="m -34.560889,-56.3304724 c 62.1815499,35.9005346 106.47934977,-19.3149591 146.3555893,4.1719787 13.464264,7.9303949 18.3992491,25.7988614 10.2530491,39.9084938 -5.4586515,9.4546616 -12.9970783,11.3898309 -25.54656293,14.7524552 -18.9926395,5.0890624 -29.5011865,18.3581799 -29.5011865,39.4975448 l 0,327.9999999 M 333,370 l -2e-7,-300.9999998 c 0,-73.3739351 -46.6318488,-87.00729651 -156.7499997,-152.5477496 l -33.9105994,-20.1830128 c -40.3415339,-24.0105958 -15.2187398,-89.038231 -77.40028973,-124.9387656"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
     <path
-       style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
+       style="fill:#ffff00;stroke:#1a2a3a;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 64.93911087,-228.6695277 c 28.4584111,16.4304713 29.2546777,68.3294117 1.7785115,115.9195276 -27.47616647,47.5901164 -72.820100371,72.849999 -101.27851137,56.4195277 -28.4584113,-16.4304714 -29.25467816,-68.3294113 -1.7785117,-115.9195277 27.476166299,-47.5901161 72.8201004,-72.849999 101.27851157,-56.4195276 z"
        id="path4202"
        inkscape:connector-curvature="0"
@@ -2470,7 +2470,7 @@
        inkscape:connector-curvature="0"
        id="path4259"
        d="m 64.93911087,-228.6695277 c 28.4584111,16.4304713 29.2546777,68.3294117 1.7785115,115.9195276 -27.47616647,47.5901164 -72.820100371,72.849999 -101.27851137,56.4195277 -28.4584113,-16.4304714 -29.25467816,-68.3294113 -1.7785117,-115.9195277 27.476166299,-47.5901161 72.8201004,-72.849999 101.27851157,-56.4195276 z"
-       style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
+       style="fill:#ffff00;stroke:#1a2a3a;stroke-width:1px;stroke-linecap:butt;display:inline" />
     <path
        id="path4261"
        style="fill:#ffffff;stroke:none"
@@ -2884,7 +2884,7 @@
   </g>
   <g
      connect="0000UW00"
-     style="display:none"
+     style="display:inline"
      inkscape:groupmode="layer"
      id="g4874"
      inkscape:label="LMNT-0404"
@@ -5197,7 +5197,7 @@
   <g
      zpos="1400"
      connect="000000UW"
-     style="display:inline"
+     style="display:none"
      inkscape:label="LMNT-1404"
      id="layer16"
      inkscape:groupmode="layer"
