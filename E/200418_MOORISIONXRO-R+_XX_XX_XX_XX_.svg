@@ -40,7 +40,7 @@
      inkscape:cx="102.7753396"
      inkscape:cy="296.5007759"
      inkscape:document-units="px"
-     inkscape:current-layer="g4579"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -2139,7 +2139,8 @@
      id="layer8"
      inkscape:label="IO-3010"
      style="display:none"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     connect="00IISW00">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
        d="M 190,286.78125 190,370 l 20,0 0,-11 c 0,-24.5883348 -8.2135987,-48.7808842 -19.96875,-72.21875 l -0.03125,0 z"
@@ -2164,7 +2165,8 @@
      inkscape:groupmode="layer"
      style="display:none"
      zpos="800"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     connect="00IISW00">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
        d="m 190,241.75 0,128.25 20,0 0,-41 c 0,-30.3203743 -7.8825349,-59.4462939 -20,-87.25 z"
@@ -2196,7 +2198,8 @@
      id="g4579"
      inkscape:label="IO-3030"
      zpos="600"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     connect="00IISW00">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
        d="M 190,267.3125 190,370 l 20,0 0,-51 c 0,-19.6271214 -7.6800529,-36.6028753 -19.96875,-51.6875 l -0.03125,0 z"
