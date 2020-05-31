@@ -43,6 +43,7 @@
  SEMI-CONTINUOUS   #ff00ff #1a2a3a
  NON-CONTINUOUS    #0000ff #00ff00 #ffff00
  NO-TRACE          #ff0000
+ OVERDRAW          #44aa00 #aa4400
  TINY
  SMALL
  LARGE
@@ -60,7 +61,7 @@
  -> http://creativecommons.org/licenses/by-sa/4.0/
 
  -------------------------------------------------------------------
- EXCEPT: lib/* *.sh
+ EXCEPT: *.sh
  -------------------------------------------------------------------
  COPYRIGHT (C) 2020 Christoph Haag
  -------------------------------------------------------------------
