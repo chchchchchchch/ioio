@@ -67,11 +67,11 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.6899824138"
-     inkscape:cx="227.2213197"
+     inkscape:cx="40.98468898"
      inkscape:cy="347.4051028"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:current-layer="g8569"
+     inkscape:current-layer="layer17"
      showguides="true"
      inkscape:guide-bbox="true" />
   <g
@@ -4287,7 +4287,7 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="PONY-111"
-     style="display:none"
+     style="display:inline"
      zpos="1500"
      connect="00IIII00"
      sodipodi:insensitive="true">
@@ -4311,7 +4311,6 @@
        style="fill:#ffffff;stroke:none;display:inline"
        zpos="-1" />
     <path
-       zpos="-1"
        style="fill:#ffffff;stroke:none;display:inline"
        d="M 222.8049759,130.2250156 C 133.1985937,54.21540213 41.2944729,14.71893153 -28.82073379,101.2174125 l -62.66487579,77.3072892 c -58.82559262,72.5709108 -1.49717982,153.9242026 72.64652842,100.1242731 l 16.385534165,-11.889621 C 35.7047582,239.0710419 57.9616972,244.0528841 103.8788172,258.3370274 z"
        id="path5078"
@@ -4382,7 +4381,7 @@
      id="layer18"
      inkscape:label="PONY-120"
      connect="II00UW00"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="csscc"
