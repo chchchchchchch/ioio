@@ -24,7 +24,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.79821379"
-     inkscape:cx="159.38857"
+     inkscape:cx="-1.595870021"
      inkscape:cy="98.189978"
      inkscape:document-units="px"
      inkscape:current-layer="g4144"
@@ -606,14 +606,15 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="O-001"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
        d="M 72,360.5 C 72,227.3562 67,125.11636 67,41.5 l 0,-11 266,0 0,11 c 0,86.65414 -5,180.88167 -5,319 z"
        style="fill:#ffffff;stroke:none;display:inline"
-       id="path3946-1" />
+       id="path3946-1"
+       zpos="-1" />
     <path
        id="C-top-4-2-6"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
@@ -625,13 +626,15 @@
      style="display:inline"
      inkscape:label="O-002"
      id="g4144"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        d="m 333,369.5 -266,0 0,-339 266,0 z"
        style="fill:#ffffff;stroke:none;display:inline"
-       id="path4205" />
+       id="path4205"
+       zpos="-1" />
     <path
        id="C-bottom-4-2"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
@@ -644,7 +647,7 @@
      id="layer3"
      inkscape:label="U-001"
      sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline">
     <path
        sodipodi:nodetypes="cccsssccccssscc"
        inkscape:connector-curvature="0"
@@ -662,7 +665,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="U-002"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="cccsssssssssssccccsssssssssssscc"
