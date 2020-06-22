@@ -66,12 +66,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.935237657"
-     inkscape:cx="72.64907224"
-     inkscape:cy="337.0102442"
+     inkscape:zoom="0.7071067844"
+     inkscape:cx="169.3663898"
+     inkscape:cy="308.5915664"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:current-layer="layer11"
+     inkscape:current-layer="layer26"
      showguides="true"
      inkscape:guide-bbox="true" />
   <g
@@ -3736,7 +3736,7 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="PONY-071"
-     style="display:inline"
+     style="display:none"
      connect="IIII0000"
      sodipodi:insensitive="true">
     <path
@@ -4302,13 +4302,15 @@
        inkscape:connector-curvature="0"
        id="path5076"
        d="M 30.52194,74.86619613 20.2181218,20.49210933 C 13.8551772,-13.08566709 33.2903653,-23.6595781 50.1320587,9.75706677 l 24.9698458,49.54421442 z"
-       style="fill:#ffffff;stroke:none" />
+       style="fill:#ffffff;stroke:none"
+       zpos="-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px"
        d="M 30.52194,74.86619613 20.2181218,20.49210933 C 13.8551772,-13.08566709 33.2903653,-23.6595781 50.1320587,9.75706677 l 24.9698458,49.54421442"
        id="path4887-7"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cssc" />
+       sodipodi:nodetypes="cssc"
+       zpos="-1" />
     <path
        sodipodi:nodetypes="csssssscc"
        inkscape:connector-curvature="0"
@@ -5335,7 +5337,8 @@
      id="layer26"
      inkscape:label="PONY-150"
      connect="0000SWUW"
-     style="display:none"
+     style="display:inline"
+     zpos="500"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="csscc"
@@ -5374,10 +5377,17 @@
        d="M 208.316633,69.12403074 278.85139,46.8298062"
        style="fill:none;stroke:#ff00ff;stroke-width:1px;display:inline" />
     <path
+       style="fill:#ffffff;stroke:none"
+       d="m 275.6157562,259.6715272 c 40.2137234,9.8834786 80.8462274,6.3983264 85.3047119,-49.0940061 l 20.2330649,4.666263 C 399.6154643,171.8253166 390.4542357,114.3892895 338.5244668,100.25 L 216.40625,67.00000004 c -6.8120047,-1.85475323 -9.0835296,-5.52133254 -8.5290254,-12.77601668 l 3.3985788,-44.46425611 c 2.1589045,-28.24535948 -20.2644927,-29.56140986 -25.75,-0.0625 L 178.03125,50.00000004 c -1.9688527,10.58771875 -3.6984606,17 -19.03125,17 l -129,0 L 30,333 l 132,0 c 20.6036222,0 28,13.3357168 28,26 l 0,11 20,0 0,-45.5 c 0,-30.8606879 8.3482702,-52.1720534 29.8058303,-73.6296135 z"
+       id="path4112"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsssssssccssccscs"
+       zpos="-10" />
+    <path
        sodipodi:nodetypes="sccsssssssccssccscs"
        inkscape:connector-curvature="0"
        id="path6928"
-       d="m 275.6157562,259.6715272 c 40.2137234,9.8834786 80.8462274,6.3983264 85.3047119,-49.0940061 l 20.2330649,4.666263 C 399.6154643,171.8253166 390.4542357,114.3892895 338.5244668,100.25 L 216.40625,67.00000004 c -6.8120047,-1.85475323 -9.0835296,-5.52133254 -8.5290254,-12.77601668 l 3.3985788,-44.46425611 c 2.1589045,-28.24535948 -20.2644927,-29.56140986 -25.75,-0.0625 L 178.03125,50.00000004 c -1.9688527,10.58771875 -3.6984606,17 -19.03125,17 l -129,0 L 30,333 l 132,0 c 20.6036222,0 28,13.3357168 28,26 l 0,11 20,0 0,-45.5 c 0,-30.8606879 8.3482702,-52.1720534 29.8058303,-73.6296135 z"
+       d="m 275.6157562,259.6715272 c 40.2137234,9.8834786 80.8462274,6.3983264 85.3047119,-49.0940061 l 20.2330649,4.666263 C 399.6154643,171.8253166 390.4542357,114.3892895 338.5244668,100.25 L 216.40625,67.00000004 c -6.8120047,-1.85475323 -9.0835296,-5.52133254 -8.5290254,-12.77601668 l 3.3985788,-44.46425611 c 2.1589045,-28.24535948 -20.2644927,-29.56140986 -25.75,-0.0625 L 178.03125,50.00000004 c -1.9688527,10.58771875 -3.6984606,17 -19.03125,17 l -49,0 L 110,333 l 52,0 c 20.6036222,0 28,13.3357168 28,26 l 0,11 20,0 0,-45.5 c 0,-30.8606879 8.3482702,-52.1720534 29.8058303,-73.6296135 z"
        style="fill:#ffffff;stroke:none" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
