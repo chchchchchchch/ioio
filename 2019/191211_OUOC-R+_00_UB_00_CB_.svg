@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.393449041"
-     inkscape:cx="180.8110144"
-     inkscape:cy="193.792318"
+     inkscape:zoom="1.361444028"
+     inkscape:cx="204.5284696"
+     inkscape:cy="197.3520321"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3149"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -592,7 +592,9 @@
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="UNDER-01">
+     inkscape:label="UNDER-01"
+     sodipodi:insensitive="true"
+     style="display:inline">
     <path
        style="fill:#000000;stroke:none"
        d="m 182,67 -152,0 0,26 152,0 z"
@@ -654,8 +656,7 @@
        inkscape:connector-curvature="0"
        id="path3125"
        d="M 269,353 269,30 71,30 71,353 z"
-       style="fill:#ffffff;stroke:none;display:inline"
-       zpos="-140" />
+       style="fill:#ffffff;stroke:none;display:inline" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 370,333 -101,0 0,-303 -198,0 0,303 -41,0"
@@ -664,13 +665,12 @@
        sodipodi:nodetypes="cccccc" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="OVER-02"
      id="g3143"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true">
     <path
-       zpos="-140"
        style="fill:#ffffff;stroke:none;display:inline"
        d="M 333,353 333,41 93,41 93,353 z"
        id="path3145"
@@ -687,15 +687,14 @@
      inkscape:groupmode="layer"
      id="g3149"
      inkscape:label="OVER-03"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path3151"
        d="M 200,353 200,30 67,30 67,353 z"
-       style="fill:#ffffff;stroke:none;display:inline"
-       zpos="-140" />
+       style="fill:#ffffff;stroke:none;display:inline" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 370,333 -170,0 0,-303 -133,0 0,303 -37,0"
