@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0018165"
-     inkscape:cx="153.73466"
-     inkscape:cy="94.200157"
+     inkscape:zoom="1.084169538"
+     inkscape:cx="168.1387018"
+     inkscape:cy="219.7106566"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -567,7 +567,8 @@
      id="layer2"
      inkscape:label="COLOR-001"
      style="display:inline"
-     zpos="-600">
+     zpos="-600"
+     sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
        d="m 210,369.5 -120,0 0,-299 120,0 z"
@@ -585,8 +586,9 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="VL-001"
-     sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:inline"
+     zpos="-600"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 210,369.5 0,-10 0,-319 0,-10"
@@ -598,7 +600,8 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="XX_DRAFT"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 190,30.5 0,10"
@@ -620,14 +623,14 @@
        id="C-right-4-2"
        inkscape:connector-curvature="0" />
     <rect
-       style="color:#000000;fill:none;stroke:#ff0000;stroke-width:0.99999988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:none;stroke:#ff0000;stroke-width:0.9999998808;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3577"
        width="49"
        height="49"
        x="190"
        y="333"
-       rx="17.718397"
-       ry="17.718397" />
+       rx="17.71839714"
+       ry="17.71839714" />
   </g>
   <g
      inkscape:groupmode="layer"
