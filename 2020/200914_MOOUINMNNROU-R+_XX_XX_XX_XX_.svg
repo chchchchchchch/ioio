@@ -37,7 +37,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.116921247"
-     inkscape:cx="145.5875607"
+     inkscape:cx="30.53916284"
      inkscape:cy="215.8321425"
      inkscape:document-units="px"
      inkscape:current-layer="svg2902"
@@ -2372,7 +2372,8 @@
      inkscape:groupmode="layer"
      id="XX_R10C07"
      style="display:none"
-     inkscape:label="XX_R10C07"
+     inkscape:label="LMNT-0075"
+     connect="UW0000UW"
      sodipodi:insensitive="true">
     <path
        id="8B901160A"
@@ -2629,6 +2630,7 @@
      id="g9550"
      inkscape:groupmode="layer"
      zpos="500"
+     connect="UW000000"
      sodipodi:insensitive="true">
     <path
        id="path9552"
@@ -4463,10 +4465,11 @@
   </g>
   <g
      inkscape:label="LMNT-0130"
-     style="display:none"
+     style="display:inline"
      id="g14011"
      inkscape:groupmode="layer"
      zpos="750"
+     connect="0000UW00"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="cccccsscccssc"
@@ -5395,7 +5398,7 @@
   </g>
   <g
      inkscape:label="LMNT-0160"
-     style="display:inline"
+     style="display:none"
      id="g17051"
      inkscape:groupmode="layer"
      connect="UW00CW00"
