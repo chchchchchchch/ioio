@@ -24,11 +24,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.6870596683"
-     inkscape:cx="-55.39331873"
-     inkscape:cy="151.7901474"
+     inkscape:zoom="0.8725458075"
+     inkscape:cx="186.378605"
+     inkscape:cy="276.8686247"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -2085,7 +2085,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="UNDRAFT-01"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        style="color:#000000;fill:#ffffff;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -2222,23 +2222,21 @@
      inkscape:label="UNDRAFT-03"
      id="g4412"
      inkscape:groupmode="layer"
+     zpos="10"
      sodipodi:insensitive="true">
     <path
-       zpos="-50"
        sodipodi:nodetypes="cccszscccc"
        inkscape:connector-curvature="0"
        id="path4414"
        d="m 240.53131,67.11765 0,265.58486 -30.62593,0 0,-143.3039 c 0,-20.28612 -12.38917,-76.07486 -72.88973,-76.07486 -60.500546,0 -72.889716,55.78874 -72.889716,76.07486 l 0,143.3039 -30.625933,0 0,-265.58486 z"
        style="fill:#ffffff;stroke:none" />
     <path
-       zpos="-50"
        style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 240.53131,67.11765 0,265.58486 m -207.031309,0 0,-265.58486"
        id="path4416"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
-       zpos="-50"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round"
        d="m 64.125934,332.70251 0,-143.3039 c 0,-20.28612 12.38917,-76.07486 72.889716,-76.07486 60.50056,0 72.88973,55.78874 72.88973,76.07486 l 0,143.3039"
        id="path4418"
@@ -2258,13 +2256,13 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="UNDRAFT-04"
      id="g4424"
      inkscape:groupmode="layer"
+     zpos="60"
      sodipodi:insensitive="true">
     <path
-       zpos="-50"
        style="fill:#ffffff;stroke:none"
        d="m 363.02438,67.11765 0,265.58486 -149.52438,0 0,-265.58486 z"
        id="path4438"
@@ -2275,31 +2273,26 @@
        inkscape:connector-curvature="0"
        id="path4436"
        d="m 363.02438,67.11765 0,265.58486 m -149.52438,0 0,-265.58486"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round"
-       zpos="-50" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round" />
     <path
-       zpos="-50"
        sodipodi:nodetypes="cccszscccc"
        inkscape:connector-curvature="0"
        id="path4426"
        d="m 186.81646,67.11765 0,265.58486 -22.67994,0 0,-165.3039 c 0,-20.28612 -9.17477,-54.07486 -53.97829,-54.07486 -44.803514,0 -53.978279,33.78874 -53.978279,54.07486 l 0,165.3039 -22.67995,0 0,-265.58486 z"
        style="fill:#ffffff;stroke:none" />
     <path
-       zpos="-50"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round"
        d="m 186.81646,67.11765 0,265.58486 m -153.316459,0 0,-265.58486"
        id="path4428"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
-       zpos="-50"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round"
        d="m 56.179951,332.70251 0,-165.3039 c 0,-20.28612 9.174765,-54.07486 53.978279,-54.07486 44.80352,0 53.97829,33.78874 53.97829,54.07486 l 0,165.3039"
        id="path4430"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cszsc" />
     <path
-       zpos="-50"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round"
        d="m 263.5,332.70251 0,-175.58486"
        id="path4440"
