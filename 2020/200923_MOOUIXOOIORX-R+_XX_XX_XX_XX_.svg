@@ -40,7 +40,7 @@
      inkscape:cx="162.7270676"
      inkscape:cy="175.5258257"
      inkscape:document-units="px"
-     inkscape:current-layer="g11560"
+     inkscape:current-layer="g5550"
      showgrid="false"
      inkscape:showpageshadow="true"
      borderlayer="false"
@@ -4013,7 +4013,7 @@
   </g>
   <g
      inkscape:label="LMNT-0110"
-     style="display:inline"
+     style="display:none"
      id="g11560"
      inkscape:groupmode="layer"
      connect="00UW0000"
@@ -7056,7 +7056,7 @@
   </g>
   <g
      inkscape:label="LMNT-0230"
-     style="display:none"
+     style="display:inline"
      id="g5550"
      inkscape:groupmode="layer"
      connect="UWUB0000"
@@ -7079,7 +7079,8 @@
        id="path5552"
        d="m 364,67 c 0,0 -4,0 -4,0 -14.9116883,0 -27,-12.0883118 -27,-27 0,0 0,-10 0,-10 0,0 -266,0 -266,0 0,0 0,14.46875 0,14.46875 C 67,202.2446624 197.7553377,333 355.53125,333 c 0,0 8.46875,0 8.46875,0 0,0 0,-266 0,-266"
        style="fill:#ffffff;stroke:none"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       zpos="-1" />
     <path
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
