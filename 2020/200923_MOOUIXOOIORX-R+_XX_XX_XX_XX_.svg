@@ -36,11 +36,11 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.2692627001"
-     inkscape:cx="434.6272087"
-     inkscape:cy="328.0250015"
+     inkscape:zoom="1.395474343"
+     inkscape:cx="90.66026299"
+     inkscape:cy="349.6924202"
      inkscape:document-units="px"
-     inkscape:current-layer="svg2902"
+     inkscape:current-layer="g23887"
      showgrid="false"
      inkscape:showpageshadow="true"
      borderlayer="false"
@@ -6830,7 +6830,8 @@
      style="display:inline"
      id="g23887"
      inkscape:groupmode="layer"
-     connect="II00UW00">
+     connect="II00UW00"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
        d="m 201.3546383,-18.9267605 -21.6290976,3.52338805 c -13.6731417,2.22735988 -12.291242,14.6671391569 1.02931,14.156768315"
@@ -6846,7 +6847,7 @@
     <path
        zpos="-250"
        id="path23891"
-       d="m 67,359.5 0,-147"
+       d="m 67,369.5 0,-157"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -6856,11 +6857,6 @@
        id="path23903"
        d="m 200,87.67274 c 0,53.2924215 -25.8594282,74.2452777 -61.7020476,69.9745467 C 87.32989732,151.574325 58.14118501,101.947345 39.93506073,65.71691736 L -39.01973003,116.2271854 5.538896448,126.06128 c 0,0 57.740363952,132.7451441 170.124025652,133.2806998 l 44.8096023,0.2135367 z"
        style="fill:#ffffff;stroke:none" />
-    <path
-       id="path23889"
-       d="m 67,369.5 c 0,0 0,-10 0,-10"
-       style="fill:none;stroke:#b3b3b3;stroke-width:1px;stroke-linecap:square"
-       inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square"
        d="m 200,30.5 0,10 0,47.17274 c 0,53.2924215 -25.8594282,74.2452777 -61.7020476,69.9745467 C 87.32989732,151.574325 58.14118501,101.947345 39.93506073,65.71691736 L -39.01973003,116.2271854 5.538896448,126.06128 c 0,0 57.740363952,132.7451441 170.124025652,133.2806998 l 44.8096023,0.2135367 C 303.8377696,259.9527871 333,316.651796 333,354.7885173 L 333,369.5"
