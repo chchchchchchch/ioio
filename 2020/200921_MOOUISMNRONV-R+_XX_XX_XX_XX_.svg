@@ -36,11 +36,11 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.798739655"
-     inkscape:cx="184.2828795"
-     inkscape:cy="144.5847536"
+     inkscape:zoom="1.058194713"
+     inkscape:cx="167.8953365"
+     inkscape:cy="214.5947016"
      inkscape:document-units="px"
-     inkscape:current-layer="g4969"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:showpageshadow="true"
      borderlayer="false"
@@ -1241,7 +1241,7 @@
   </g>
   <g
      inkscape:label="LMNT-0030"
-     style="display:inline"
+     style="display:none"
      id="g4969"
      inkscape:groupmode="layer"
      connect="000000II"
@@ -6337,10 +6337,11 @@
   </g>
   <g
      inkscape:label="LMNT-0190"
-     style="display:none"
+     style="display:inline"
      id="g20202"
      inkscape:groupmode="layer"
      connect="UWSWUBSW"
+     zpos="1200"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none"
@@ -6352,8 +6353,7 @@
        inkscape:connector-curvature="0"
        style="fill:#000000;stroke:none"
        d="M 313.3963943,147.9016108 C 314.8207701,223.2695126 333,263.9649311 333,359 l 0,11 -266,0 0,-15.5 C 67,297.6686158 105,210 105,210 c 4.8931819,-12.5824679 14.0256804,-31.3125462 14.0256804,-31.3125462 z"
-       id="path21568"
-       zpos="1200" />
+       id="path21568" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt"
        d="M 200,210 30,210"
@@ -6376,7 +6376,6 @@
        d="M 119.2138778,178.2498202 C 179.6773817,52.69844084 288.2663986,-65.87946192 380.817832,21.66049728 l 56.0825536,53.04579598 c 54.0729033,51.14496424 13.9760318,121.83538114 -49.2497474,85.36924974 l -13.972705,-8.0589042 C 348.413568,137.4451511 328.2555364,134.6710905 311.5068949,139.1602944 l 1.8894994,8.7413164 c 0.3558096,18.8269297 1.7571258,35.4902886 3.6594103,51.3775624 z"
        style="fill:#000000;stroke:none;display:inline" />
     <path
-       zpos="1200"
        id="path20220"
        d="m 333,370 0,-11 c 0,-95.0350689 -18.1792299,-135.7304874 -19.6036057,-211.0983892"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt"
