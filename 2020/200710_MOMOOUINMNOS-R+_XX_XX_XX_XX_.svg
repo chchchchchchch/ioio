@@ -36,11 +36,11 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.4071418922"
-     inkscape:cx="277.0688828"
-     inkscape:cy="406.706617"
+     inkscape:zoom="0.4202236058"
+     inkscape:cx="604.6299127"
+     inkscape:cy="373.6334723"
      inkscape:document-units="px"
-     inkscape:current-layer="svg2902"
+     inkscape:current-layer="g13099"
      showgrid="false"
      inkscape:showpageshadow="true"
      borderlayer="false" />
@@ -5659,7 +5659,7 @@
   </g>
   <g
      inkscape:label="LMNT-1400"
-     style="display:none"
+     style="display:inline"
      id="g13099"
      inkscape:groupmode="layer"
      connect="UWUB00II"
@@ -5672,7 +5672,7 @@
     <path
        id="path13103"
        d="m 369.5,67 c 0,0 -320,0 -320,0 0,0 0,266 0,266 0,0 320,0 320,0"
-       style="fill:none;stroke:#b3b3b3;stroke-width:1px;stroke-linecap:square"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#ffffff;stroke:none"
@@ -8177,7 +8177,7 @@
      id="XX_R09C02-AROUND"
      inkscape:label="XX_R09C02-AROUND"
      sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:none">
     <path
        id="path28485"
        style="fill:#cccccc;stroke:none"
@@ -8357,7 +8357,7 @@
   <g
      inkscape:groupmode="layer"
      id="XX_R09C02"
-     style="display:inline"
+     style="display:none"
      inkscape:label="LMNT-2400"
      connect="UWUWUWUW"
      sodipodi:insensitive="true">
