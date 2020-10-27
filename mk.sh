@@ -210,7 +210,8 @@
       for OLDID in `sed 's/id="/\n&/g' $SVGOUT | #
                     grep "^id=" | cut -d "\"" -f 2`
        do
-          NEWID=`echo $SVGOUT$OLDID | md5sum | #
+          SVGNAME=`basename $SVGOUT`
+          NEWID=`echo $SVGNAME$OLDID | md5sum | #
                  cut -c 1-9 | tr [:lower:] [:upper:]`
           sed -i "s,id=\"$OLDID\",id=\"$NEWID\",g" $SVGOUT
           sed -i "s,url(#$OLDID),url(#$NEWID),g"   $SVGOUT
