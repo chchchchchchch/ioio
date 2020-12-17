@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.043918603"
-     inkscape:cx="331.8127187"
-     inkscape:cy="263.3801042"
+     inkscape:zoom="1.130849451"
+     inkscape:cx="98.91714481"
+     inkscape:cy="213.8560807"
      inkscape:document-units="px"
      inkscape:current-layer="svg2902"
      showgrid="false"
@@ -950,12 +950,6 @@
      style="display:none"
      connect="UW00IIUW"
      sodipodi:insensitive="true">
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path3547"
-       d="m 67,333 0,37"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -2416,16 +2410,10 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csscc" />
     <path
-       sodipodi:nodetypes="cc"
+       sodipodi:nodetypes="cssc"
        inkscape:connector-curvature="0"
        id="path4641"
-       d="m 370,333 -37,0"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path4643"
-       d="m 333,370 0,-270"
+       d="m 370,333 -17,0 c -14.2332295,0 -20,-8.5776275 -20,-23 l 0,-210"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
     <path
        sodipodi:nodetypes="cssc"
@@ -2715,7 +2703,7 @@
      id="g4746"
      inkscape:label="FNGRS-0160"
      style="display:none"
-     connect="0000UW00"
+     connect="00UWUWSW"
      sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
@@ -3002,8 +2990,8 @@
      inkscape:groupmode="layer"
      id="g4914"
      inkscape:label="FNGRS-0190"
-     style="display:none"
-     connect="0000UWUW"
+     style="display:inline"
+     connect="00UWUW00"
      sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
@@ -3092,7 +3080,7 @@
   </g>
   <g
      connect="UWII0000"
-     style="display:inline"
+     style="display:none"
      inkscape:label="FNGRS-0200"
      id="g4961"
      inkscape:groupmode="layer"
