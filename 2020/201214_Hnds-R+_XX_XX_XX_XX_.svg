@@ -1157,9 +1157,9 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="HND-0060"
-     connect="00UWUWUW"
-     sodipodi:insensitive="true"
-     style="display:none">
+     connect="00UW00UW"
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 30,67 157,0"
@@ -1346,7 +1346,7 @@
        sodipodi:nodetypes="cssssc" />
   </g>
   <g
-     connect="00UWII00"
+     connect="0000IIII"
      style="display:none"
      inkscape:groupmode="layer"
      id="g3182"
@@ -1571,8 +1571,8 @@
        sodipodi:nodetypes="cc" />
   </g>
   <g
-     style="display:none"
-     connect="0000UWUW"
+     style="display:inline"
+     connect="00UWUW00"
      inkscape:label="HND-0110"
      id="g4142"
      inkscape:groupmode="layer"
@@ -1628,7 +1628,7 @@
      inkscape:label="HND-0120"
      id="g4273"
      inkscape:groupmode="layer"
-     style="display:inline"
+     style="display:none"
      connect="0000UWII"
      sodipodi:insensitive="true">
     <path
