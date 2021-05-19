@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.333338159"
-     inkscape:cx="106.2401893"
-     inkscape:cy="241.3700281"
+     inkscape:zoom="1.351004847"
+     inkscape:cx="229.7279962"
+     inkscape:cy="196.2175855"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -594,7 +594,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="U-0020"
-     zpos="-40"
+     zpos="-50"
      style="display:none"
      sodipodi:insensitive="true">
     <path
@@ -624,7 +624,7 @@
      style="display:inline"
      connect="UW......"
      sodipodi:insensitive="true"
-     zpos="-40">
+     zpos="-50">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
@@ -645,7 +645,7 @@
      id="g3151"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true"
-     zpos="-40">
+     zpos="-50">
     <path
        style="fill:#000000;stroke:none"
        d="m 333,30 0,231 -266,0 0,-231 z"
@@ -666,7 +666,7 @@
      style="display:none"
      connect="CW......"
      sodipodi:insensitive="true"
-     zpos="-40">
+     zpos="-50">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
@@ -697,7 +697,7 @@
      id="g3170"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true"
-     zpos="-40">
+     zpos="-50">
     <path
        style="fill:#000000;stroke:none"
        d="m 67,30 0,231 26,0 0,-231 -26,0 z m 240,0 0,231 26,0 0,-231 -26,0 z"
@@ -727,7 +727,7 @@
      style="display:none"
      connect="SW......"
      sodipodi:insensitive="true"
-     zpos="-40">
+     zpos="-50">
     <path
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
@@ -748,7 +748,7 @@
      id="g3218"
      inkscape:groupmode="layer"
      sodipodi:insensitive="true"
-     zpos="-40">
+     zpos="-50">
     <path
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
@@ -769,7 +769,7 @@
      style="display:none"
      connect="II......"
      sodipodi:insensitive="true"
-     zpos="-40">
+     zpos="-50">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
@@ -788,7 +788,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="R-0010"
-     style="display:inline"
+     style="display:none"
      connect="..II...."
      sodipodi:insensitive="true">
     <path
@@ -937,7 +937,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#ffffff;stroke:none;display:inline"
-       d="m 180,299 153,0 0,-232 -153,0 z"
+       d="m 180,299 173,0 0,-232 -173,0 z"
        id="path3143"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -973,7 +973,7 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path3167"
-       d="m 180,299 153,0 0,-232 -153,0 z"
+       d="m 180,299 173,0 0,-232 -173,0 z"
        style="fill:#000000;stroke:none;display:inline" />
     <path
        sodipodi:nodetypes="cccc"
@@ -1012,7 +1012,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#ffffff;stroke:none;display:inline"
-       d="m 180,299 153,0 0,-232 -153,0 z"
+       d="m 180,299 173,0 0,-232 -173,0 z"
        id="path3177"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -1031,7 +1031,7 @@
   </g>
   <g
      connect="..CB...."
-     style="display:none"
+     style="display:inline"
      inkscape:label="R-0070"
      id="g3217"
      inkscape:groupmode="layer"
@@ -1045,7 +1045,7 @@
        zpos="-40" />
     <path
        style="fill:#ffffff;stroke:none;display:inline"
-       d="m 180,299 153,0 0,-232 -153,0 z"
+       d="m 180,299 173,0 0,-232 -173,0 z"
        id="path3177-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -1249,7 +1249,7 @@
   </g>
   <g
      connect="......CW"
-     style="display:none"
+     style="display:inline"
      inkscape:label="L-0060"
      id="g3338"
      inkscape:groupmode="layer"
@@ -1298,7 +1298,7 @@
      inkscape:groupmode="layer"
      id="g3352"
      inkscape:label="L-0070"
-     style="display:inline"
+     style="display:none"
      connect="......CB"
      sodipodi:insensitive="true">
     <path
