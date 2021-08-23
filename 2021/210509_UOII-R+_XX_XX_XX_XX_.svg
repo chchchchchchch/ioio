@@ -24,10 +24,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.9279903973"
-     inkscape:cx="94.9690841"
+     inkscape:cx="-43.50217635"
      inkscape:cy="179.733679"
      inkscape:document-units="px"
-     inkscape:current-layer="svg2902"
+     inkscape:current-layer="g3161"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -770,7 +770,7 @@
      id="layer2"
      inkscape:label="O-0010"
      connect="UW......"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccccc"
@@ -857,14 +857,15 @@
      inkscape:label="O-0041"
      id="g3161"
      inkscape:groupmode="layer"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="fill:#000000;stroke:none;display:inline"
        d="m 67,30 0,321 266,0 0,-321 -26,0 0,291 -214,0 0,-291 z"
        id="path3163"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc" />
+       sodipodi:nodetypes="ccccccccc"
+       zpos="-10" />
     <path
        zpos="-10"
        sodipodi:nodetypes="cccc"
@@ -882,7 +883,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="C-0010"
-     style="display:inline"
+     style="display:none"
      connect="....IIII"
      sodipodi:insensitive="true">
     <path
@@ -913,7 +914,7 @@
   </g>
   <g
      connect="....SWSW"
-     style="display:none"
+     style="display:inline"
      inkscape:label="C-0020"
      id="g3171"
      inkscape:groupmode="layer"
