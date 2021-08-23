@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.545238254"
-     inkscape:cx="106.1489536"
-     inkscape:cy="169.2317603"
+     inkscape:zoom="1.467976342"
+     inkscape:cx="172.1417388"
+     inkscape:cy="234.91523"
      inkscape:document-units="px"
-     inkscape:current-layer="g6149"
+     inkscape:current-layer="g5936"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -105,7 +105,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3937,7 +3937,7 @@
      inkscape:groupmode="layer"
      id="g5936"
      inkscape:label="LMNT-1101"
-     style="display:none"
+     style="display:inline"
      connect="UWUWUWUW"
      sodipodi:insensitive="true">
     <path
@@ -3982,7 +3982,8 @@
        inkscape:connector-curvature="0"
        id="path5946"
        d="m 30,67 21,0 c 167.1772852,0 282,86.4579478 282,282 l 0,21"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
+       zpos="200" />
   </g>
   <g
      connect="UWUW00UW"
@@ -4107,7 +4108,7 @@
   </g>
   <g
      connect="UWUW00UW"
-     style="display:inline"
+     style="display:none"
      inkscape:label="LMNT-1211"
      id="g6031"
      inkscape:groupmode="layer"
