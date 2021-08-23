@@ -23,12 +23,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.348819283"
-     inkscape:cx="174.3012236"
-     inkscape:cy="138.9312366"
+     inkscape:zoom="1.517421693"
+     inkscape:cx="258.0034289"
+     inkscape:cy="156.8038081"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:current-layer="g4344" />
+     inkscape:current-layer="g5896" />
   <metadata
      id="metadata95">
     <rdf:RDF>
@@ -1469,7 +1469,7 @@
   </g>
   <g
      connect="00UB0000"
-     style="display:none"
+     style="display:inline"
      inkscape:label="LMNT-043"
      id="g5896"
      inkscape:groupmode="layer"
@@ -1486,16 +1486,16 @@
        d="m 370,67 -11,0 -280,133 280,133 11,0 z"
        style="fill:#ffffff;stroke:none;display:inline" />
     <path
+       style="fill:#000000;stroke:none;display:inline"
+       d="M 359,67 200.09375,142.46875 C 197.6083728,158.7152799 196.125,178.5554074 196.125,200 c 0,21.4445927 1.4833728,41.2847201 3.96875,57.53125 L 359,333 l 11,0 0,-266 -11,0 z"
+       id="path5906"
+       inkscape:connector-curvature="0" />
+    <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 370,67 -11,0 -280,133 280,133 11,0"
        id="path5902"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
-    <path
-       style="fill:#000000;stroke:none;display:inline"
-       d="M 359,67 200.09375,142.46875 C 197.6083728,158.7152799 196.125,178.5554074 196.125,200 c 0,21.4445927 1.4833728,41.2847201 3.96875,57.53125 L 359,333 l 11,0 0,-266 -11,0 z"
-       id="path5906"
-       inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#1a2a3a;stroke-width:1px;stroke-linecap:round;display:inline"
        d="m 77.5687802,100.5 c -11.8361358,0 -21.4312197,44.5476674 -21.4312197,99.5 0,54.9523327 9.5950839,99.5 21.4312197,99.5 l 140,0 c -11.8361358,0 -21.4312197,-44.5476673 -21.4312197,-99.5 0,-54.9523326 9.5950839,-99.5 21.4312197,-99.5 z"
@@ -2126,7 +2126,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;display:inline" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      connect="00UW00II"
      inkscape:label="LMNT-104"
      id="g4175"
