@@ -36,11 +36,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7245744791"
-     inkscape:cx="102.7753396"
-     inkscape:cy="296.5007759"
+     inkscape:zoom="0.5142703154"
+     inkscape:cx="213.6117303"
+     inkscape:cy="122.6037919"
      inkscape:document-units="px"
-     inkscape:current-layer="svg2902"
+     inkscape:current-layer="layer3"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -586,7 +586,7 @@
      id="layer1"
      inkscape:label="XX_R09C02-AROUND"
      sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
        d="m 210.0000052,34.50001989 0,-206.00017559 -20.0000114,0 0,206.00017559 z"
@@ -771,15 +771,20 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="IO-1010"
-     style="display:none"
+     style="display:inline"
      connect="SWII00II"
      sodipodi:insensitive="true">
     <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round"
+       d="m 380,240 -15.5,-2e-7 c -43.8058907,-6e-7 -82.4308907,-18.678088 -110.104418,-50.4546316"
+       id="path3345"
+       zpos="-300"
+       inkscape:connector-curvature="0" />
+    <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt"
-       d="m 380,240 -15.5,-2e-7 C 276.8882187,239.9999987 210,165.2876499 210,60.50000009 L 210,30"
+       d="M 254.395582,189.5453682 C 226.7220547,157.7688246 210,112.893825 210,60.50000009 L 210,30"
        id="path4552"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cssc" />
+       inkscape:connector-curvature="0" />
     <path
        sodipodi:nodetypes="zzzscz"
        inkscape:connector-curvature="0"
@@ -1861,7 +1866,8 @@
      inkscape:groupmode="layer"
      id="XX_R06C04-AROUND"
      inkscape:label="XX_R06C04-AROUND"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:none">
     <path
        id="DE1BAE080"
        style="fill:#ffffff;stroke:none"
@@ -2193,7 +2199,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:groupmode="layer"
      id="g4579"
      inkscape:label="IO-3030"
