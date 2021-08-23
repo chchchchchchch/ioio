@@ -23,12 +23,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5994791805"
-     inkscape:cx="224.9459435"
-     inkscape:cy="430.9888665"
+     inkscape:zoom="0.9077187065"
+     inkscape:cx="219.6281716"
+     inkscape:cy="210.7747595"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:current-layer="svg2902"
+     inkscape:current-layer="g5056"
      showguides="true"
      inkscape:guide-bbox="true" />
   <metadata
@@ -5761,7 +5761,7 @@
   </g>
   <g
      connect="000000UW"
-     style="display:inline"
+     style="display:none"
      inkscape:groupmode="layer"
      id="g4749"
      inkscape:label="LMNT-1402"
@@ -5988,15 +5988,9 @@
      inkscape:groupmode="layer"
      id="g5056"
      inkscape:label="LMNT-1405"
-     style="display:none"
+     style="display:inline"
      connect="00UW00UW"
      sodipodi:insensitive="true">
-    <path
-       style="fill:#ffffff;stroke:none;display:inline"
-       d="m 228.6416491,276.6123672 27.720015,75.8100704 c 7.0354693,19.24095 -18.612642,30.6014301 -26.6450152,9.1395104 L 178.8796054,225.7290474 c 20.2842061,8.8918361 39.3446422,22.393294 49.7620437,50.8833198 z"
-       id="path4128-5"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ssscs" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
@@ -6005,7 +5999,12 @@
        style="fill:#ffffff;stroke:none;display:inline"
        zpos="-1" />
     <path
-       zpos="1"
+       style="fill:#ffffff;stroke:none;display:inline"
+       d="m 228.6416491,276.6123672 27.720015,75.8100704 c 7.0354693,19.24095 -18.612642,30.6014301 -26.6450152,9.1395104 L 178.8796054,225.7290474 c 20.2842061,8.8918361 39.3446422,22.393294 49.7620437,50.8833198 z"
+       id="path4128-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssscs" />
+    <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 370,67 -51,0"
        id="C-right-1-8"
