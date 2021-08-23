@@ -24,10 +24,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1408668"
-     inkscape:cx="184.90526"
+     inkscape:cx="72.27160285"
      inkscape:cy="254.4701"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -566,7 +566,8 @@
      id="layer2"
      inkscape:label="FILL-001"
      zpos="-10000"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        style="fill:#000000;display:inline"
        d="m 10,30 0,159 20.5,1 0,20 -20.5,1 0,179 380,0 0,-360 z"
@@ -575,11 +576,10 @@
        sodipodi:nodetypes="ccccccccc" />
   </g>
   <g
-     zpos="-10000"
      inkscape:label="INNEN-001"
      id="g3107"
      inkscape:groupmode="layer"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;display:inline"
@@ -599,7 +599,6 @@
      inkscape:groupmode="layer"
      id="g3298"
      inkscape:label="INNEN-002"
-     zpos="-10000"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
@@ -615,7 +614,6 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline" />
   </g>
   <g
-     zpos="-10000"
      inkscape:label="INNEN-003"
      id="g3310"
      inkscape:groupmode="layer"
@@ -639,7 +637,6 @@
      inkscape:groupmode="layer"
      id="g3314"
      inkscape:label="INNEN-004"
-     zpos="-10000"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
@@ -655,7 +652,6 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline" />
   </g>
   <g
-     zpos="-10000"
      inkscape:label="INNEN-005"
      id="g3318"
      inkscape:groupmode="layer"
@@ -665,8 +661,8 @@
        style="fill:#ffffff;stroke:none;display:inline"
        d="m -5,-5 0,195 57.6875,0 C 100.22169,190 141.33377,181.4672 150,147.09375 161.00918,103.4273 67,89.226597 67,40.5 L 67,-5 -5,-5 z"
        id="path3490"
-       zpos="-9999"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       zpos="-9999" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline"
        d="m 67,30.5 0,10 c 0,48.726597 94.00918,62.92927 83,106.59572 -8.66623,34.37345 -49.77439,42.90429 -97.308575,42.90429 L 30.5,190"
@@ -675,7 +671,6 @@
        sodipodi:nodetypes="csacc" />
   </g>
   <g
-     zpos="-10000"
      inkscape:label="INNEN-006"
      id="g3322"
      inkscape:groupmode="layer"
@@ -705,7 +700,6 @@
        style="fill:#ffffff;stroke:none;display:inline"
        d="m -5,-5 0,195 57.6875,0 C 80.109033,190 148.64319,178.5697 141,146.6875 133.53914,115.56589 65.417417,172.73818 45,148.09375 21.64543,119.90408 67,87.75094 67,40.5 L 67,-5 -5,-5 z"
        id="path3470"
-       zpos="-9999"
        inkscape:connector-curvature="0" />
     <path
        sodipodi:nodetypes="csaasc"
@@ -715,11 +709,10 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;display:inline" />
   </g>
   <g
-     zpos="-10000"
      inkscape:label="INNEN-008"
      id="g3330"
      inkscape:groupmode="layer"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none;display:inline"
