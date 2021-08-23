@@ -24,10 +24,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.160164411"
-     inkscape:cx="131.7761055"
+     inkscape:cx="21.01594187"
      inkscape:cy="187.8320299"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g3714"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -787,7 +787,7 @@
      id="layer2"
      inkscape:label="HND-0010"
      connect="00IIUWII"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        sodipodi:nodetypes="ccsssssssssssssssssscc"
@@ -1118,8 +1118,8 @@
      id="g3714"
      inkscape:groupmode="layer"
      connect="00UBUWUB"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="fill:#000000"
        d="m 30,333 340,0 0,-266 -340,0 z"
@@ -1144,7 +1144,7 @@
        id="path3724"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssssssssssssssssssssscc"
-       zpos="500" />
+       zpos="400" />
     <path
        sodipodi:nodetypes="csssssssssssssssssssssc"
        inkscape:connector-curvature="0"
