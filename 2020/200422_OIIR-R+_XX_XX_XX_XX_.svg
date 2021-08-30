@@ -37,11 +37,11 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5603464482"
-     inkscape:cx="183.5030226"
+     inkscape:cx="-45.81939108"
      inkscape:cy="403.2368015"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:current-layer="g4338" />
+     inkscape:current-layer="g3263" />
   <g
      inkscape:groupmode="layer"
      id="bg"
@@ -950,7 +950,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
     <path
        zpos="2"
-       style="fill:#00ffff;stroke:none"
+       style="fill:#ffffff;stroke:none"
        d="M 67,370 67,185 C 67,149.3308387 61.45455328,110.9371562 41.40443045,74.8716562 L 20.08026759,36.514455 C 13.55986902,24.78577699 22.35099717,14.85897709 32,28 l 105,143 c 50.0355162,68.1436078 119.3883281,32.738771 90.7792542,-45.4296382 L 177.2207458,-12.5703618 c -3.4453516,-9.41371448 4.434868,-14.92990347 11,-7 L 294.5944872,108.9165444 C 328.2136714,149.5245451 333,182.7725241 333,228 l 0,142 z"
        id="path3291"
        inkscape:connector-curvature="0"
@@ -1103,7 +1103,7 @@
      inkscape:label="LMNT-110"
      id="g3416"
      inkscape:groupmode="layer"
-     style="display:none"
+     style="display:inline"
      zpos="2"
      sodipodi:insensitive="true">
     <path
@@ -1235,7 +1235,7 @@
      inkscape:label="LMNT-120"
      id="g4338"
      inkscape:groupmode="layer"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        inkscape:connector-curvature="0"
