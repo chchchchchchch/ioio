@@ -34,9 +34,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.642346745"
-     inkscape:cx="204.0187715"
-     inkscape:cy="268.414077"
+     inkscape:zoom="2.340767398"
+     inkscape:cx="283.7403253"
+     inkscape:cy="283.7403253"
      inkscape:document-units="px"
      inkscape:current-layer="g5530"
      showgrid="false"
@@ -789,9 +789,10 @@
      connect="UW00..UW"
      inkscape:label="LMNT-0200"
      id="g5530"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <path
-       style="fill:#ffffff;stroke:none;stroke-width:1px;display:inline"
+       style="fill:#ffffff;stroke:none;display:inline"
        d="m 345.6126309,109 c 0,6.9657637 -5.6468671,12.6126309 -12.6126309,12.6126309 -6.9657637,0 -12.6126308,-5.6468672 -12.6126308,-12.6126309 0,-6.9657637 5.6468671,-12.61263087 12.6126308,-12.61263087 6.9657638,0 12.6126309,5.64686717 12.6126309,12.61263087 z"
        id="path3934-1"
        inkscape:connector-curvature="0"
@@ -1098,7 +1099,7 @@
   </g>
   <g
      style="display:none"
-     connect="00UW00UW"
+     connect="00UW..UW"
      inkscape:label="LMNT-0302"
      id="g5684"
      inkscape:groupmode="layer"
