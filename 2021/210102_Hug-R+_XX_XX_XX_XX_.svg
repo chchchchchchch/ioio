@@ -24,10 +24,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.9472623681"
-     inkscape:cx="223.5580599"
+     inkscape:cx="87.90398525"
      inkscape:cy="250.0884041"
      inkscape:document-units="px"
-     inkscape:current-layer="g8725"
+     inkscape:current-layer="g7901"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -5181,7 +5181,7 @@
      id="g7901"
      inkscape:label="HUG-0400"
      connect="UW00UWUW"
-     style="display:none"
+     style="display:inline"
      zpos="1"
      sodipodi:insensitive="true">
     <path
@@ -5189,7 +5189,7 @@
        inkscape:connector-curvature="0"
        id="path8024"
        d="m 41,333 189.4312934,0 c 17.0287129,0 23.1536753,4.668184 32.0926297,10.3051509 l 43.9228468,27.6980534 c 11.2058114,7.0664628 21.587237,2.9501662 26.1672256,-4.7517326 l 0.06479,-17.736274 c -1.4808096,-2.5812941 -3.688164,-5.0486614 -6.7346482,-7.2302477 l -53.6354566,-38.4083321 c -19.6546327,-14.0746758 -8.0790474,-37.1076231 7.6365936,-37.1076933 l 93.4422878,-4.173e-4 c 28.4043938,-1.268e-4 28.232033,-38.7735215 0,-38.7735215 l -88.1716808,0 c -12.9096338,0 -13.3046214,-14.6048757 0,-14.6008 l 88.1716808,0.02701 c 28.4043925,0.0087 28.232033,-38.7735213 0,-38.7735213 l -88.1716808,0 c -12.9096338,0 -13.304629,-14.5892482 -0.4820933,-14.5872949 l 88.6537741,0.013505 c 28.4043935,0.00433 28.232033,-38.7735213 0,-38.7735213 l -88.1716808,0 c -12.9096338,0 -13.304629,-14.5892482 -0.4820933,-14.5872949 l 88.6537741,0.013505 c 28.4043935,0.00433 28.232033,-38.72657449 0,-38.72657449 l -332.3875621,0 z"
-       style="fill:#ffff00;stroke:none;display:inline"
+       style="fill:#ffffff;stroke:none;display:inline"
        zpos="-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
@@ -5833,7 +5833,7 @@
        sodipodi:nodetypes="cssc" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      connect="UWUW00UW"
      inkscape:label="HUG-0450"
      id="g8362"
