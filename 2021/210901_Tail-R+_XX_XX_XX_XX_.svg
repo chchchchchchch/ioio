@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.199301863"
-     inkscape:cx="134.5202143"
-     inkscape:cy="132.1360589"
+     inkscape:zoom="1.0164628"
+     inkscape:cx="175.0972512"
+     inkscape:cy="145.708338"
      inkscape:document-units="px"
-     inkscape:current-layer="g4603"
+     inkscape:current-layer="svg2902"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -1449,12 +1449,13 @@
      inkscape:groupmode="layer"
      id="g4537"
      inkscape:label="TAIL-020"
-     style="display:none"
+     style="display:inline"
      connect="......UW"
+     zpos="20"
      sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:none"
-       d="m 28.90625,67 0,266 L 121,333 C 93.661905,333 71.5,273.4538718 71.5,200 71.5,127.5539629 93.0552475,68.63437892 119.875,67.03125 l 0,-0.03125 z"
+       d="m 30,67 0,266 91,0 C 93.661905,333 71.5,273.4538718 71.5,200 71.5,127.5539629 93.0552475,68.63437892 119.875,67.03125 l 0,-0.03125 z"
        id="path4584"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccsccc"
@@ -1464,7 +1465,15 @@
        inkscape:connector-curvature="0"
        id="path4541"
        d="m 30,67 91,0 m 0,266 -91,0"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
+       zpos="1" />
+    <path
+       zpos="50"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       d="m 120,96.99999809 111,0 L 231,303 120,303 z"
+       style="fill:#ffffff;stroke:none"
+       id="path3230" />
     <path
        style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 170.5,200 c 0,73.4538718 -22.1619049,133 -49.5000001,133 C 93.6619049,333 71.5,273.4538718 71.5,200 71.5,126.5461284 93.6619049,67.00000002 120.9999999,67.00000002 148.3380951,67.00000002 170.5,126.5461284 170.5,200 z"
@@ -1488,7 +1497,7 @@
      zpos="5"
      sodipodi:insensitive="true">
     <path
-       style="fill:#ffff00;stroke:none;display:inline"
+       style="fill:#ffffff;stroke:none;display:inline"
        d="m 30,67 314,0 c 28.8585794,0 27.8203532,39 0,39 l -121,0 c -19.0600289,0 -21.259966,28 0,28 l 101,0 c 26.0981628,0 28.3529261,38 0,38 l -157,0 c -70.8239639,0 -74.8467633,99.5174206 -2.5163441,99.5174206 25.5195952,0 85.4189726,9.5007147 85.4189726,-47.6147921 l 0,-175 c 0,-23.84124488 36,-26.27655798 36,0 l 0,206 C 285.9026285,287.685104 280.3080825,333 204,333 l -174,0 z"
        id="path4560"
        inkscape:connector-curvature="0"
@@ -1613,7 +1622,7 @@
      inkscape:groupmode="layer"
      id="g4603"
      inkscape:label="TAIL-050"
-     style="display:inline"
+     style="display:none"
      connect="......UW"
      sodipodi:insensitive="true">
     <path
