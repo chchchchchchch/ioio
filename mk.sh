@@ -71,12 +71,12 @@
                    cut -d "-" -f 1                    | #
                    sort -u`
    do
-       ALLOFTYPE=`sed ':a;N;$!ba;s/\n/ /g' ${TMP}SRC           | #
-                  sed 's/scape:label/\nlabel/g'                | #
-                  grep ^label                                  | #
-                  cut -d "\"" -f 2                             | #
-                  egrep "${BASETYPE}[-_]+[0-9]+|^${BASETYPE}$" | #
-                  sort -u`                                       #
+       ALLOFTYPE=`sed ':a;N;$!ba;s/\n/ /g' ${TMP}SRC                | #
+                  sed 's/scape:label/\nlabel/g'                     | #
+                  grep '^label='                                    | #
+                  egrep "=\"${BASETYPE}[-_]+[0-9]+|=\"${BASETYPE}$" | #
+                  cut -d "\"" -f 2                                  | #
+                  sort -u`                                            #
        LOOPSTART=${LOOPSTART}"for V$CNT in $ALLOFTYPE; do "
        VARIABLES=${VARIABLES}'$'V${CNT}" "
        LOOPCLOSE=${LOOPCLOSE}"done; "
