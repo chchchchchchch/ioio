@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.558366201"
-     inkscape:cx="-111.2146693"
-     inkscape:cy="-66.6375112"
+     inkscape:zoom="1.12282367"
+     inkscape:cx="223.4107776"
+     inkscape:cy="288.770348"
      inkscape:document-units="px"
-     inkscape:current-layer="g5434"
+     inkscape:current-layer="g3419"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -1329,7 +1329,7 @@
      sodipodi:insensitive="true"
      style="display:none" />
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="L-010"
      id="g4651"
      inkscape:groupmode="layer"
@@ -2418,12 +2418,18 @@
        sodipodi:nodetypes="sss" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="HEAD-1100"
      id="g3308"
      inkscape:groupmode="layer"
      connect="..UW...."
      sodipodi:insensitive="true">
+    <path
+       sodipodi:nodetypes="csssssssssscc"
+       inkscape:connector-curvature="0"
+       id="path3561"
+       d="m 370,333 -265.6985228,0 c -160.21514657,0 -139.76708859,-212.2361558 4.1612009,-212.2361558 l 70.4605543,0 c 31.8562253,0 43.5767675,20.7003103 43.5767675,41.9841008 l 0,50.7823546 c 0,58.8281324 81,58.0839744 81,0 l 0,-75.1575157 C 303.4999999,110.3351727 281.2506131,96 258.9999999,96 L 119.1503821,96 C 99.0962519,96 98.23342919,67 119.8727838,67 L 370,67 z"
+       style="fill:#ffffff;stroke:none" />
     <path
        sodipodi:nodetypes="csssssscc"
        inkscape:connector-curvature="0"
@@ -2431,12 +2437,6 @@
        d="m 118.4626781,120.7638442 60.4605543,0 c 31.8562253,0 43.5767675,20.7003103 43.5767675,41.9841008 l 0,50.7823546 c 0,58.8281324 81,58.0839744 81,0 l 0,-75.1575157 C 303.4999999,110.3351727 281.2506131,96 258.9999999,96 l -140.8496178,0 z"
        style="fill:#ffffff;stroke:none"
        zpos="-35" />
-    <path
-       sodipodi:nodetypes="csssssssssscc"
-       inkscape:connector-curvature="0"
-       id="path3561"
-       d="m 370,333 -265.6985228,0 c -160.21514657,0 -139.76708859,-212.2361558 4.1612009,-212.2361558 l 70.4605543,0 c 31.8562253,0 43.5767675,20.7003103 43.5767675,41.9841008 l 0,50.7823546 c 0,58.8281324 81,58.0839744 81,0 l 0,-75.1575157 C 303.4999999,110.3351727 281.2506131,96 258.9999999,96 L 119.1503821,96 C 99.0962519,96 98.23342919,67 119.8727838,67 L 370,67 z"
-       style="fill:#ffffff;stroke:none" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline"
        d="m 370,333 -265.6985228,0 c -160.21514657,0 -139.76708859,-212.2361558 4.1612009,-212.2361558 l 70.4605543,0 c 31.8562253,0 43.5767675,20.7003103 43.5767675,41.9841008 l 0,50.7823546 c 0,58.8281324 81,58.0839744 81,0 l 0,-75.1575157 C 303.4999999,110.3351727 281.2506131,96 258.9999999,96 L 119.1503821,96 C 99.0962519,96 98.23342919,67 119.8727838,67 L 370,67"
@@ -2449,6 +2449,20 @@
        id="path4014-0"
        d="m 185.5000001,270.9646977 c 0,-26.5181474 39,-27.1403006 39,0.3133202 0,25.6937452 -39,26.68521 -39,-0.3133202 z"
        style="fill:none;stroke:#1a1a1a;stroke-width:1px;display:inline" />
+    <path
+       style="fill:#ffffff;stroke:none;display:inline"
+       d="m 168,333 -63.6985228,0 c -160.21514657,0 -139.76708859,-212.2361558 4.1612009,-212.2361558 l 60.4605543,0 z"
+       id="path3617"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csscc"
+       zpos="1" />
+    <path
+       sodipodi:nodetypes="cssc"
+       inkscape:connector-curvature="0"
+       id="path3615"
+       d="m 178,333 -73.6985228,0 c -160.21514657,0 -139.76708859,-212.2361558 4.1612009,-212.2361558 l 70.4605543,0"
+       style="fill:none;stroke:#000000;stroke-width:1px"
+       zpos="1" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -3443,7 +3457,7 @@
      inkscape:groupmode="layer"
      id="g3515"
      inkscape:label="HEAD-2100"
-     style="display:inline"
+     style="display:none"
      connect="..CW...."
      sodipodi:insensitive="true">
     <path
