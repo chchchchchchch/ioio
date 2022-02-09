@@ -24,7 +24,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7840231006"
-     inkscape:cx="393.2208912"
+     inkscape:cx="229.3226592"
      inkscape:cy="255.4550892"
      inkscape:document-units="px"
      inkscape:current-layer="svg2902"
@@ -1302,8 +1302,9 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="LMNT-0850"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline"
+     connect="IIUWUWUW"
+     sodipodi:insensitive="true">
     <path
        inkscape:connector-curvature="0"
        style="fill:#fe8181;stroke:none;display:inline"
@@ -1346,7 +1347,7 @@
      inkscape:label="LMNT-0900"
      connect="IIUWUW00"
      sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#fe8181;stroke:none;display:inline"
        d="m 200.125,91 c -8.3586306,16.4895914 -29.6963089,45.1070768 -35.5625,67 -7.2032898,26.8830433 12.3293576,48.5 38.625,48.5 26.2956424,0 45.8282898,-21.6169567 38.625,-48.5 -5.8656772,-21.8910052 -27.2023192,-50.509722 -35.5625,-67 l -6.125,0 z"
