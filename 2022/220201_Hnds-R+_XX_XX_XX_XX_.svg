@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.585754437"
-     inkscape:cx="373.1885475"
-     inkscape:cy="406.7037229"
+     inkscape:zoom="1.307557045"
+     inkscape:cx="156.9497479"
+     inkscape:cy="173.3107172"
      inkscape:document-units="px"
-     inkscape:current-layer="svg2902"
+     inkscape:current-layer="g4376"
      showgrid="false"
      inkscape:window-width="1018"
      inkscape:window-height="709"
@@ -1129,7 +1129,7 @@
        style="fill:none;stroke:#1a1a1a;stroke-width:1px;stroke-linecap:round;display:inline" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      connect="UWIICWUW"
      inkscape:label="LMNT-0210"
      id="g4376"
@@ -1146,12 +1146,6 @@
        inkscape:connector-curvature="0"
        id="path4378"
        d="m 67,30 0,37"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path4380"
-       d="m 30,67 277,0"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
     <path
        style="fill:#ffffff;stroke:none"
@@ -1173,7 +1167,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path4388"
-       d="M 307,370 307,30"
+       d="M 307,370 307,67"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
     <path
        sodipodi:nodetypes="csscscsc"
@@ -1192,6 +1186,12 @@
        id="C-bottom-4-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path4380"
+       d="m 30,67 303,0 0,-37"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
   </g>
   <g
      inkscape:label="LMNT-0300"
@@ -1637,7 +1637,7 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;display:inline" />
   </g>
   <g
-     connect="UW00UWUW"
+     connect="UW00UWII"
      style="display:none"
      inkscape:groupmode="layer"
      id="g3618"
@@ -2421,7 +2421,7 @@
   </g>
   <g
      connect="00IIIIUW"
-     style="display:inline"
+     style="display:none"
      inkscape:groupmode="layer"
      id="g4348"
      inkscape:label="LMNT-1400"
